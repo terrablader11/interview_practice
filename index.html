@@ -49,7 +49,50 @@
     </div>
     <button onclick="fetchRandomQuestions()">Get Questions</button>
     <div id="question-box">Click the button to get questions</div>
-
+    <script>
+        async function fetchQuestions(url, num) {
+            try {
+                const response = await fetch(url);
+                if (!response.ok) throw new Error(`Failed to fetch questions from ${url}`);
+                const questions = await response.json();
+                
+                let selected = [];
+                for (let i = 0; i < num && questions.length > 0; i++) {
+                    const randomIndex = Math.floor(Math.random() * questions.length);
+                    selected.push(questions.splice(randomIndex, 1)[0]);
+                }
+                return selected;
+            } catch (error) {
+                console.error(error);
+                return [];
+            }
+        }
+        
+        async function fetchRandomQuestions() {
+            const numBehavioral = parseInt(document.getElementById('behavioral-questions').value);
+            const numTechnical = parseInt(document.getElementById('technical-questions').value);
+            const numMarkets = parseInt(document.getElementById('markets-questions').value);
+            const includeTMAY = document.getElementById('tmay').checked;
+            const includePitch = document.getElementById('pitch').checked;
+            
+            let selectedQuestions = [];
+            
+            const behavioralQs = getRandomQuestions('https://raw.githubusercontent.com/terrablader11/interview_practice/main/behavioral.json', numBehavioral),
+            const technicalQs = getRandomQuestions('https://raw.githubusercontent.com/terrablader11/interview_practice/main/technical.json', numTechnical),
+            const marketsQs = getRandomQuestions('https://raw.githubusercontent.com/terrablader11/interview_practice/main/markets.json', numMarkets)
+            
+            selectedQuestions = [...behavioralQs, ...technicalQs, ...marketsQs];
+            
+            if (includeTMAY) {
+                selectedQuestions.push("Tell me about yourself.");
+            }
+            if (includePitch) {
+                selectedQuestions.push(getRandomQuestions('https://raw.githubusercontent.com/terrablader11/interview_practice/main/pitch.json', 1))    
+            }
+            document.getElementById('question-box').innerHTML = selectedQuestions.join('<br><br>');
+        }
+    </script>
+    
     <script>
         async function fetchRandomQuestions() {
             try {
