@@ -78,9 +78,9 @@
             
             let selectedQuestions = [];
             
-            const behavioralQs = await fetchQuestions('https://raw.githubusercontent.com/terrablader11/interview_practice/main/behavioral.json', numBehavioral);
-            const technicalQs = await fetchQuestions('https://raw.githubusercontent.com/terrablader11/interview_practice/main/technical.json', numTechnical);
-            const marketsQs = await fetchQuestions('https://raw.githubusercontent.com/terrablader11/interview_practice/main/markets.json', numMarkets);
+            const behavioralQs = await fetchQuestions('https://raw.githubusercontent.com/terrablader11/interview_practice/main/files/behavioral.json', numBehavioral);
+            const technicalQs = await fetchQuestions('https://raw.githubusercontent.com/terrablader11/interview_practice/main/files/technical.json', numTechnical);
+            const marketsQs = await fetchQuestions('https://raw.githubusercontent.com/terrablader11/interview_practice/main/files/markets.json', numMarkets);
             
             selectedQuestions = [...behavioralQs, ...technicalQs, ...marketsQs];
             
@@ -88,7 +88,7 @@
                 selectedQuestions.push("Tell me about yourself.");
             }
             if (includePitch) {
-                const pitchQ = await fetchQuestions('https://raw.githubusercontent.com/terrablader11/interview_practice/main/pitch.json', 1);
+                const pitchQ = await fetchQuestions('https://raw.githubusercontent.com/terrablader11/interview_practice/main/files/pitch.json', 1);
                 selectedQuestions = [...selectedQuestions, ...pitchQ];
             }
             
