@@ -32,15 +32,14 @@
 <body>
     <h1>Random Interview Questions</h1>
     <div class="options">
-        <label for="num-questions">Number of Questions:</label>
-        <input type="number" id="num-questions" min="1" max="10" value="1">
+        <label for="behavioral-questions">Behavioral Questions:</label>
+        <input type="number" id="behavioral-questions" min="0" max="10" value="0">
         <br>
-        <label for="category">Category:</label>
-        <select id="category">
-            <option value="Behavioral">Behavioral</option>
-            <option value="Technical">Technical</option>
-            <option value="Markets">Markets</option>
-        </select>
+        <label for="technical-questions">Technical Questions:</label>
+        <input type="number" id="technical-questions" min="0" max="10" value="0">
+        <br>
+        <label for="markets-questions">Markets Questions:</label>
+        <input type="number" id="markets-questions" min="0" max="10" value="0">
         <br>
         <label for="tmay">Include 'Tell Me About Yourself'?</label>
         <input type="checkbox" id="tmay">
@@ -58,18 +57,25 @@
                 if (!response.ok) throw new Error('Failed to fetch questions');
                 const questions = await response.json();
                 
-                const numQuestions = parseInt(document.getElementById('num-questions').value);
-                const category = document.getElementById('category').value;
+                const numBehavioral = parseInt(document.getElementById('behavioral-questions').value);
+                const numTechnical = parseInt(document.getElementById('technical-questions').value);
+                const numMarkets = parseInt(document.getElementById('markets-questions').value);
                 const includeTMAY = document.getElementById('tmay').checked;
                 const includePitch = document.getElementById('pitch').checked;
                 
-                let filteredQuestions = questions.filter(q => q.category === category);
                 let selectedQuestions = [];
                 
-                for (let i = 0; i < numQuestions && filteredQuestions.length > 0; i++) {
-                    const randomIndex = Math.floor(Math.random() * filteredQuestions.length);
-                    selectedQuestions.push(filteredQuestions.splice(randomIndex, 1)[0].question);
+                function getRandomQuestions(category, num) {
+                    let filtered = questions.filter(q => q.category === category);
+                    for (let i = 0; i < num && filtered.length > 0; i++) {
+                        const randomIndex = Math.floor(Math.random() * filtered.length);
+                        selectedQuestions.push(filtered.splice(randomIndex, 1)[0].question);
+                    }
                 }
+                
+                getRandomQuestions("Behavioral", numBehavioral);
+                getRandomQuestions("Technical", numTechnical);
+                getRandomQuestions("Markets", numMarkets);
                 
                 if (includeTMAY) {
                     selectedQuestions.push("Tell me about yourself.");
