@@ -1,0 +1,2172 @@
+[
+  {
+    "id": 1,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Philosophically, what is a CLO?",
+    "answer": "A CLO is a the largest, most actively traded form of securitized product that exists today. CLOs operate by taking leveraged bank loans, pooling them together, and then creating tranches of securities (bonds) off of these that are backed by the cashflows of said loans. The point of a CLO fundamentally is risk transformation. You take loans that are individually risky, pool them together, and then give first priority to the highest class of bonds (the highest tranche) in the CLO. This makes this top tranche very safe and thus they will get a AAA rating from a credit rating agency. Of course, not every tranche will be as safe! Lower tranches will have a lower payment priority (only getting cashflows after the other tranches have been paid) and so have higher levels of risk and reward (in the form of the coupon payment tied to them). The important point once again is that CLOs provide risk transformation; turning uniformly risky loans into bonds that are either very safe, or quite risky themselves."
+  },
+  {
+    "id": 2,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Who are the parties involved in a CLO at issuance?",
+    "answer": "CLOs will always have a SPV (special purpose vehicle) that can be thought of as the nerve center via which all counterparties interact. Investors will put cash into the SPV in return for notes (bonds) at the various tranches. A collateral manager will then be responsible for filling the SPV with leveraged loans that will make up the CLO (these can either be new issuance or loans already trading in the secondary market). When the CLO is filled with levered loans, a credit rating agency will assign credit ratings to each tranche of debt (outside the “equity” tranche). The underwriter is responsible only for underwriting the notes (bonds) and distributing them to investors; they have no role after this. The trustee will then collect the cashflows from the loans and send them to investors in order of their priority (as specified in the notes). "
+  },
+  {
+    "id": 3,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "How is a CLO itself structured?",
+    "answer": "As mentioned, the CLO itself will be broken down into several tranches. These tranches will have decreasing levels of priority on the underlying cash flows of the levered loans that make up the CLO (to be discussed later). The top tranche, which makes up the majority of the notes issued by the CLO, will often be structured to ensure that it gets a AAA rating from credit agencies (thus making investors feel it is safe). The bottom tranche, called “equity”, will have the lowest payment priority and is not rated and viewed as being quite risky. An important point in the graphic above is that the levered loans that make up the CLO often overcollateralize the issuance. What this means is that in theory, if none of the loans default, then equity should get much more than what they put in! However, the risk equity runs is that levered loans are risky and some that make up the CLO may end up defaulting. So even though the CLO itself is overcollateralized at issuance, equity and some of the tranches above it may be at risk of not being paid back in full over time."
+  },
+  {
+    "id": 4,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "After the collateral manager make the initial selections for what levered loans will make up the CLO, what does he or she do?",
+    "answer": "The collateral manager – who will not be an employee of a bank that actively trades CLOs - will then oversee the portfolio and re-invest or trade the loans that make up the portfolio during the re-investment period (typically 4-5 years)."
+  },
+  {
+    "id": 5,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Backing up a second, what is a leveraged (levered) loan anyway?",
+    "answer": "Leveraged loans are the backbone of the private equity industry. They are often issued when a buyout or acquisition of another company occurs. Levered loans are, like all loans, senior in the capital structure (usually first lien, called 1L, with little debt in front of it) and secured against specific corporate assets. Levered loans do have risk. If the company defaults it is not a guarantee that the loan will have a full recovery; however, because of the position in the capital structure, the recovery rate of a levered loan is often in the ballpark of 50-70%."
+  },
+  {
+    "id": 6,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Can CLOs be made up of credit assets outside of levered loans?",
+    "answer": "Levered loans always make up the majority of the CLO. CLOs can be structured differently, if all parties at inception agree to it, by giving the collateral manager the mandate to buy other forms of loans (such as second lien, called 2L, loans that are further down the capital structure than the typical 1L levered loans and are thus riskier)."
+  },
+  {
+    "id": 7,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Who buys CLOs?",
+    "answer": "You can generally think of the buyers of CLOs as being broken down by tranche. The AAA tranche – the safest, with the lowest return – is often bought by banks, pension funds, and endowments. This is because AAA CLO tranches offer nice yield, but also do not contribute much to the risk profile. As we’ve discussed many times, banks in particular need to be sensitive to regulatory risk-weighted-asset (RWA) measures and anything rated AAA will not require much balance sheet (however, keeping the equity tranche would require substantial amounts!). For the next few tranches below AAA you’ll see more “fast money”, which simply means hedge funds and alternative credit funds who have a mandate for buying low A to high B rated securities. This is the broadest group of buyers and often transact in smaller size than those who purchase in the AAA tranche. For the lowest tranches – including equity – the buyers are almost exclusively hedge funds, or the opportunistic credit arms of private equity companies, who will carefully analyze the levered loans that make up the CLO and decide whether or not they like the risk / return profile of these low tranches."
+  },
+  {
+    "id": 8,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "If you’re any of these buyers, why not just buy pieces of loans that are actively traded in the secondary market?",
+    "answer": "Many large loans will be syndicated after issuance and traded on the secondary market. This raises the question of why one would not just buy the exact loans they like directly, as opposed to CLOs that combine so many levered loans together. There are two primary answers. First, as already discussed, a CLO provides you safety through the payment priority the tranche of debt you’re buying has. Second, CLOs can benefit from the law of large numbers; instead of carefully studying one levered loan and saying you think it has a low chance of default, you can buy a small piece of many different levered loans indirectly via a CLO and thus have less specific credit exposure. CLOs offer a form of diversity; giving you general credit exposure to levered loans instead of specific credit risk to just a few names."
+  },
+  {
+    "id": 9,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "When do CLOs end? They can’t go on indefinitely?",
+    "answer": "CLOs wind down naturally as the levered loans that make them up mature. This can take up to 10 years and this final phase of a CLO’s life is called the wind-down period. Of course, CLOs can’t go on indefinitely as all levered loans eventually mature (usually in 7 - 10 years at most) or default."
+  },
+  {
+    "id": 10,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "So, CLOs are all about payment priority, but what does this exactly mean?",
+    "answer": "CLOs are seductively simple in theory: you take a bunch of loans, pool them together, then issue tranches of bonds with varying levels of payment priority. Thus, making the highest tranches the safest (getting AAA/AA credit ratings) and the lowest getting low or no rating (but with higher potential returns). What we mean by payment priority are the interest and principal waterfalls that govern CLOs. The way these waterfalls work is we essentially get in the interest and principal from the loans and pay down Tranche A first. If there’s more than enough to payback Tranche A, we move on to Tranche B (but never skip to Tranche B before Tranche A has been fully paid back what is currently owed). This process continues sequentially unless the Coverage Test fails. So, the important point to keep in mind is we have two waterfalls operating at the same time; one dealing with the interest payments the loans are bringing in and the other the principal payments. The interest waterfall is as follows:\r\nAs you can see, $X amount of interest will come in from all the loans. Then you simply pay the amount of interest owed (in the form of the coupons on each class of notes). Whatever amount of $X is left over, after paying all the tranches of notes, goes to the equity tranche (they have no specific coupon amount, it’s whatever is left over if anything). However, there is a Coverage Test (to be discussed next). If the Coverage Test fails at any point, then a paydown of the most senior tranche must occur. Now that we’ve briefly covered the interest waterfall, let’s look at the principal waterfall:\r\nIn the principal waterfall, any interest not paid to any class (due to failing a Coverage Test) will have principal payments diverted to paying them. After that, all the principal goes toward paying each class in full sequentially (after the re-investment period that is usually 4-5 years). As a reminder, during the re-investment period all principal proceeds go to buying more term loans to keep the total number of assets in the CLO at roughly the same amount. After the re-investment period is when principal reductions of the tranches actually begins (beginning with Class / Tranche A). In the end, if there is any principal amount outstanding it all goes to equity. This is why we call the final tranche the “equity” tranche as it has the potential for equity like returns (well above what people paid or well below, depending on the performance of the levered loans)."
+  },
+  {
+    "id": 11,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What is the interest coverage test?",
+    "answer": "As noted above, the interest waterfall involves continually evaluating whether or not the interest coverage test has been hit. The interest coverage test is simply: Asset Interest / Liability Coupon >= Test Limit.\r\nThe Test Limit will be a number defined in the debt docs governing all the tranches of debt and will be set by the underwriter. The Test Limit varies depending on what CLO deal you’re looking at.\r\nThe Asset Interest is simply the amount of interest generated from the levered loans in actuality (meaning if one of the loans defaulted, it’s not counted).\r\nThe Liability Coupon is the coupon due to the tranche being considered and the tranches above it. So in other words, while the Asset Interest always is calculated on the basis of all the loans in the CLO (assuming they haven’t defaulted) the Liability Coupon will grow as you move further down the CLO tranches (as you’re considering not just the singular tranche, but what is owed to all tranches above them).\r\nYou can see now how it could be the case that the interest coverage test easily passes with the first few tranches (as the denominator of the equation will be small), but as you move down the CLO the denominator will grow and the test could fail."
+  },
+  {
+    "id": 12,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Will a CLO desk hold all tranches of a certain CLO?",
+    "answer": "Not necessarily! A CLO desk’s inventory can involve holding notes in just a few of the tranches of a certain CLO. Sometimes certain CLOs are dominated by market participants who are interested in holding the notes for the long-term and thus they are not actively traded in the secondary market."
+  },
+  {
+    "id": 13,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Do CLO desks always have the notes that clients are looking for?",
+    "answer": "Absolutely not. Sometimes clients will ask a bank’s desk if they have certain notes, the bank will not, and they will seek to go out and try to find those notes and facilitate a trade. This isn’t the case in other areas – such as FX trading – where you always have inventory and can make a market almost immediately."
+  },
+  {
+    "id": 14,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "When are CLOs most liquid?",
+    "answer": "CLOs are most liquid shortly after their issuance. As CLOs age, in particular after they’ve been around for four or five years, they will begin to be wound down as principal payments go to paying down the tranches of debt sequentially (after the re-investment period). As this occurs, CLOs are much less actively traded.  \r\n"
+  },
+  {
+    "id": 15,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are the future value and present value formulas?",
+    "answer": "FV = PV(1+r)^n where r is the interest rate and n denotes the number of periods. PV is just the rearranged formula, or: PV = FV/(1+r)^n. Note that the denominator of the PV formula operates as a discounting mechanism; the more periods that go by (the higher the n value) the smaller the PV will end up being as the denominator will be growing."
+  },
+  {
+    "id": 16,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "If we have $1,000 in starting capital, growing at 6% a year, over 10 years (with interest compounded annually), what is the future value?",
+    "answer": "$10001.0610=$1,790.85"
+  },
+  {
+    "id": 17,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What is Net Present Value (NPV)?",
+    "answer": "NPV is simply the present value of cash inflows minus the present value of cash outflows."
+  },
+  {
+    "id": 18,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What is IRR?",
+    "answer": "Internal rate of return is the discount rate at which NPV equals zero."
+  },
+  {
+    "id": 19,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are the three financial statements?",
+    "answer": "Income Statement\r\nTakes into account information from the current period that affects taxes\r\nBalance Sheet\r\nThe balance sheet represents a snapshot of the assets, liabilities, and shareholders equity of a company at a given time\r\nCash Flow Statement\r\nThe CFS has three distinct sections: cashflow from operations (CFO), cashflow from investing (CFI), and cashflow from financing (CFF). o Unlike the income statement that will show non-cash expenses – like depreciation – the cash flow statement purely shows what affects the underlying cash balance of the company"
+  },
+  {
+    "id": 20,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "How do the three statements tie together?",
+    "answer": "The primary ways are as follows.\r\nNet income (on the income statement) will flow into retained earnings within the shareholders equity section of the balance sheet\r\nNet income will also flow to the top of the cash flow statement\r\nThe ending cash balance on the cash flow statement will flow to the top of the balance sheet"
+  },
+  {
+    "id": 21,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What is EBITDA? Why is it important?",
+    "answer": "EBITDA (earnings before interest, tax, depreciation, and amortization) is a common multiple used in company valuation and in the covenants that govern debt documents. EBITDA can be found by taking net income then adding back interest expense, tax expenses, depreciation, and amortization. EBITDA is a normalizing metric that strips the company of capital-structure or company-specific choices in expensing and thus allows for better comparison between companies."
+  },
+  {
+    "id": 22,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are some common equity rations?",
+    "answer": "P/E = (Current Share Price) / ( EPS)\r\nPEG = (P/E) / (Earnings Growth)\r\nDividend Yield = (Dividend per Share) / (Current Share Price)"
+  },
+  {
+    "id": 23,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are the three primary ways to value a company?",
+    "answer": "In M&A banking – as you may know – there are three primary valuation techniques that will be utilized to narrow in on an appropriate valuation range for a company: precedent transaction analysis, comparables analysis, and discounted cash flow analysis. A LBO analysis may be done as well to set a floor on the valuation of a company (if a sponsor – meaning private equity fund – were to buy it). A very brief overview of each is as follows. These are good to know, but you shouldn’t expect traditional investment banking technicals in your S&T interview.\r\nPrecedent Transaction Analysis\r\nLooking at past M&A transactions and applying the purchase EV/EBITDA multiple to the company you are looking at\r\nComparables Analysis\r\nLooking at current publicly traded companies that are comparable to the one you’re looking at, finding the EV/EBITDA multiple of each, averaging them out, and applying the multiple to the company you’re looking at\r\nDiscounted Cash Flow Analysis\r\nForecast the FCF of the company for five years and discount it back to today, then apply a terminal multiple to year five FCF and discount that back as well. The summation of these discounted cashflows and terminal value will yield an enterprise value (what the company is hypothetically worth)\r\nLBO Analysis\r\nComplete a LBO model that shows the maximum amount that a private equity fund would likely pay for the company; private equity funds will pay a lower EV/EBITDA than traditional buyers so this sets a floor on valuation"
+  },
+  {
+    "id": 24,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What is enterprise value conceptually?",
+    "answer": "Enterprise value is the value of the company if one were to buy it outright. While EVs can get quite involved; the most basic formula is EV = equity value + preferred stock + outstanding debt + minority interest – cash and cash equivalents"
+  },
+  {
+    "id": 25,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What’s the difference between enterprise value and equity value?",
+    "answer": "Equity value is simply the market value of the company; the amount of fully diluted shares outstanding times the share price."
+  },
+  {
+    "id": 26,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "When we talk about valuation multiples for a company, what are we almost always referring to? ",
+    "answer": "Enterprise Value (EV) / EBITDA. Sometimes EV/revenue or EV/EBIT will be utilized. However, EBITDA is almost always the norm as it eliminates D&A variability across companies. If for some reason a company has a distorted EBITDA – perhaps because they are a young, fast growing tech company – a different multiple like EV/revenue or EV/users will be utilized."
+  },
+  {
+    "id": 27,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What is the primary difference between a DCF and the other major valuation techniques of precedent transactions and comparables analysis?",
+    "answer": "A DCF projects forward free cash flows – which are derived from projections of financial statement line items – so is untethered to current market prices or past transactions. Precedent transactions and comparables are tied to the market, however, as they involve either past transactions (precedent transactions) or equity value in the enterprise value formula (in the case of comparables analysis)."
+  },
+  {
+    "id": 28,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "How do we arrive at free cash flow utilized in a DCF?",
+    "answer": "In a DCF unlevered FCF is utilized, not levered FCF (levered takes into account debt payments). FCF will simply be: EBIT (1-tax rate) + Non-Cash Expenses like depreciation and amortization - changes in working capital - capex (capital expenditures) = Unlevered FCF"
+  },
+  {
+    "id": 29,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "How are FCFs discounted in a DCF?",
+    "answer": "All FCFs – including the terminal value – will be discounted at the weighted average cost of capital (WACC). WACC = (percent of equity in capital structure x cost of equity) + (percent of debt x cost of debt)(1-t) + (percent of preferred stock x cost of preferred equity)."
+  },
+  {
+    "id": 30,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are corporate bonds?",
+    "answer": "Bonds issued by corporations (as the name would imply!) that generally have maturities between 1-20 years (rarely sometimes longer) that have fixed coupons. Coupons are paid semi-annually on a 30/360 day-count convention."
+  },
+  {
+    "id": 31,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What drives the pricing of corporate bonds?",
+    "answer": "Ultimately, as with everything in finance, it’s the market clearing price (what a marginal individual is willing to pay). However, what makes those investing in corporate bonds feel comfortable receiving a certain coupon amount is a mix of:\r\nThe credit rating given to the bond (from Moody’s or S&P)\r\nThe historical performance and credit worthiness of the corporation in question\r\nWhere the bond resides in the capital structure o Is it secured? Unsecured? How much debt (bonds, loans, revolvers) are ahead of the bond in question\r\nWhat comparable bonds are trading at (or were issued at)"
+  },
+  {
+    "id": 32,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "How large is the corporate debt market? What kind of credit worthiness do most of these securities have?",
+    "answer": "The total corporate debt market – including bonds, loans, and revolvers – is approximately $24 trillion in 2023. Investment grade issuers represent 52% of issuers, but 78% of rated debt. For AAA, AA, A, BBB, BB, B, CCC/C rated debt, the percentages by size are 3.2%, 7.2%, 29.8%, 37.8%, 10.0%, 9.9%, and 2.1%, respectively. See research by S&P at the following link: https://www.spglobal.com/ratings/en/research/articles/241003-credit-trends-global-state-of-play-strong-issuance-fuels-debt-growth-13270349."
+  },
+  {
+    "id": 33,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What industries are the biggest issuers of corporate debt?",
+    "answer": "Financials are by far, making up about 37% of total issuance. For the non-financials industry, it is led by utilities, telecom, and tech."
+  },
+  {
+    "id": 34,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "How are corporate bonds brought to market?",
+    "answer": "Debt Capital Markets (DCM) divisions of an investment bank – that are not part of S&T due to their access to private, confidential information – bring bonds to market. These bonds are underwritten by a Lead Manager and a syndicate that will determine the best price the company can get (the lowest coupon they’ll have to offer) and build up a book of investors who will buy the bonds at issuance. Investment grade, high yield, and distressed debt desks on the trading floor deal with trading these bonds – once issued – in the secondary market. In other words, they provide liquidity to the market so those who buy a bond at issuance do not need to hold them indefinitely and those who weren’t able to buy at issuance can now buy them."
+  },
+  {
+    "id": 35,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Why do companies issue bonds to begin with?",
+    "answer": "This is a simple question that can sometimes trip people up. Bonds are issued primarily due to funding needs surrounding expansions, acquisitions, or a re-balancing of their existing balance sheet."
+  },
+  {
+    "id": 36,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Who buys corporate bonds (either at issuance or in the secondary market)?",
+    "answer": "Corporate bond markets – after equities – have the broadest scope of investors who will participate in the market. These include hedge funds, banks (trading desks or internal funds), (very) high net worth individuals, pension fund managers, endowment funds, and mutual funds."
+  },
+  {
+    "id": 37,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Is everyone who buys investment grade debt as likely to buy high yield debt?",
+    "answer": "No. Almost all market participants who have raised money from outside investors have mandates that constrain them on what they can and cannot do. For example, pension funds have a mandate – in their founding documents – that outlines the amount of risk they are allowed to take on given that funds must be routinely available to pay pension holders.  Therefore, most pension funds will have very little or no interest in distressed debt – given how risky it can be – but will routinely buy AAA-rated CLO tranches, investment grade debt, etc. Likewise, distressed debt hedge funds have a mandate – from those who have put money into them – to buy high yield and distressed assets. However, investors would likely look unfavorably on a distressed fund having lots of their assets in investment grade bonds."
+  },
+  {
+    "id": 38,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What’s the credit spread?",
+    "answer": "The credit spread is the difference between the yield of a corporate bond and the yield of the underlying government bond (treasury, in the U.S.) of the same duration. For example, T+250 on a 10-year corporate bond would mean it trades at the ten-year treasury note, plus 2.5% (250 basis points)."
+  },
+  {
+    "id": 39,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What makes credit spreads move?",
+    "answer": "Credit spreads will widen due to general economic downturns, the company performing poorly, or general pessimism in the credit markets. Credit spreads will tighten if the economy is healthy, the company is doing well, or credit markets are very active (lots of new issuance, new issuance pricing tight to treasuries, etc.)"
+  },
+  {
+    "id": 40,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What credit ratings correspond to investment grade or high yield?",
+    "answer": "BBB- (Standard & Poor’s/Fitch) or Baa3 (Moody’s) and above"
+  },
+  {
+    "id": 41,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What goes into the credit rating process?",
+    "answer": "The credit rating process is quite extensive and is a substantial cost (that the company must pay the rating agency directly). The credit rating agency seeks to study both the business risk – how likely the company is to continue to expand, grow, and be profitable – along with its unique financial risks surrounding its capital structure, current debt payments, likely default rate, etc. Credit rating agencies also look to the “comparable universe” of similar companies and how they’re performing and where their debt is rated."
+  },
+  {
+    "id": 42,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are the differences in how investment grade and high yield bonds trade?",
+    "answer": "As previously mentioned, investment grade bonds tend to be originated in larger size, by large companies (that are obviously healthier). This makes the market much more liquid; not only because of larger issuance size, but also because banks hold more of these bonds in inventory (because they are safer, thus require less balance sheet to be reserved to warehouse them). Investment grade bonds are often – but not always – quoted as a spread against treasuries of the same duration. However, high yield and distressed bonds are almost always quoted outright with much wider spreads (e.g. the bid ask will be often many times wider than that of an investment grade bond). Note: It’s important to know the paragraph above; that’d be very impressive to hear in an interview."
+  },
+  {
+    "id": 43,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What’s the default probability depending on rating?",
+    "answer": "The cumulative default rates for AAA, AA, A, BBB, BB, B, CCC/CC across 15 years are 0.94%, 1.11%, 2.20%, 5.43%, 16.34%, 28.80%, and 53.37%. Investment grade bonds have a default rate of 3.05%, and speculative (high-yield) bonds have a rate of 24.80%. See https://www.spglobal.com/ratings/en/research/articles/240328-default-transition-and-recovery-2023-annual-global-corporate-default-and-rating-transition-study-13047827"
+  },
+  {
+    "id": 44,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are Fallen Angels?",
+    "answer": "Fallen Angels are bonds that were issued as investment grade but have now fallen below investment grade. "
+  },
+  {
+    "id": 45,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What happens to credit spreads as credit ratings decline?",
+    "answer": "As credit ratings decline, credit spreads increase (denoting the greater risk of default potentially occurring). Note that credit spreads will compress when credit markets are hot (meaning when yields are falling and lots of new issuance is occurring, usually because of strong economic conditions)."
+  },
+  {
+    "id": 46,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What kinds of debt are most common in capital structures by seniority?",
+    "answer": "Revolver (Revolving Credit Facility)\r\nLike a credit card; can be drawn and paid down over the maturity period with some restrictions\r\nTerm Loans\r\nCan have Term Loan A or Term Loan B (TLBs are often syndicated and traded by a “bank loan desk” on the floor)\r\nSenior Notes\r\nEither secured or unsecured\r\nSubordinated Notes\r\nMezzanine Debt\r\nPreferred Equity\r\nCommon Equity"
+  },
+  {
+    "id": 47,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "How are corporate bonds often hedged (if you want to minimize exposure)?",
+    "answer": "Any trader will have to maintain an inventory and he or she may not like the direction of the markets or the kind of inventory being held. A common way to hedge is by taking an offsetting position in the underlying treasury (the treasury with the same maturity)."
+  },
+  {
+    "id": 48,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are convertible bonds?",
+    "answer": "Convertible bonds are often traded separately from high yield, distressed, or investment grade bonds. Often, it’ll be just one or two traders (who also operate as sales people) who deal with these bonds and they will often sit near equity teams, as opposed to credit teams. Convertible bonds provide the capacity for the owner to convert into equity at a pre-set rate. For the issuer of convertible bonds, they have the benefit of allowing them to raise debt at favorable terms and potentially get rid of future interest payments (if their stock appreciates above the pre-set conversion rate). For the investor, buying provides a position higher in the capital structure than equity if the company ends up defaulting (so could have some level of recovery), but if the company does well it allows for the investor to have higher upside (compared to just getting the pre-set coupon payments of the bond) via converting to equity."
+  },
+  {
+    "id": 49,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are callable bonds?",
+    "answer": "While convertible bonds are wholly distinct from traditional corporate bonds, given that they can convert into equity, callable bonds are just like traditional corporate bonds, but have the feature of being callable. Callable bonds have gone from being a rarity to being the majority of corporate bonds issued. All callable bonds do is allow for the company to recall part or the entire issuance of bonds after a certain amount of time. The reason why the company likes to have this feature is that in a declining rates environment, if the company is healthy, they may be able to call the bonds and reissue bonds with a lower coupon (thus saving money)."
+  },
+  {
+    "id": 50,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Why would investors ever want a bond that is callable?",
+    "answer": "This is an obvious next question. If corporations can just call bonds when rates decline, then won’t investors get none of the benefits of yields going down (and thus prices on the bonds going up)? The answer is that the callable price – the price that corporations must pay to recall the bonds – is above the issuance price. So, for example, a bond may have an issuance size of $10m and be issued at par (100) with a coupon of 4%. Interest rates may decline, and the company may believe they can go and issue the same amount of bonds ($10m), but at an interest rate of 3% instead of 4%. If the original bond is past the “non-call” period the company can retire the original bonds early but must do so at a higher than par (higher than 100) price per bond (for example, 103). So, the corporation needs to make the determination if the price to retire the bonds early (paying the callable amount above par) is worthwhile given the lower interest rate they can get on a new bond issuance."
+  },
+  {
+    "id": 51,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are puttable bonds?",
+    "answer": "Puttable bonds just allow for the holder of a bond to redeem it early (get their principal back). They would obviously do this if they feel like new bonds being issued have higher coupons that are more favorable. However, corporate bonds being puttable is much less common than them being callable. Partly because of the low rates environment we have been in for the past few decades and partly because it creates quite a bit of cash flow uncertainty for a company (as rates rise they suddenly need to have lots of cash to pay back bond holders early)."
+  },
+  {
+    "id": 52,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are Eurobonds?",
+    "answer": "Eurobonds are a rather confusing name for a simple kind of bond: one issued outside the country that the company is based in and the currency most utilized by the company."
+  },
+  {
+    "id": 53,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "When we think about a bond, what do we mean by “expected loss”?",
+    "answer": "Expected loss is the probability of the company defaulting multiplied by the loss that will be incurred as a result of defaulting. This sets an initial downside case for what to expect in terms of a loss."
+  },
+  {
+    "id": 54,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Why is EBITDA so important to thinking about bonds?",
+    "answer": "Because EBITDA represents the amount of cash available for debt servicing (paying coupons) if we assume no capex or working capital changes. Most covenants in debt documents will have EBITDA within them."
+  },
+  {
+    "id": 55,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are the two most common types of ratios used in credit?",
+    "answer": "Coverage ratios\r\nEBITDA / Interest Expense\r\nLeverage ratios\r\nDebt / EBITDA\r\nNet debt / EBITDA\r\nDebt / (EBITDA – capex)"
+  },
+  {
+    "id": 56,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What qualities would an investment grade issuer (company) have financially?",
+    "answer": "Strong EBITDA margin\r\nLow current interest expenses\r\nPredictable revenue\r\nHigh current coverage ratio\r\nLow current leverage ratio\r\nSimple capital structure"
+  },
+  {
+    "id": 57,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What types of covenants will you likely find in corporate debt (in particular, corporate bonds)?",
+    "answer": "Debt docs are the documents at issuance that govern the terms of the debt being issued. These debt docs will contain covenants that specify the things that can’t be done (negative covenants); if the company does break any of the covenants then the holders have a right to force the company (broadly speaking) into a technical default unless a resolution can be found.\r\nCoverage ratio (min EBITDA / interest expense)\r\nLeverage ratio (max debt / EBITDA)\r\nRestricted cash (min amount of cash that must be kept aside at all times)\r\nNegative pledge provisions (inability to pledge certain assets for new debt)\r\nRestrictions on guarantees that can be offered to subsidiaries without prior consent\r\nPayment priority in the event of asset sales\r\nAdditional covenants to protect priority of the debt (meaning the place in the capital structure) and under what conditions additional debt can be placed ahead of this debt"
+  },
+  {
+    "id": 58,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Do investment grade or high yield bonds tend to have more covenants? What about bonds vs loans? ",
+    "answer": "High yield bonds tend to have more covenants than investment grade debt given the slightly precarious nature of most high yield issuers (all ratios and restrictions will be tighter at issuance). Loans tend to have more covenants than bonds as well although loans are frequently renegotiated if the borrower gets into trouble (to get around a technical default that may not be in the best interest of any party, including the loan holder)."
+  },
+  {
+    "id": 59,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are credit default swaps?",
+    "answer": "When we think of derivatives and structured products, much of the rationale really boils down to chopping up and disbursing risk to those who actually want to hold it. For example, in the credit markets there will sometimes be those who want to mitigate credit risk and can do so via a credit default swap. In a credit default swap, there will be two sides: a credit protection buyer and a credit protection seller. The protection buyer pays a fixed annual fee and will receive payment if a “credit event” occurs on the “reference entity”. The protection seller on the other hand gets paid annually to provide this “insurance” and may never have to pay out anything, if a credit event occurs, or may have to pay much more than they’ve received in annual payments."
+  },
+  {
+    "id": 60,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Do credit default swaps trade in the secondary market? Does their value change?",
+    "answer": "Absolutely! Credit default swaps change in price due to the increasing or decreasing credit value of the underlying entity being referenced by the CDS. For instance, Goldman bought billions worth of CDS on AIG when they were healthy in 2005-2007 as a hedge – because they had a lot of exposure to AIG – and then were paid out billions when a credit event (technical default) occurred in 2008. The CDS contracts were very cheap in 2005-2007, but became incredibly valuable as folks noticed trouble at AIG and desperately tried to hedge their exposure to the insurance giant."
+  },
+  {
+    "id": 61,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are the two ways that CDS contracts can settle?",
+    "answer": "If a credit event occurs, then CDS contracts can be settled either physically or on a cash basis. If the contact is settled physically, then the CDS buyer will deliver the reference asset (for example, certain eligible corporate bonds, which will obviously have a very low value) to the seller. Then the CDS seller will pay the par value in cash. To be clear, when the CDS buyer purchases the reference asset it will be at a very steep discount to par (given that a credit event has occurred, so the company is distressed), but once they deliver the assets to the CDS seller then the seller will pay par. If a contact is cash settled, then the physical delivery does not occur. Instead the CDS seller pays the difference between the par value of the reference asset and the auction settlement price. Learn more about the auction process here: https://www.investopedia.com/articles/bonds/09/what-happens-to-single-name cds.asp#credit-default-auctions"
+  },
+  {
+    "id": 62,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are corporate bonds?",
+    "answer": "Bonds issued by corporations (as the name would imply!) that generally have maturities between 1-20 years (rarely sometimes longer) that have fixed coupons. Coupons are paid semi-annually on a 30/360 day-count convention."
+  },
+  {
+    "id": 63,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What drives the pricing of corporate bonds?",
+    "answer": "Ultimately, as with everything in finance, it’s the market clearing price (what a marginal individual is willing to pay). However, what makes those investing in corporate bonds feel comfortable receiving a certain coupon amount is a mix of:\r\nThe credit rating given to the bond (from Moody’s or S&P)\r\nThe historical performance and credit worthiness of the corporation in question\r\nWhere the bond resides in the capital structure o Is it secured? Unsecured? How much debt (bonds, loans, revolvers) are ahead of the bond in question\r\nWhat comparable bonds are trading at (or were issued at)"
+  },
+  {
+    "id": 64,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "How large is the corporate debt market? What kind of credit worthiness do most of these securities have?",
+    "answer": "The total corporate debt market – including bonds, loans, and revolvers – is approximately $24 trillion in 2020. Investment grade issuers represent 52% of issuers, but 78% of rated debt. For AAA, AA, A, BBB, BB, B, CCC/C rated debt, the percentages by size are 3.2%, 7.2%, 29.8%, 37.8%, 10.0%, 9.9%, and 2.1%, respectively. See research by S&P at the following link: https://www.spglobal.com/ratings/en/research/articles/241003-credit-trends-global-state-of-play-strong-issuance-fuels-debt-growth-13270349."
+  },
+  {
+    "id": 65,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What industries are the biggest issuers of corporate debt?",
+    "answer": "Financials are by far, making up about 37% of total issuance. For the non-financials industry, it is led by utilities, telecom, and tech."
+  },
+  {
+    "id": 66,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "How are corporate bonds brought to market?",
+    "answer": "Debt Capital Markets (DCM) divisions of an investment bank – that are not part of S&T due to their access to private, confidential information – bring bonds to market. These bonds are underwritten by a Lead Manager and a syndicate that will determine the best price the company can get (the lowest coupon they’ll have to offer) and build up a book of investors who will buy the bonds at issuance. Investment grade, high yield, and distressed debt desks on the trading floor deal with trading these bonds – once issued – in the secondary market. In other words, they provide liquidity to the market so those who buy a bond at issuance do not need to hold them indefinitely and those who weren’t able to buy at issuance can now buy them."
+  },
+  {
+    "id": 67,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Why do companies issue bonds to begin with?",
+    "answer": "This is a simple question that can sometimes trip people up. Bonds are issued primarily due to funding needs surrounding expansions, acquisitions, or a re-balancing of their existing balance sheet."
+  },
+  {
+    "id": 68,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Who buys corporate bonds (either at issuance or in the secondary market)?",
+    "answer": "Corporate bond markets – after equities – have the broadest scope of investors who will participate in the market. These include hedge funds, banks (trading desks or internal funds), (very) high net worth individuals, pension fund managers, endowment funds, and mutual funds."
+  },
+  {
+    "id": 69,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Is everyone who buys investment grade debt as likely to buy high yield debt?",
+    "answer": "No. Almost all market participants who have raised money from outside investors have mandates that constrain them on what they can and cannot do. For example, pension funds have a mandate – in their founding documents – that outlines the amount of risk they are allowed to take on given that funds must be routinely available to pay pension holders.  Therefore, most pension funds will have very little or no interest in distressed debt – given how risky it can be – but will routinely buy AAA-rated CLO tranches, investment grade debt, etc. Likewise, distressed debt hedge funds have a mandate – from those who have put money into them – to buy high yield and distressed assets. However, investors would likely look unfavorably on a distressed fund having lots of their assets in investment grade bonds."
+  },
+  {
+    "id": 70,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What’s the credit spread?",
+    "answer": "The credit spread is the difference between the yield of a corporate bond and the yield of the underlying government bond (treasury, in the U.S.) of the same duration. For example, T+250 on a 10-year corporate bond would mean it trades at the ten-year treasury note, plus 2.5% (250 basis points)."
+  },
+  {
+    "id": 71,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What makes credit spreads move?",
+    "answer": "Credit spreads will widen due to general economic downturns, the company performing poorly, or general pessimism in the credit markets. Credit spreads will tighten if the economy is healthy, the company is doing well, or credit markets are very active (lots of new issuance, new issuance pricing tight to treasuries, etc.)"
+  },
+  {
+    "id": 72,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What credit ratings correspond to investment grade or high yield?",
+    "answer": "BBB- (Standard & Poor’s/Fitch) or Baa3 (Moody’s) and above"
+  },
+  {
+    "id": 73,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What goes into the credit rating process?",
+    "answer": "The credit rating process is quite extensive and is a substantial cost (that the company must pay the rating agency directly). The credit rating agency seeks to study both the business risk – how likely the company is to continue to expand, grow, and be profitable – along with its unique financial risks surrounding its capital structure, current debt payments, likely default rate, etc. Credit rating agencies also look to the “comparable universe” of similar companies and how they’re performing and where their debt is rated."
+  },
+  {
+    "id": 74,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are the differences in how investment grade and high yield bonds trade?",
+    "answer": "As previously mentioned, investment grade bonds tend to be originated in larger size, by large companies (that are obviously healthier). This makes the market much more liquid; not only because of larger issuance size, but also because banks hold more of these bonds in inventory (because they are safer, thus require less balance sheet to be reserved to warehouse them). Investment grade bonds are often – but not always – quoted as a spread against treasuries of the same duration. However, high yield and distressed bonds are almost always quoted outright with much wider spreads (e.g. the bid ask will be often many times wider than that of an investment grade bond). Note: It’s important to know the paragraph above; that’d be very impressive to hear in an interview."
+  },
+  {
+    "id": 75,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What’s the default probability depending on rating?",
+    "answer": "The cumulative default rates for AAA, AA, A, BBB, BB, B, CCC/CC across 15 years are 0.94%, 1.11%, 2.20%, 5.43%, 16.34%, 28.80%, and 53.37%. Investment grade bonds have a default rate of 3.05%, and speculative (high-yield) bonds have a rate of 24.80%. See https://www.spglobal.com/ratings/en/research/articles/240328-default-transition-and-recovery-2023-annual-global-corporate-default-and-rating-transition-study-13047827"
+  },
+  {
+    "id": 76,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are Fallen Angels?",
+    "answer": "Fallen Angels are bonds that were issued as investment grade but have now fallen below investment grade. "
+  },
+  {
+    "id": 77,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What happens to credit spreads as credit ratings decline?",
+    "answer": "As credit ratings decline, credit spreads increase (denoting the greater risk of default potentially occurring). Note that credit spreads will compress when credit markets are hot (meaning when yields are falling and lots of new issuance is occurring, usually because of strong economic conditions)."
+  },
+  {
+    "id": 78,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What kinds of debt are most common in capital structures by seniority?",
+    "answer": "Revolver (Revolving Credit Facility)\r\nLike a credit card; can be drawn and paid down over the maturity period with some restrictions\r\nTerm Loans\r\nCan have Term Loan A or Term Loan B (TLBs are often syndicated and traded by a “bank loan desk” on the floor)\r\nSenior Notes\r\nEither secured or unsecured\r\nSubordinated Notes\r\nMezzanine Debt\r\nPreferred Equity\r\nCommon Equity"
+  },
+  {
+    "id": 79,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "How are corporate bonds often hedged (if you want to minimize exposure)?",
+    "answer": "Any trader will have to maintain an inventory and he or she may not like the direction of the markets or the kind of inventory being held. A common way to hedge is by taking an offsetting position in the underlying treasury (the treasury with the same maturity)."
+  },
+  {
+    "id": 80,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are convertible bonds?",
+    "answer": "Convertible bonds are often traded separately from high yield, distressed, or investment grade bonds. Often, it’ll be just one or two traders (who also operate as sales people) who deal with these bonds and they will often sit near equity teams, as opposed to credit teams. Convertible bonds provide the capacity for the owner to convert into equity at a pre-set rate. For the issuer of convertible bonds, they have the benefit of allowing them to raise debt at favorable terms and potentially get rid of future interest payments (if their stock appreciates above the pre-set conversion rate). For the investor, buying provides a position higher in the capital structure than equity if the company ends up defaulting (so could have some level of recovery), but if the company does well it allows for the investor to have higher upside (compared to just getting the pre-set coupon payments of the bond) via converting to equity."
+  },
+  {
+    "id": 81,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are callable bonds?",
+    "answer": "While convertible bonds are wholly distinct from traditional corporate bonds, given that they can convert into equity, callable bonds are just like traditional corporate bonds, but have the feature of being callable. Callable bonds have gone from being a rarity to being the majority of corporate bonds issued. All callable bonds do is allow for the company to recall part or the entire issuance of bonds after a certain amount of time. The reason why the company likes to have this feature is that in a declining rates environment, if the company is healthy, they may be able to call the bonds and reissue bonds with a lower coupon (thus saving money)."
+  },
+  {
+    "id": 82,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Why would investors ever want a bond that is callable?",
+    "answer": "This is an obvious next question. If corporations can just call bonds when rates decline, then won’t investors get none of the benefits of yields going down (and thus prices on the bonds going up)? The answer is that the callable price – the price that corporations must pay to recall the bonds – is above the issuance price. So, for example, a bond may have an issuance size of $10m and be issued at par (100) with a coupon of 4%. Interest rates may decline, and the company may believe they can go and issue the same amount of bonds ($10m), but at an interest rate of 3% instead of 4%. If the original bond is past the “non-call” period the company can retire the original bonds early but must do so at a higher than par (higher than 100) price per bond (for example, 103). So, the corporation needs to make the determination if the price to retire the bonds early (paying the callable amount above par) is worthwhile given the lower interest rate they can get on a new bond issuance."
+  },
+  {
+    "id": 83,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are puttable bonds?",
+    "answer": "Puttable bonds just allow for the holder of a bond to redeem it early (get their principal back). They would obviously do this if they feel like new bonds being issued have higher coupons that are more favorable. However, corporate bonds being puttable is much less common than them being callable. Partly because of the low rates environment we have been in for the past few decades and partly because it creates quite a bit of cash flow uncertainty for a company (as rates rise they suddenly need to have lots of cash to pay back bond holders early)."
+  },
+  {
+    "id": 84,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are Eurobonds?",
+    "answer": "Eurobonds are a rather confusing name for a simple kind of bond: one issued outside the country that the company is based in and the currency most utilized by the company."
+  },
+  {
+    "id": 85,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "When we think about a bond, what do we mean by “expected loss”?",
+    "answer": "Expected loss is the probability of the company defaulting multiplied by the loss that will be incurred as a result of defaulting. This sets an initial downside case for what to expect in terms of a loss."
+  },
+  {
+    "id": 86,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Why is EBITDA so important to thinking about bonds?",
+    "answer": "Because EBITDA represents the amount of cash available for debt servicing (paying coupons) if we assume no capex or working capital changes. Most covenants in debt documents will have EBITDA within them."
+  },
+  {
+    "id": 87,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are the two most common types of ratios used in credit?",
+    "answer": "Coverage ratios\r\nEBITDA / Interest Expense\r\nLeverage ratios\r\nDebt / EBITDA\r\nNet debt / EBITDA\r\nDebt / (EBITDA – capex)"
+  },
+  {
+    "id": 88,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What qualities would an investment grade issuer (company) have financially?",
+    "answer": "Strong EBITDA margin\r\nLow current interest expenses\r\nPredictable revenue\r\nHigh current coverage ratio\r\nLow current leverage ratio\r\nSimple capital structure"
+  },
+  {
+    "id": 89,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What types of covenants will you likely find in corporate debt (in particular, corporate bonds)?",
+    "answer": "Debt docs are the documents at issuance that govern the terms of the debt being issued. These debt docs will contain covenants that specify the things that can’t be done (negative covenants); if the company does break any of the covenants then the holders have a right to force the company (broadly speaking) into a technical default unless a resolution can be found.\r\nCoverage ratio (min EBITDA / interest expense)\r\nLeverage ratio (max debt / EBITDA)\r\nRestricted cash (min amount of cash that must be kept aside at all times)\r\nNegative pledge provisions (inability to pledge certain assets for new debt)\r\nRestrictions on guarantees that can be offered to subsidiaries without prior consent\r\nPayment priority in the event of asset sales\r\nAdditional covenants to protect priority of the debt (meaning the place in the capital structure) and under what conditions additional debt can be placed ahead of this debt"
+  },
+  {
+    "id": 90,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Do investment grade or high yield bonds tend to have more covenants? What about bonds vs loans? ",
+    "answer": "High yield bonds tend to have more covenants than investment grade debt given the slightly precarious nature of most high yield issuers (all ratios and restrictions will be tighter at issuance). Loans tend to have more covenants than bonds as well although loans are frequently renegotiated if the borrower gets into trouble (to get around a technical default that may not be in the best interest of any party, including the loan holder)."
+  },
+  {
+    "id": 91,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are credit default swaps?",
+    "answer": "When we think of derivatives and structured products, much of the rationale really boils down to chopping up and disbursing risk to those who actually want to hold it. For example, in the credit markets there will sometimes be those who want to mitigate credit risk and can do so via a credit default swap. In a credit default swap, there will be two sides: a credit protection buyer and a credit protection seller. The protection buyer pays a fixed annual fee and will receive payment if a “credit event” occurs on the “reference entity”. The protection seller on the other hand gets paid annually to provide this “insurance” and may never have to pay out anything, if a credit event occurs, or may have to pay much more than they’ve received in annual payments."
+  },
+  {
+    "id": 92,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Do credit default swaps trade in the secondary market? Does their value change?",
+    "answer": "Absolutely! Credit default swaps change in price due to the increasing or decreasing credit value of the underlying entity being referenced by the CDS. For instance, Goldman bought billions worth of CDS on AIG when they were healthy in 2005-2007 as a hedge – because they had a lot of exposure to AIG – and then were paid out billions when a credit event (technical default) occurred in 2008. The CDS contracts were very cheap in 2005-2007, but became incredibly valuable as folks noticed trouble at AIG and desperately tried to hedge their exposure to the insurance giant."
+  },
+  {
+    "id": 93,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are the two ways that CDS contracts can settle?",
+    "answer": "If a credit event occurs, then CDS contracts can be settled either physically or on a cash basis. If the contact is settled physically, then the CDS buyer will deliver the reference asset (for example, certain eligible corporate bonds, which will obviously have a very low value) to the seller. Then the CDS seller will pay the par value in cash. To be clear, when the CDS buyer purchases the reference asset it will be at a very steep discount to par (given that a credit event has occurred, so the company is distressed), but once they deliver the assets to the CDS seller then the seller will pay par. If a contact is cash settled, then the physical delivery does not occur. Instead the CDS seller pays the difference between the par value of the reference asset and the auction settlement price. Learn more about the auction process here: https://www.investopedia.com/articles/bonds/09/what-happens-to-single-name cds.asp#credit-default-auctions"
+  },
+  {
+    "id": 94,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Why would a client buy credit default swaps?",
+    "answer": "Speculate on a credit that they think will become distressed and have a credit event\r\nThese kinds of clients are generally distressed hedge funds\r\nProtect yourself from credit exposure to the company\r\nIf you deal frequently with a company – perhaps they are a large customer of yours or you’ve extended them some kind of credit – you can mitigate your exposure to the company by buying CDS\r\nThis way if the company ends up having a credit event you can hedge your exposure (potential losses) by just paying the CDS premium\r\nClients who buy CDS for this purpose are large corporations and banks\r\nReduce exposure to a sector\r\nIf you are a large fund you may have lots of exposure to a certain sector – like oil and gas – that you want to hedge\r\nHowever, you don’t want to sell your current oil and gas holdings (perhaps because they’re illiquid or you like the particular asset)\r\nIn order to gain downside exposure to the industry, you can pick certain companies (in this example, oil and gas companies) and buy CDS against them\r\nThis rationale will often be that of large funds – like endowments or sovereign wealth funds – who want to buy downside exposure, but can’t entirely shift their portfolio around because it’s so large\r\n"
+  },
+  {
+    "id": 95,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are some of the major central banks and who are their chairmen / governors?",
+    "answer": "The Federal Reserve – Jerome Powell\r\nThe European Central Bank – Christine Lagarde\r\nThe Bank of England – Andrew Bailey\r\nThe Bank of Japan – Kazuo Ueda\r\nThe Bank of Canada – Tiff Macklem"
+  },
+  {
+    "id": 96,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What is the purpose of a central bank?",
+    "answer": "Central banks have different mandates. The most prominent central bank – the Fed – has a so-called dual mandate of price stability (inflation of 2%) along with maximum possible employment. Most central banks also have a regulatory and supervisory role of the banking system."
+  },
+  {
+    "id": 97,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What is the primary tool via which central banks conduct monetary policy?",
+    "answer": "Central banks primary role – the one most talked about in the media – is setting an overnight interest rate. This rate – for the Fed, the Fed Funds rate – is the interest rate banks pay for overnight borrowing in the federal funds market. Setting a lower Fed Funds rate permeates the entire financial system, bringing down interest rates on government debt across the yield curve (usually) along with mortgage rates. As you can imagine, the Fed Funds rate doesn’t necessarily translate into lower credit costs across the board invariably. For example, credit card interest rates don’t go down in lockstep with the overnight rate."
+  },
+  {
+    "id": 98,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are other major policy tools of a central bank?",
+    "answer": "Reserve Requirements\r\nAmount of deposits a bank must keep at a central bank. If reserve requirements are increased, banks need to hold more at the central bank thus shrinking the credit extension of the bank to their clients\r\nOpen Market Operations\r\nThe process by which the Fed purchases securities in the open market from banks – most notably treasuries and MBS – which gives the banks more cash that they then lend out at lower rates (this is used to help stabilize the fed funds rate) What are some Fed facilities that exist?\r\nCommercial Paper Funding Facility (CPFF)\r\nTerm Auction Facility (TAF)\r\nTerm Auction Lending Facility (TALF)\r\nPrimary Dealer Credit Facility"
+  },
+  {
+    "id": 99,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are two Fed reports that are useful to understand Fed policy and how the economy is doing? ",
+    "answer": "The Monetary Policy Report, which is used to brief Congressional members as to the state of the economy: https://www.federalreserve.gov/monetarypolicy/mpr_default.htm\r\nThe Beige Book is a collection of economic indicators and anecdotes collected by Federal Reserve governors across the country: https://www.federalreserve.gov/monetarypolicy/mpr_default.htm"
+  },
+  {
+    "id": 100,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What’s GDP and its components?",
+    "answer": "Gross domestic product measures the goods and services created within an economy during a given time. The equation – via the expenditure approach – is C + I + G + NX.\r\nC = Consumer\r\nPersonal Consumption Expenditure\r\nDurables\r\nNon-Durables\r\nServices\r\nI = investment\r\nInvestment and change of inventories\r\nG = Government\r\nFederal spending\r\nState and local spending\r\nNet Exports\r\nNet exports of both goods and services\r\nThe U.S. economy – like most major economies – is driven primarily (around 65-75%) by consumer spending, followed in roughly equal measure by investment and government depending on the year. Net exports can often be negative for developed economics."
+  },
+  {
+    "id": 101,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are the two primary measures of inflation?",
+    "answer": "CPI, which is the change in price (quarter-over-quarter or year-over-year) of a basket of goods and services that a “standard individual” would buy in a given year. Core CPI is this same basket, stripped of food and energy given the historical volatility of those."
+  },
+  {
+    "id": 102,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What is a market measure of inflation commonly utilized?",
+    "answer": "The 5Y5Y swap rate, which is an actively traded swap of a five-year maturity that doesn’t begin until five years from now. This swap rate indicates what the market expects inflation to be over a five-year period beginning in five years. Usually it is around 2% given that 2% is the Fed target for inflation."
+  },
+  {
+    "id": 103,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are the two major US employment numbers that market participants will watch?",
+    "answer": "Initial jobless claims\r\nEvery Thursday at 8:30EST, which shows the number of people claiming unemployment over the previous week\r\nNon-Farm Payrolls\r\nFirst Friday of every month at 8:30EST, which shows the change month over-month of the number of people employed o This is an employment measure, while initial jobless claims is an unemployment measure"
+  },
+  {
+    "id": 104,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What is PMI?",
+    "answer": "PMI stands for the purchasing managers index and is conducted in a number of countries / regions monthly. It asks purchasing managers whether conditions (including output, forecasts, etc.) have improved or not. If 100% of respondents say improvements are being seen than the PMI would be 100. If 0% of respondents say there are improvements, the PMI would be 0. If only 50% of respondents say conditions are improving, the PMI would be 50. Generally, whenever PMI dips below 50 that raises alarm bells as it is indicating the majority of respondents are not seeing improving conditions relative to prior periods.\r\n"
+  },
+  {
+    "id": 105,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are the two basic types of options (in the equity derivative context)?",
+    "answer": "Call options gives the holder the right to buy an underlying asset by a certain date at a fixed price. A put option conveys the right to sell an underlying asset by a certain date at a fixed price. The most money the buyer of an option can ever lose on the deal is the initial premium paid for the contract. Ultimately, options are all about paying a certain amount of money to have the possibility of doing something in the future (should the underlying or reference asset move in the direction favorable to the option)."
+  },
+  {
+    "id": 106,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What’s an option premium?",
+    "answer": "Paid to the dealer who writes the option (small fee). What’s the real price of option? Intrinsic value + time value. What is intrinsic value for a call or put? The greater of zero or the (spot – strike price) for a call. The greater of zero or (strike price – spot) for a put."
+  },
+  {
+    "id": 107,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What is time value?",
+    "answer": "The value of an option over and above any intrinsic value."
+  },
+  {
+    "id": 108,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What can potentially be lost with option?",
+    "answer": "If buyer than just the cost (premium) of options. If writer, then virtually unlimited. What’s a long call option? Buy a call option and profit from rise in the value of the underlying asset. Long call has limited downside risk, but unlimited upside."
+  },
+  {
+    "id": 109,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What does it mean to be short a call?",
+    "answer": "Write a call contract. For example, the premium ($10) cost of option is most you can make, and you have unlimited downside."
+  },
+  {
+    "id": 110,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What is a naked short option?",
+    "answer": "Unhedged short option. Usually you hedge with offsetting option positions, or by purchasing the underlying asset."
+  },
+  {
+    "id": 111,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What’s a long put?",
+    "answer": "Buyer has the right to sell 100 XYZ shares at $100 each. Makes money when underlying falls. Max loss is premium paid to the writer and max you can make is $0-$100. If ITM you can exercise by just going into the market and buying for $80 given that you have exercise right to sell back for $100."
+  },
+  {
+    "id": 112,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Difference between long put and short?",
+    "answer": "Short has to buy the shares back and return them to the original owner at the prevailing market price. Long put max loss is premium paid for contract. What’s a short put? Sell the right to sell. Max can make is the premium ($10 for example) the maximum loss is $90 ($100-$10) assuming spot is $100."
+  },
+  {
+    "id": 113,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What’s a protective put?",
+    "answer": "A combination of a long position in an underlying security with a put option, hedging against potential losses on a position."
+  },
+  {
+    "id": 114,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What’s a covered call?",
+    "answer": "Selling a call option against a holding of shares. Make premium plus stock appreciation until point where call gets ITM then start losing money on call while making money on the shares held."
+  },
+  {
+    "id": 115,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What’s an equity collar?",
+    "answer": "Buy protective put and sell a call on the share with the same expiry date. Will receive premium on the call to offset cost of the put. Can be designed to become a zero-cost collar, where the strikes of the two options such that the two premiums cancel out. "
+  },
+  {
+    "id": 116,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What’s a barrier option?",
+    "answer": "Contract whose payoff depends on whether or not the underlying reaches a certain threshold level (the barrier) during a specified period of time over the life of the option."
+  },
+  {
+    "id": 117,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Knock in and knock out?",
+    "answer": "A knock-in option is when the call or put only comes into existence if the underlying price hits the barrier. Knock-out options calls or puts cease to exist if the underlying prices reaches the barrier."
+  },
+  {
+    "id": 118,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are covered warrants?",
+    "answer": "Warrants are normally listed on a stock exchange. A covered warrant is a longer dated option issued by financial institution based on the shares of another company. It trades as a security that can be bought and sold by investors. The term covered means that the issuer is writing an option and hedges the risk, often by trading in the underlying shares. They are different from options as they are issued by the company themself (and therefore cannot be written), and are dilutive (i.e. create new shares). "
+  },
+  {
+    "id": 119,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What’s a rights issue?",
+    "answer": "Company sells new shares to existing shareholders."
+  },
+  {
+    "id": 120,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "How are exchange traded options settled?",
+    "answer": "Against the level of the underlying cash index."
+  },
+  {
+    "id": 121,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What’s delta hedging?",
+    "answer": "If delta is 0.5, then trader sells a call on a certain number of shares, then he or she has to buy half that number of shares to hedge the risk. The payout made on the option is exactly matched by the value of the shares purchased in the delta hedge, less the cost of repaying the initial loan."
+  },
+  {
+    "id": 122,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What’s dynamic hedging?",
+    "answer": "For example, as option goes deep ITM then delta approaches 1 and one needs to buy more shares than when the delta was lower. Dynamic refers to the change in amount needed to be purchased in order to hedge."
+  },
+  {
+    "id": 123,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What is Black-Scholes really (in mathematical terms)?",
+    "answer": "Binomial tree with an infinite number of steps. "
+  },
+  {
+    "id": 124,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What five inputs are needed to get European style option from Black-Scholes model?",
+    "answer": "Spot price\r\nstrike price\r\ntime to expiry\r\n(expected) volatility\r\ncost of carry"
+  },
+  {
+    "id": 125,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What assumption does Black-Scholes make that are wrong?",
+    "answer": "Normal distribution\r\nPronounced skew or negative tail in actual returns on shares, meaning that there is a bigger chance of significant losses than is built into the shape of the bell curve\r\nContinuous random walk\r\nAssumes that returns follow random walk, which is not what is actually observed\r\nDynamic hedging\r\nAssumes it is possible to delta hedge without transaction costs and without liquidity constraints\r\nFixed vol\r\nAssumes you know the level of vol which stays constant over the life of the option "
+  },
+  {
+    "id": 126,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What is cost of carry in Black-Scholes model?",
+    "answer": "Interest rate less the dividend yield or return on the index."
+  },
+  {
+    "id": 127,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "How is historical vol defined?",
+    "answer": "As the standard deviation of the percentage returns (price changes plus dividends) on the share over a time period."
+  },
+  {
+    "id": 128,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What’s implied vol?",
+    "answer": "Vol assumptions built into the actual dollar price of an option. Obtained by operating the pricing model backwards. Rather than using vol assumption to determine value of an option, use the dollar price at which it is trading in the market in order to determine the vol level that would generate the observed price."
+  },
+  {
+    "id": 129,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Vol is correlated to equities how?",
+    "answer": "Negatively."
+  },
+  {
+    "id": 130,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "As vol rises the value of calls/puts?",
+    "answer": "Rises. If you have $50 with vol such that there’s a 50% chance of falling to 40 or rising to 60 then this is worth $5 ($10 x 50%)."
+  },
+  {
+    "id": 131,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are the greeks really?",
+    "answer": "Partial derivatives of the option pricing model. Delta, theta, vega, and rho. This means that they measure the change in the calculated option value for a given change in one of the inputs to the model, all the other inputs remaining constant."
+  },
+  {
+    "id": 132,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What is delta?",
+    "answer": "Measures the change in the option value for a small change in the price of the underlying asset, assuming all other inputs to the model are held constant. Long call and short put are delta positive (price of the underlying rises, delta is positive). Short call and long put are delta negative if the position loses value the underlying increases."
+  },
+  {
+    "id": 133,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Non-linearity of delta?",
+    "answer": "Delta is only a reliable measure of the change in the value of an option for small changes. If price of underlying moves by large amounts, then the actual option price will be different from that predicted by delta. This is the effect of gamma or convexity, the curvature in the option price graph. For example, 5000 shares purchased to hedge the risk will not match the losses on the option in actuality after a big move because the P&L profile on 5000 shares in the delta hedge is always linear. "
+  },
+  {
+    "id": 134,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What is gamma?",
+    "answer": "Measures the changes in option delta. Useful indicator of how stable or otherwise a delta hedge is likely to be. Graphically, gamma is a measure of the curvature (or convexity) in the relationship between the value of an option and the spot of the underlying. The greater the curvature the more rapidly the delta (the slope or tangent on the option pricing curve) will change. Essentially tells trader to buy or sell more shares to properly hedge delta."
+  },
+  {
+    "id": 135,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "When is gamma low?",
+    "answer": "When OTM or ITM. Tend to be most sensitive when ATM. What is theta? Change in the value of an option as time elapses (with all other inputs to the pricing model remaining the same). Really measures rate of decay in the time value of an option. When is theta negative? For long calls and puts. Position loses value every day. Theta is positive on short option positions. Every day that elapses long options lose value."
+  },
+  {
+    "id": 136,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What’s vega?",
+    "answer": "AKA kappa. The value of an option is also sensitive to the assumption made about the vol of the underlying. This sensitivity is measured by vega. Vega measures the change in the option for typically a 1% change in the assumed vol of the underlying."
+  },
+  {
+    "id": 137,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Why is buying an option sometimes called a long vol or long vega position?",
+    "answer": "If the vol assumption used to price the option increases the contract will become more valuable. Applies to call and put options. Trader who is short options hopes for declining vol because options will become cheaper to repurchase. "
+  },
+  {
+    "id": 138,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What does vega of $0.2 mean?",
+    "answer": "Means for 1% change in vol the option will increases or decrease in value by 20 cents. This is on a per share basis."
+  },
+  {
+    "id": 139,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What is Rho?",
+    "answer": "Change in an option’s value for a given change in interest rates."
+  },
+  {
+    "id": 140,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What happens to options if interest rates rise for put options?",
+    "answer": "Value of options will fall. Writers of put options are exposed to falls rather than rises in the price of underlying shares. As interest rates rise, they will earn more money by investing the cash received from selling the shares short and can afford to pass benefits on to buyers of puts."
+  },
+  {
+    "id": 141,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Long call positive/negative for delta, gamma, theta, vega, and rho?",
+    "answer": "Positive, positive, negative, positive, and positive"
+  },
+  {
+    "id": 142,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Short call positive/negative for delta, gamma, theta, vega, rho?",
+    "answer": "Negative, negative, positive, negative, and negative"
+  },
+  {
+    "id": 143,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Long put positive/negative for delta, gamma, theta, vega, rho?",
+    "answer": "Negative, positive, negative, positive, and negative"
+  },
+  {
+    "id": 144,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Short put positive/negative for delta, gamma, theta, vega, rho?",
+    "answer": "Positive, negative, positive, negative, and positive. "
+  },
+  {
+    "id": 145,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Summary of greeks?",
+    "answer": "Delta is the slope or tangent of the option price curve. Gamma is the change in delta. Theta measures the change in the value of an option as time elapses. Vega measures the change in the value of an option for a given change in vol. Rho measures the sensitivity of the option value to a change in interest rates. All are partial derivatives that assume that only one factor used to determine the value of an option is changed."
+  },
+  {
+    "id": 146,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Time value highest when strike price is similar to?",
+    "answer": "Spot. Time value is highest because you’re right around the strike price so very sensitive to movements above or below it."
+  },
+  {
+    "id": 147,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What’s more liquid when the strike price is less than the spot price?",
+    "answer": "Puts more liquid than calls. Low strike puts have higher implied vol."
+  },
+  {
+    "id": 148,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Call options are convex how?",
+    "answer": "Delta increases as spot increases. As markets rise the delta increases and the calls make more money than the long position would have. Using call options is best when implied vol is cheap and investor expects the stock to move by more than is currently implied."
+  },
+  {
+    "id": 149,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What does put underwriting benefit from?",
+    "answer": "Put underwriting gives a similar profile to a long stock, short call profile, otherwise known as call overwriting. If OTM options are used, then put underwriting benefits from selling skew."
+  },
+  {
+    "id": 150,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Where is implied vol usually?",
+    "answer": "Average 1-2pts above vol realized over the life of the option. Usually greater for indices than single stocks. Structured products are often based on an index and can offer downside protection. This lifts index implied vol relative to single stock implied vol."
+  },
+  {
+    "id": 151,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "How to profit from implied vol being too high?",
+    "answer": "You can sell a call against a long position in the underlying. Should the underlying perform well, and the call be exercised, the underlying can be used to satisfy the exercise of the call. Useful way to gain yield in flat markets."
+  },
+  {
+    "id": 152,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "When does overwriting underperform?",
+    "answer": "Underperforms in bull markets with low vol."
+  },
+  {
+    "id": 153,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Peak vega occurs when?",
+    "answer": "ATM."
+  },
+  {
+    "id": 154,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What makes a cheap option (think: vol)?",
+    "answer": "Implied vol lower than realized vol over its life. With continuous delta hedging it’s impossible to lose money."
+  },
+  {
+    "id": 155,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What’s skew?",
+    "answer": "Options with different strikes, but with the same expiration date, will have different implied vols. Skew is the difference between the implied vol for these ITM, OTM, and ATM options. "
+  },
+  {
+    "id": 156,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Skew is positively correlated to what?",
+    "answer": "Term structure."
+  },
+  {
+    "id": 157,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Vol surface has what dimensions?",
+    "answer": "Strike, expiry and implied vol."
+  },
+  {
+    "id": 158,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "If equity markets decline what happens to term structure?",
+    "answer": "Becomes inverted."
+  },
+  {
+    "id": 159,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "When is vega highest? What’s vanna?",
+    "answer": "Vega highest for ATM options. Vanna is gradient of slope."
+  },
+  {
+    "id": 160,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What does vanna do?",
+    "answer": "Measures the size of a skew position (vega/spot). Vanna is slope of vega plotted against spot. Vanna is positive for low spot (if spot rises toward strike, vega goes up) and negative for high spot"
+  },
+  {
+    "id": 161,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What’s a convertible bond?",
+    "answer": "Owner has the right to convert the bond into predetermined number of shares. Number of shares it can be converted into is called the conversion ratio. The current value of those shares is called the parity or conversion value of the CB."
+  },
+  {
+    "id": 162,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What do convertible bonds (CBs) have embedded in them?",
+    "answer": "A call option. Can’t be split off and traded separately from convertible bond. Only exercised through conversion."
+  },
+  {
+    "id": 163,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Capital protection in CBs?",
+    "answer": "Bond floor. Even if embedded call has collapsed, CB will not trade below its value considered purely as a bond (although of course bonds can trade down as well if the company is unhealthy!)."
+  },
+  {
+    "id": 164,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Benefits of CBs?",
+    "answer": "Cheaper debt as investors pay premium for call option embedded in the CB. Plus, tax deductible interest payments (dividends aren’t). CB market can help lower credit rated corporates tap the capital markets."
+  },
+  {
+    "id": 165,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "How much value of a CB consists of bond value?",
+    "answer": "Normally 75% rest is option value."
+  },
+  {
+    "id": 166,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "How to calculate parity in CBs?",
+    "answer": "Conversion value or parity value is share x shares you can convert. x 20 shares = $120"
+  },
+  {
+    "id": 167,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Will CBs trade at parity value?",
+    "answer": "No as there’s further potential upside. Conversion premium can be determined by taking the trading level minus the parity value. $150 (trading at) - $120 (parity value) = $30"
+  },
+  {
+    "id": 168,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "How can you trade vol with convertible bonds?",
+    "answer": "Buy CB and sell exchange traded or OTC options on the same underlying assuming that these contracts are trading at higher implied vol levels. Essentially buying cheap options and selling more expensive options on the same underlying."
+  },
+  {
+    "id": 169,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What is a long forward position?",
+    "answer": "Agree to buy share in a year’s time at fixed price (say $100). Short forward position if agree to sell the share to someone at fixed price of $100 in a year."
+  },
+  {
+    "id": 170,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Components of the forward price?",
+    "answer": "$100 to buy share in cash market, net cost of carry position to deliver the share in the future (loan interest, say 10% so $10) minus dividends received on share (say $5). So, break even forward price = cash + net cost of carry = $100 + $5 = $105. Net cost of carry can be a bit lower as dividends can technically be reinvested."
+  },
+  {
+    "id": 171,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "How can you think of the forward price?",
+    "answer": "Expected future spot price on the delivery date."
+  },
+  {
+    "id": 172,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What’s attraction of forward starting products?",
+    "answer": "You get vega without gamma (for short term vol). No paying of theta."
+  },
+  {
+    "id": 173,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What’s the real benefit of options vs. forwards/futures?",
+    "answer": "Options have lower delta normally, but more favorable convexity properties in terms of only losing premium. Forward has unlimited loss potential."
+  },
+  {
+    "id": 174,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What’s backwardation?",
+    "answer": "Spot price is higher than the futures prices."
+  },
+  {
+    "id": 175,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What’s contango?",
+    "answer": "When futures prices are higher than the spot price."
+  },
+  {
+    "id": 176,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What is basis?",
+    "answer": "The relationship between the spot price of the underlying and the price of a futures contract. In futures it’s important to note that this is not constant. Day to day futures contract do not exactly track movements in the price of the underlying."
+  },
+  {
+    "id": 177,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What happens to the basis as delivery approaches?",
+    "answer": "Price must converge to the spot price of the underlying (meaning the future price must converge) so basis on delivery day is zero."
+  },
+  {
+    "id": 178,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Why is basis different between spot S&P and futures?",
+    "answer": "Because of changes in cost of carry (interest rate less dividends) plus basic supply and demand."
+  },
+  {
+    "id": 179,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Why use futures not options?",
+    "answer": "No upfront options cost (there is initial premium, but that’s like collateral you get it back).\r\n"
+  },
+  {
+    "id": 180,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What is a spot FX trade fundamentally?",
+    "answer": "A spot FX trade is one of the simplest in all of S&T. It is simply an agreement between two parties to exchange a specific amount of two currencies at the “FX rate”."
+  },
+  {
+    "id": 181,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What is the FX rate?",
+    "answer": "The FX rate is the amount of the second currency exchanged per unit of the first. USD/CAD is 1.31 at present; meaning 1.31 Canadian dollars can be exchanged per (one) unit of U.S. dollars."
+  },
+  {
+    "id": 182,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are the three major forms of FX trades?",
+    "answer": "Spot trades: trades at the present FX rate that are settled in two business days\r\nForward trades: trades that will be settled in some amount of time greater than two business days\r\nSwap trades: a trade made at time X that will be reversed at time X + n (where n is some amount of business days in the future)"
+  },
+  {
+    "id": 183,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "How does settlement occur?",
+    "answer": "Almost all transactions that occur are settled via CLS, which settles and clears transactions as opposed to having thousands of transactions from banks going to various different parties every day. https://www.cls-group.com/products/settlement/clssettlement/how-it-works/"
+  },
+  {
+    "id": 184,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "How much FX trades occur per day (in USD terms)?",
+    "answer": "$6.6 trillion (daily). "
+  },
+  {
+    "id": 185,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What is behind all these FX trades?",
+    "answer": "There have been three major trends that have led to the explosion of FX trading over the past three decades:\r\nGlobalization and the rise of multi-national firms that need to continually hedge and swap currency (e.g. a US company that sells into Europe may earn money in Euros, but want to continually swap EUR back into USD)\r\nTechnological changes have led to the FX market being more accessible to a wider swath of both corporations and people; it is now easier than ever to have your cash in the currency you want it in\r\nOver the past 30 years most currencies around the world have moved from being pegged to the dollar to being free-floating, allowing for there to be more daily movement in prices"
+  },
+  {
+    "id": 186,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Where does most FX trading occur?",
+    "answer": "The majority of FX trading occurs in either New York or London with London having a dominant 30-40% of market share."
+  },
+  {
+    "id": 187,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are the most common FX trades (by total dollar volume)?",
+    "answer": "Roughly 40% occur in the spot and swap market each. 10-15% in the forward market and 5-10% in the FX options market."
+  },
+  {
+    "id": 188,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are currency pairs?",
+    "answer": "Currency pairs simply refer to the two legs of a FX trade; for example, EUR/USD, CAD/USD, USD/JPY, etc."
+  },
+  {
+    "id": 189,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "How dominant is the US dollar in FX trades?",
+    "answer": "Involved in about 90% of all foreign exchange transactions."
+  },
+  {
+    "id": 190,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What is the normal maturity profile of FX trades if they are not spot?",
+    "answer": "As mentioned, spot FX trades happen at the “present” time ignoring settlement dates. For forwards and swaps, less than 5% of all transactions will involve maturities greater than a year. For swaps, 70-80% involve maturities less than a week and the remainder are between a week and a year. For forwards, just 40-50% mature within a week with the remainder maturing between a week and a year."
+  },
+  {
+    "id": 191,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What affects FX rates?",
+    "answer": "The right answer is probably everything, which is why many FX traders who begin on the sell-side (within S&T) will move to global macro funds. It’s important to recognize that in FX everything is relative; a currency is only “strong” or “weak” in relation to the currencies it trades again. So, what drives strength or weakness will be relative differences in monetary policy (interest rates and central banking policy), economic statistics (inflation, economic growth, etc.), and politics (political stability, foreign policy stances, domestic spending objectives, etc.)."
+  },
+  {
+    "id": 192,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Who are the players that deal in FX markets (not clients)?",
+    "answer": "Central banks\r\nSome central banks will hold foreign exchange reserves in order to create relative stability in their currency in relation to USD; thus, being continually active in the market\r\nhttps://en.wikipedia.org/wiki/List_of_countries_by_foreign exchange_reserves\r\nBanks\r\nMost FX flows will come through the largest banks with the top five banks having anywhere from 30-50% of market share in any given year\r\nhttps://www.euromoney.com/article/b1fpv028mthbmy/euromoney-fx survey-2019-results-released\r\nBrokers\r\nBrokers are distinct from banks in handling transactions that are usually lower in notional amount in the spot market"
+  },
+  {
+    "id": 193,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are some of the reasons why a corporate client – beyond mere speculation – may want to do a FX trade?",
+    "answer": "A client may be able to issue debt cheaply in a certain country with a certain currency, but will want to swap it to a different currency\r\nA client may want to lock in a certain conversion rate in the forward market (creating certainty against unfavorable potential developments in the market)\r\nA client may be anticipating the need to spend capital – to build a new plant, for example – in a foreign country and wants to lock in an exchange rate to ensure they can more accurately predict the total cost of the project"
+  },
+  {
+    "id": 194,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "How is a FX quote structured?",
+    "answer": "A FX quotation will be in a base – for example €1 – and be equated to another currency for example, USD. Therefore, you can see something like this: €1 = 1.18 60-65. The 1.18 is the “big figure” and the “60-65” are the pips. The pips illustrate the bid-ask spread (what someone, usually a dealer, is willing to buy the base at, the lower amount, and what someone is willing to sell the base at, the higher amount). An easy way to think about this is that the bid will always reflect the cheapest option for the dealer providing the quote. So, for example, the dealer would be willing to buy the base currency, EUR, at $1.1860 (USD) and sell the base currency, EUR, at $1.1865 (USD)."
+  },
+  {
+    "id": 195,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Practically, how are dealers often communicating FX quotes to clients?",
+    "answer": "If not done electronically, the client will simply be told the spread (60-65) and can decide whether they’d like to execute at that price (in either direction, buying or selling)."
+  },
+  {
+    "id": 196,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "If we have currency pairs like EUR/USD, USD/CAD, USD/JPY, etc. what is the base currency?",
+    "answer": "The base currency is always the currency listed first. The second currency will be the price relative to the base currency. Most often, the base currency will be USD, however EUR is often a common base currency as well."
+  },
+  {
+    "id": 197,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What is a pip?",
+    "answer": "Pips depend on the currency being looked at, however for USD it is $0.0001. So, in our prior example we said the spread was 60-65 pips or $0.0060 / $0.0065."
+  },
+  {
+    "id": 198,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What do we mean by FX crosses?",
+    "answer": "As mentioned, base currencies are most often the most liquid, heavily traded currency (USD). However, sometimes clients will want to transact and gain exposure to other currencies (e.g. EUR/GBP). A FX cross rate is simply an exchange rate that doesn’t involve USD on either side. Cross rates are found by cross-multiplication. For example, if we want EUR/GBP, but we only know dollar rates, we can do EURUSDUSDGBP=EURGBP."
+  },
+  {
+    "id": 199,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "When a bank engaged in a forward – locking in the need to buy or sell a currency sometime in the future – doesn’t that expose it to currency fluctuations?",
+    "answer": "If left unhedged, yes. However, banks can perfectly hedge forward FX exposure via swaps and lock in a small premium on the trade. Theoretically, the forward FX price can also be determined by looking at the interest rate of each country (i.e. CIRP)."
+  },
+  {
+    "id": 200,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "As the interest rate is a currency goes down, relative to the other currency in question, what happens to the forward FX rate?",
+    "answer": "It goes up."
+  },
+  {
+    "id": 201,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "So what are the three elements that affect a FX forward?",
+    "answer": "The spot price, the interest rate of base currency, and the interest rate of pricing currency."
+  },
+  {
+    "id": 202,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What is a benefit of swaps over forwards in FX?",
+    "answer": "A forward will have both interest rate risk and FX risk unless hedged, while swaps simply have interest rate risk."
+  },
+  {
+    "id": 203,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Can you have forward starting swaps?",
+    "answer": "Absolutely! Forward starting swaps will create some FX risk that will need to be hedged (as is also the case in traditional forwards)."
+  },
+  {
+    "id": 204,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are FX call and put options?",
+    "answer": "FX call and put options make up a reasonably small share of the overall FX market, however there will often be traders who specifically deal with FX options on a desk (perhaps with overlapping swap trading responsibilities). FX call and put options are no different than what you would expect. Buying a call option gives one the right, but not the obligation, to buy an agreed upon amount of currency at an agreed upon strike price. Buying a put option gives one the right, but not the obligation, to sell an agreed upon amount of currency at an agreed upon strike price. The strike price for a call will, of course, be above the spot price (so out-of-the-money, or OTM, at initiation). If the currency moves in the direction of the strike price the call will become more valuable."
+  },
+  {
+    "id": 205,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What is the base currency for most FX options? What’s the most common maturity?",
+    "answer": "USD is by far the most common base currency with over 90% of volume. The most liquid options are between one week and three months, although options can be up to ten years in most major currencies. FX options are often used to partially hedge long-term exposure (albeit imperfectly) and so there is a liquid market at much longer maturities than you’re used to seeing in equity derivative markets, for example. \r\n"
+  },
+  {
+    "id": 206,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Philosophically, what really are MBS?",
+    "answer": "While there are many permutations, a MBS is a form of ownership of a wide swath of loans (mortgages) and the cashflows tied to them over time. The MBS owner is essentially the one being paid by the individual holding the mortgage (without the mortgage holder knowing it, of course). Every month the MBS holder will receive a monthly payment that consists of a combination of principal repayment along with interest on the mortgage pool that makes up the MBS."
+  },
+  {
+    "id": 207,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What’s the most common form of MBS?",
+    "answer": "Passthroughs that are issued by government sponsored enterprises (GSEs) such as Fannie Mae, Freddie Mac, and Ginnie Mae. The issuer of a passthrough will take a Servicing Fee and an Agency Fee, which will be deducted from the payments that are passed through to investors (so investors don’t technically get all payments entirely passed through to them)."
+  },
+  {
+    "id": 208,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Beyond passthroughs, what other forms of MBS are there?",
+    "answer": "You can have private label (non GSE issued), commercial, and structured products. These had the largest declines in the great financial crisis and became less in vogue than passthroughs."
+  },
+  {
+    "id": 209,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Can you put a little more meat on the bones?",
+    "answer": "If we have a pool or mortgages with a rate of 4.00% what will investors receive? 4.00%? Sure, let’s say we have a pool of $100m worth of mortgages. By this, we mean there is an outstanding balance of $100m on the mortgages. Let’s say the average coupon is 4.00%. A MBS will have a Servicing Fee (paid to issuer of the MBS as a form of administrative fee) of around 50bps (0.50%) and an Agency (guarantee) Fee of around 15bps (to absorb any losses by the Agency). Therefore, the MBS coupon would not be 4.00% (even though that was the average for all the mortgages), but rather 4.00-0.65 or 3.35%. "
+  },
+  {
+    "id": 210,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "How does a passthrough work?",
+    "answer": "The bank or mortgage-provider sells monthly principal and interest payments from a pool of mortgages to a GSE. These entities then “passthrough” these combined payments to the holder of the MBS and guarantee the principal and interest."
+  },
+  {
+    "id": 211,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "How large (roughly) is the MBS market?",
+    "answer": "$5-6 trillion as of 2020."
+  },
+  {
+    "id": 212,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "How do GSEs like Fannie and Freddie issue MBS?",
+    "answer": "They issue debt directly to the public – what is referred to as agency debt – and use funds to either purchase qualified mortgages or guarantee pools of mortgages from other financial institutions. They then securitize these loan pools and issue securities that represent a “share” or fractional ownership of a pool of mortgages."
+  },
+  {
+    "id": 213,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "How does the market generally view the credit quality of these MBS? How do we know?",
+    "answer": "We can always get an idea of the embedded credit risk of any security by looking at similar duration treasuries and comparing the increased yield obtained by buying said security. So, for example, MBS historically have a 50-200bp (0.5-2%) yield over that of a similar duration (similar tenure) treasury. So the market does assign risk to MBS over that of treasuries, but less than what you would expect most corporate bonds to have for example."
+  },
+  {
+    "id": 214,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What’s the major difference between a MBS and a traditional bond?",
+    "answer": "With a traditional bond, there will be semi-annual coupon payments with the principal amount paid back in full at a defined time. With MBS you get a combined principal and interest payment monthly – as mortgages are paid monthly – and there can be prepayment of principal by mortgage owners (if they have more cash one month they may pay more down on their mortgage). This creates timing uncertainty for the cashflows coming in, which is distinct from a corporate bond where cashflow timing and amounts are certain (unless they default!). Further, mortgage holders, if rates have decreased, can completely refinance their mortgage, which takes one mortgage out of the pool that makes up the MBS. Or mortgage holders may sell their home to move to a new one, thus paying off their mortgage early. MBS holders must be willing to accept this cashflow timing uncertainty. Another way to say this, perhaps more simply, is that if rates decline all of a sudden you may have expected $X in cashflows, but you’ll get $X*1.2 or something because more people are paying off their mortgage earlier than anyone anticipated."
+  },
+  {
+    "id": 215,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are the two major risk categories for MBS?",
+    "answer": "Prepayment risk, which is when a homeowner pays off a larger than normal part of their mortgage, pays off their entire mortgage due to selling their home, or refinances their mortgage due to rates declining.\r\nExtension risk, which is when rates rise and people are less apt to pay down extra on their mortgage (prepayments decline) or refinance their mortgage (because it would be at a higher rate).\r\nThus, the two major risks surround cashflow uncertainty; you may end up getting more cashflows being disbursed than you anticipated, or you may get less (since you always assume some level of prepayment in your models). This is probably the “hardest” question you’d ever get in an interview around MBS trading. As long as you show you have an intuitive understanding of the fundamental risks of the product, you will be highly impressive."
+  },
+  {
+    "id": 216,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "If a mortgage that the GSE has guaranteed defaults, what occurs?",
+    "answer": "The GSE will prepay the full mortgage (subject to some constraints). So, this operates as a prepayment as if the individual who defaulted had paid off their mortgage in full."
+  },
+  {
+    "id": 217,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "When rates rise, what does this (all things being equal) do to the prices of MBS?",
+    "answer": "Generally speaking, they will decline. This is because there will be less prepayment so the duration of the MBS increases. Remember that a higher yield results in a lower price and a longer duration – with a positive yield curve environment – meaning that yields will rise."
+  },
+  {
+    "id": 218,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "When we talk about MBS, do we talk about maturity? Or something else?",
+    "answer": "For MBS, we talk about weighted average life (WAL), which is another key difference between MBS and traditional corporate or government bonds. The WAL is an estimated amount of time until the principal of the mortgages are repaid in full. On average, due to prepayments, some mortgages will be repaid much sooner than others even if they all begin with the same 30-year duration. In other words, traditional bonds (whether treasuries or corporates) have a stated maturity (5 years, 10 years, etc.) whereas with mortgages it’s an estimate as even if the MBS is comprised of all 30-year fixed mortgages some will repay sooner in some manner."
+  },
+  {
+    "id": 219,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What’s the average WAL of a 30-year mortgage pool?",
+    "answer": "It may surprise you to know it is normally around 4-6 years! "
+  },
+  {
+    "id": 220,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "How do we estimate the WAL?",
+    "answer": "If we think about what contributes to the weighted average life, it is obviously the speed at which mortgages are prepaid. The industry standard are Prepayment Standard Assumptions (PSAs). PSAs can be calibrated by quants, traders, and researchers due to market dynamics, but the usual assumption is that the rate of repayment increases at an annual rate of 0.2% monthly for the first 30 months and then an annual rate of 6% thereafter."
+  },
+  {
+    "id": 221,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What kinds of mortgages would have a faster prepayment rates?",
+    "answer": "Those that are issued at significantly higher rates than those that prevail today. So, the WAL of a mortgage pool issued at 6%, if 30-year fixed mortgages now are 3%, would be well below the 4-6 year average (probably 2-3 years!). When rates are heavily cut after recessions, MBS duration frequently reaches 1-2 years."
+  },
+  {
+    "id": 222,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "So what happened to WAL during 2020?",
+    "answer": "Rates were cut lots; people saved lots due to not being able to spend money going on vacations, etc.; so the WAL decreased."
+  },
+  {
+    "id": 223,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What do we mean by saying that MBS have negative convexity?",
+    "answer": "As the MBS duration increases (due to lower prepayments, due to rising rates) then so too does the yield on the MBS. Because the yield increases, the price of the MBS drops."
+  },
+  {
+    "id": 224,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Who buys MBS?",
+    "answer": "Primarily fast money (hedge funds) who like the credit profile or funds who actively trade / hold MBSs. MBS trading is a bit more niche or specialized than say treasuries. While it’s a very large market there’s fewer participants than in other areas of rates trading."
+  },
+  {
+    "id": 225,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "How do MBS prices change as mortgage rates fluctuate?",
+    "answer": "MBS are normally issued at par (100) where the coupon rate will roughly match the prevailing yield on comparables. If mortgage rates – after the issuance of the MBS – rise then the price of the MBS would fall. If mortgage rates fall, the the price of the MBS would rise above par (100)."
+  },
+  {
+    "id": 226,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "If treasury yields fell by 100bps (1%), what would this do to the PSA speed and WAL of a MBS?",
+    "answer": "Increase the PSA and lower the WAL. If treasury yields rise by 100bps (1%), what would this do to the PSA speed and WAL of a MBS? PSA would decrease and WAL would increase."
+  },
+  {
+    "id": 227,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What factors should a model that tries to capture prepayments cover?",
+    "answer": "We can use the SMM (single monthly mortality): SMM = RI x MY x SM x BF\r\nRI = Adjusts for refinancing incentive (where are rates and what incentive is there to refinance)\r\nMY = Adjusts for seasonality (spring and fall see more prepayments as more people are moving then)\r\nSM = Adjusts for seasoning (whereby new mortgages have low prepayments, picking up between years 2-5)\r\nBF = Model needs to adjust for burnout whereby after a certain number of years those who will refinance likely already have, those who have not are just not interested"
+  },
+  {
+    "id": 228,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are collateralized mortgage obligations (CMOs)?",
+    "answer": "CMOs are bonds that are backed (collateralized) by either MBSs (passthroughs) or whole loans. CMOs – like CLOs – have tranches that are defined by their principle paydown priority. So if there are three tranches – A, B, and C – all the principal will go to paying off Class A (which could take, for example, three years), then all the principal would go to paying off Class B (which could take, for example, seven 6-7 years as it only begins after year three), etc. These classes will each have associated bonds with the higher classes (e.g. A) having a lower interest rate than the later tranches. This is obviously because they get the first allotment of principal repayments so are more assured of getting their money back."
+  },
+  {
+    "id": 229,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Why would an investor buy a CMO as opposed to a MBS?",
+    "answer": "A CMO is a set of bonds with defined levels of priority – which allows for better risk measurement – and defined interest rates attached to them. "
+  },
+  {
+    "id": 230,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Would longer-duration (e.g. Class B, C) CMO tranches be more or less exposed to pre payment risk?",
+    "answer": "Less exposed as pre-payment risk occurs more in the early years of a mortgage being held than in the later years (remember our discussion of “burnout” before). Those who are likely to refinance will do so at the first opportunity, not after a number of years."
+  },
+  {
+    "id": 231,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What’s the most common CMO structure?",
+    "answer": "There are a number of different types of CMO structures including sequential, interest onlys, principal onlys, and PACs. Sequentials are the most common whereby principal repayments go to the first class until all principal is repaid. During the period at which all principal is being repaid to the first class, interest is being sent to the remaining classes (so they do get something during this period, it’s just only interest). Once the first class / tranche is paid off, then the next class will get all the principal repayments (with the lower classes just getting interest). Note: CMOs get quite complicated quite quickly. Don’t ever expect an interview question on them. \r\n"
+  },
+  {
+    "id": 232,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Philosophically, what are money market securities?",
+    "answer": "Money market securities are a broad set of securities that are usually traded by a singular desk (the money markets desk). These securities have one thing in common: duration. The duration (or maturities) of money market securities are less than a year. Money market securities can be secured or unsecured and can be government-backed – such as Treasury bills – or issued by corporations. "
+  },
+  {
+    "id": 233,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Broadly speaking, what are the two kinds of categories of money market securities?",
+    "answer": "Those that have interest tied to them and those that don’t. For example, certificate of deposits, Fed Funds, and repos all are issued near or at par and have an interest payment tied to them like you are used to seeing with Treasury bonds or corporate bonds. However, because of the short duration of money market securities there are also discounted securities that have no interest payments associated with them. Instead, these securities are issued below par, but mature at par. So, your effective gain on the security is the difference between where it was issued (e.g. 99.75) and where it matured (100)."
+  },
+  {
+    "id": 234,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are some examples of money market securities?",
+    "answer": "As mentioned, money market securities have different names than traditional financial securities. The main money market securities are: Repos, Fed Funds, Treasury Bills, Commercial Paper (CP), and Certificates of Deposit (CDs). "
+  },
+  {
+    "id": 235,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are repos?",
+    "answer": "Repos are one of the most fascinating areas of money markets; generally, there will be the most people on a money markets desk focused on repos than any other money markets type of security. Further, unlike the other money market securities that generally show very little volatility – except in extreme financial conditions like during 2007-09 – repos have significant flares of volatility that can lead to large loses.  https://www.bloomberg.com/news/articles/2020-01-06/why-the-u-s-repo-market-blew- up-and-how-to-fix-it-quicktake    Repos operate under a simple concept: an individual who owns the security enters into a contract – a repo – whereby they sell the security and agree to buy it back at a specified later date at an agreed to price."
+  },
+  {
+    "id": 236,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Simply put, what are muni bonds and who issues them?",
+    "answer": "Municipal bonds are bonds issued to finance capital expenditures that are in the public interest or represent a public good. These capital expenditures can include things like highways, wastewater plants, electrical grids, schools, etc. Municipal bonds are issued by over 100,000 unique entities in the United States including: highway authorities, power authorities, hospitals, school districts, and all levels of government below the federal government (states, cities, counties, etc.)."
+  },
+  {
+    "id": 237,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Are muni bonds issued just for building new projects for the public good?",
+    "answer": "No. They can also be issued in order to fund capital improvements."
+  },
+  {
+    "id": 238,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are some examples of issuers of muni bonds?",
+    "answer": "In order to see examples of issuers of muni bonds, you can head over to the premier resource on muni bonds: https://www.municipalbonds.com/bonds/recent/ Muni bond sales and traders – on the actual trading floor – would have access to Bloomberg as well, which has great muni features. If you’re interested in muni bonds, and plan on bringing it up in an interview, you should know the exact terms of one or two muni bonds. It’s not important to know all the ins and outs of the deal; just who the security is issued by, what the security is funding (e.g. new bridge) and what the terms of the muni bond are."
+  },
+  {
+    "id": 239,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What basic terms would you look at for a muni bond?",
+    "answer": "Things to consider when looking at muni bond – on the surface level – are the same as any other bond: issuers, maturity date, coupon, yield, and price."
+  },
+  {
+    "id": 240,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Explain the tax exemption part of muni bonds to me?",
+    "answer": "Any discussion of the tax except nature of muni bonds should begin by you saying it’s complicated! The nature of tax exception will differ depending on locality and type of issuer and these things change over time slightly. Broadly speaking, when we talk about tax exemption with muni bonds we mean that interest income earned from most municipal bonds is not taxed at the federal level. So for example, if you own $1,000,000 in face value of a muni bond paying 2% then you get $20,000 in annual income free and clear of tax. This makes muni bonds appealing to high net worth individuals looking for relativity safe, tax free income."
+  },
+  {
+    "id": 241,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What about state tax?",
+    "answer": "Usually the state in which the muni bond is issued will be exempt from state tax along with federal tax. However, often you will have to pay state tax on interest income if you buy a muni bond issued out of a different state. Of course, the reason why this is done is to try to incentive people living in a state to help fund projects to be completed in the state. This is not universally true, for example Illinois will tax in-state muni bonds and out-of-state muni bonds in almost all cases."
+  },
+  {
+    "id": 242,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What is unique about U.S. territories issuing muni bonds?",
+    "answer": "No state has the authority to tax interest income from U.S. territories like Guam or Puerto Rico."
+  },
+  {
+    "id": 243,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Can you short a municipal bond or buy credit default swaps (CDS) on them?",
+    "answer": "The technically correct answer is that in finance you can theoretically do just about anything! However, in practice muni bonds are long only. This is because there are so many issuers and so many distinct bonds that you never quite reach the liquid “critical mass” needed to engage in meaningful shorting and be able to create a CDS."
+  },
+  {
+    "id": 244,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "How do we identify individual issuances of muni bonds?",
+    "answer": "By a CUSIP like with the vast majority of other financial products. This is a unique number assigned to stocks and bonds."
+  },
+  {
+    "id": 245,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Why would anyone issue a muni bond?",
+    "answer": "Think about it from the issuer perspective: if you’re able to sell tax exempt bonds – either exempt at the federal or federal and state level – then surely investors will be willing to accept a lower coupon payment than they otherwise would! Therefore, the cost of funding associated with public works projects is substantially lower than it would otherwise be if they tried to fund projects via private bank debt and less politically unpopular than raising taxes."
+  },
+  {
+    "id": 246,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Who buys muni bonds and why?",
+    "answer": "In many areas of S&T the clients being dealt with are large institutional investors; either fast-money clients (hedge funds) or folks like pension funds, sovereign wealth funds, private equity funds, etc. Rarely is it the case that retail investors make up a large share of the market. However, with muni bonds retail investors do because the primary benefit of owning muni bonds is getting tax free income. The two major groups that buy muni bonds, in the context of S&T, are:\r\nMutual funds of various kinds that are catered toward high net worth individuals\r\nInstitutions with excess funds such as insurance companies or smaller regional banks\r\nAnother benefit of muni bonds is that there’s a large amount of diversity in issuers and what is being funded so an individual or institution can make judgement calls (e.g. one may believe a highway in Idaho is a good investment at a 4% coupon because of the strong economic growth in Idaho likely to eventuate over the next 5-10 years)."
+  },
+  {
+    "id": 247,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are the two kinds of muni bonds that exist?",
+    "answer": "Generally speaking, you can break down muni bonds into two different categories:\r\nGeneral Obligation (GO bonds) are “backed” by the taxing power of the state or local government that issued the bond in all respects. The “general” refers to the fact that all general revenues brought in by the issuer - whether that be from sales tax, income tax, property tax, etc. – will be used to pay the bonds. The exact mix of revenues will be contingent on the issuer and what tax authority they have.\r\nRevenue bonds – as the name implies – are paid back via the stream of cash flows that the project itself generates. For instance, a highway could have tolls on it and the toll revenue would be used in order to pay back the revenue bonds issued in order to build the highway. Revenue bonds are therefore types of municipal bonds that are more clearly paid for by the taxpayers who actually benefit from the project being funded. It’s important to note that the revenue bonds do not have a general claim on all the other revenues of the issuer. So, if the project fails to generate revenue, the bond holders can’t go after the income tax or property tax revenues being generated by the issuer, for example."
+  },
+  {
+    "id": 248,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are the six major categories of revenue bonds and examples of projects for each? ",
+    "answer": "Transportation\r\nHighways, airports, seaports, bridges, etc.\r\nRaise funds via tolls or service / use fees of some kind\r\nHigher education and non-profits\r\nPublic or private universities, colleges, and/or community / technical colleges\r\nAcademic research centers\r\nNon-profits such as museums or cultural centers\r\nThese revenue bonds are often issued by Authorities who will have various streams of income (service fees, entrance fees, leasing income, etc.)\r\nHealthcare\r\nHospitals and other health centers\r\nMedical research centers\r\nThese revenue bonds are often issued by Authorities as well who will have various streams of income from multiple projects (insurance re imbursements, federal subsidies / income, etc.)\r\nHousing\r\nPublic housing (low-income, veteran-specific, etc.)\r\nThese revenue bonds are often issued by Authorities as well who will have income from the leasing of these buildings (either directly from individuals or from federal government programs)\r\nUtilities\r\nUtilities are a large category involving large, capital intensive projects around electrical grids, water-sewage systems, etc.\r\nThese revenue bonds can be issued directly by a municipality, region, or state or be issued by an Authority; income comes from the fees all households pay for power, water, etc.\r\nEconomic / industrial development\r\nThis is the largest category and often straddles the line between private / public joint-works; these revenue bonds can be used to fund everything from industrial zones to transit systems"
+  },
+  {
+    "id": 249,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What’s the difference between term bonds and serial bonds? Are these unique to muni bonds?",
+    "answer": "Muni bonds will often have two components: term bonds that, like normal bonds, will mature in 15 or 20 years along with serial bonds that mature every year. The serial bonds will have rates that are more aligned with prevailing market conditions and thus are usually less than those of term bonds (as term bonds include a premium given the fact that rates may rise in the future). The reason for this unique structure is that it largely allows for adjusting size and repayment schedules by having a group of bonds (the serial bonds) maturing every year."
+  },
+  {
+    "id": 250,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "How does a municipal bond get issued anyway?",
+    "answer": "Like any form of security, there is an initial underwriting process whereby the bonds will be bought by various parties for the first time. Then these bonds will be traded on the secondary market. Generally, there are two ways for a bank to participate:\r\nIn a competitive auction, underwriters will bid against each other to buyout the bonds and then reissue them on the secondary market (capturing a spread)\r\nIn a negotiated sale whereby, the underwriter is chosen – in a competitive process – before the sale date While it may seem like a competitive auction would clearly by better for the issuer, by having a negotiated sale the underwriter can work closely with the issuer to ensure that they are going to market at the right price, marketing the offering appropriately, and that the issuer is getting as much money in as possible (via upping the size of the offering). Of course, the issuer needs to be careful in a negotiated sale that they pick the right underwriter and that they end up actually getting the best terms for them."
+  },
+  {
+    "id": 251,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What have the recent trends in muni bond issuance been?",
+    "answer": "If you bring up in an interview that you’re interested in municipal bonds, then the assumption will be that you follow the market a bit. No one is expecting you to be an expert in such an esoteric product, but you should generally have an idea if the market is hot or not. Right now – in 2020 / 2021 – the municipal bond market is trending upwards: https://www.lordabbett.com/en/perspectives/fixedincomeinsights/behind-surge taxable-muni-bond-issuance.html The rise in muni bond supply this year is likely due to both the increased funding needs that have arisen due to COVID-19 and the increased demand for muni bonds due to the record low yields in treasuries (that are likely to stay for a significant amount of time as can be seen in both futures and out the yield curve)."
+  },
+  {
+    "id": 252,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Are munis rated? Are they generally rated highly?",
+    "answer": "Almost all large munis bonds – that have an issuance size in the millions – will get at least one rating from one of the three major rating agencies (with S&P and Moody’s being the largest two). As mentioned, there are roughly 100,000 muni issuers so making any kind of blanket statement is hard. However, defaults do occur – so there is credit risk embedded in munis – but it is still very rare. Here is a good – but slightly old article from 2012 – from the New York Fed on Muni defaults: https://libertystreeteconomics.newyorkfed.org/2012/08/the-untold-story-of municipal-bond-defaults.html As you’d likely expect, industrial development bonds have the largest default rate out of any category given the fact that it is such a broad category and often has private-sector like dynamics within it. If you want to give a ballpark estimate, you should say it depends on the type of muni bond we’re talking about, but in general one-year default rates (the probability of a default happening in any given year) are 0.01-0.09% at most."
+  },
+  {
+    "id": 253,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are more likely to default? GO bonds or revenue bonds?",
+    "answer": "Revenue bonds since if the project itself falls apart the bonds are only backstopped by the revenue from that project (not the general taxing authority of the bond issuer)."
+  },
+  {
+    "id": 254,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "How safe are muni bonds really?",
+    "answer": "To answer this question, it’s best to again differentiate between GO bonds and revenue bonds. GO bonds will have a sliver of credit risk – because states, cities, and counties can default! – but it is rare. GO bonds are likely the second safest form of fixed income product next to treasuries. Revenue bonds can have a much more mixed credit profile depending on the kind of project being backstopped, the credit history of the issuer, etc."
+  },
+  {
+    "id": 255,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "How does trading of munis work?",
+    "answer": "So far we’ve talked primarily about the characteristics of muni bonds and how they get brought to market. But once they’re sold off initially, most muni bonds will actively trade in the secondary market. Munis are unique in that there are thousands of dealers who trade munis back and forth; some dealers specialize in just industrial development bonds, for example, while others – like large banks – will trade across the entire muni spectrum. The way trading munis works in large investment banks is that sales people will have a book of clients – just as described in the Overview guide – that they’ll be talking to about various munis. They’ll often be sending them axes, which are the specific munis they are looking to buy or sell and indicative pricing of them. Clients will contact the sales person inquiring about a certain muni and the trader will make a market (either provide a spread, or just say what they would buy or sell for)."
+  },
+  {
+    "id": 256,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What’s the liquidity of munis like?",
+    "answer": "This largely depends on the issuance size, time since issuance, and any market developments that have occurred. This is a good interview question, because there’s no quick answer. The reality is that if you have a large issuance, from a large issuer, the bond will stay liquid for years potentially and be actively traded by pension funds, hedge funds, and mutual funds. However, for small insuances the market may be liquid for a few months, but will dry up as clients who buy munis do tend to hold them for the longer term rather than trade them back and forth."
+  },
+  {
+    "id": 257,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What’s the average trading volume of muni bonds?",
+    "answer": "Normally somewhere between 10-15 billion dollars per day."
+  },
+  {
+    "id": 258,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "How do you think about the actual yield of a muni bond?",
+    "answer": "The major differentiator of a muni bond is that it is (at least) tax exempt at the federal level. Therefore, when talking about the yields of XYZ muni bond and say an Apple corporate bond it’s not comparing – pardon the pun – apples to apples. Instead, we need to adjust the muni yield quoted to reflect the tax savings. So for example, if we have a muni bond yielding 2.0% and the marginal tax rate is 30% then the Tax Adjusted Yield of the muni bond will be: (Tax Adjusted Yield) = (Quoted Yield)/ (1-tax) or 2.0% / 1-30% = 2.86%. So the fact that this muni bond is tax exempt means that the actual yield, after adjusting for taxes, is 86 basis points (0.86%) higher than it is quoted."
+  },
+  {
+    "id": 259,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Let’s say we have a muni bond and a corporate bond of equal levels of credit risk (in our view) and we adjust the muni bond to take into account the tax savings. Why may the muni bond still have a higher yield?",
+    "answer": "A large reason will be a liquidity premium that is often baked into muni bonds. A liquidity premium is an added yield that certain bonds have because they trade so inactively that it may be difficult to sell them if you need to (especially if you own quite a large amount of the issuance). In other words, Apple has a very deep corporate bond market and you can easily go and sell a large amount of bonds; the same may not be true for muni bonds if you bought a large amount of an illiquid issuance."
+  },
+  {
+    "id": 260,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Are most muni bonds rated highly?",
+    "answer": "Yes, most muni bonds are heavily in the investment grade range; especially if they are GO bonds (because their credit risk is quite small relative to corporate bonds, for example). Most are rated in the A range (Aaa, Aa, A). Historical default rates for A-range muni bonds are 0-0.005 over a ten-year period."
+  },
+  {
+    "id": 261,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Why are you interested in muni bonds?",
+    "answer": "An answer to this common interview question is: I find muni bonds interesting because there are so many issuers – around 100,000 – all issuing unique bonds to fund unique, real-world projects. This makes the market obviously quite illiquid and provides a challenge for those in S&T – whether in trading or in sales – to be fully up on the market; understanding the trends between, for example, housing and industrial development munis; and trying to make good markets for clients while not getting caught on the wrong side of any given trade. It’s also a very opaque market where I think you can learn a lot by being “in the mix” compared to other products where information is more readily disseminated to the public and market professionals alike. I find the niche aspect of munis to be a real pro, whereas others may view that as being a con."
+  },
+  {
+    "id": 262,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are treasuries? Can you categorize them?",
+    "answer": "Government debt issued by the U.S. Treasury that are backed by the full faith and credit of the United States. There are several distinct categories based on maturity.\r\nBills have a maturity of under a year and are traded by the money market desk\r\nFRNs are 2yrs and much less common than any other form of government debt\r\nBegan in 2014, floating rate linked to 3-month T-Bills with coupons paid quarterly\r\nNotes are 2, 3, 5, 7, and 10 years in maturity\r\nBonds are 30 years in maturity"
+  },
+  {
+    "id": 263,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are TIPS?",
+    "answer": "Most countries – including the United States – have inflation-protected securities that offer an interest rate over and above whatever the CPI happens to be. This locks in a certain real rate of return, whereas traditional Treasuries do not. TIPS are issued as 5 or 10 year notes or 30 year bonds."
+  },
+  {
+    "id": 264,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "How many Treasuries are currently outstanding?",
+    "answer": "Roughly $22 trillion as of late 2020."
+  },
+  {
+    "id": 265,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are the major government bonds referred to outside the U.S.?",
+    "answer": "Japanese Government Bonds (JGBs)\r\nOne of largest markets in the world; 2, 5, 10, 15, 20, 30, and 40yr maturities\r\nGerman Government Bonds\r\nFederal Bonds (Bunds) are 10yr or 30yr\r\nFederal Notes (Bobls) are 5yr\r\nFederal Treasury Notes (Schatze) are 2yr\r\nTreasury Discount Paper / Bills (Bubills) are 3, 6, 9, and 12 months\r\nUK Government Bonds (Gilts)"
+  },
+  {
+    "id": 266,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What is the auction process for Treasuries?",
+    "answer": "Treasuries are auctioned via a Dutch auction process. At a specific time, all primary dealers – which includes all the major domestic banks - must submit bids to the Treasury. Once the auction closes the bids are analyzed and the issue is auctioned at the lowest yield that fills the total auction amount (all those who bid lower, in terms of yield, are filled at this level). Importantly, those who bid at a yield too high will not get any fill and those who bid lowest will be filled first at the amount they requested."
+  },
+  {
+    "id": 267,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "When do auctions take place?",
+    "answer": "For 2yr, 3yr, 5yr, and 7yr auctions take place every month. For 10yr and 30yr it is every three months."
+  },
+  {
+    "id": 268,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What do we mean by “benchmark” bills, notes, or bonds?",
+    "answer": "The most recently issued security is the benchmark. Benchmarks are the most liquid security and when a new security of the same maturity (e.g. a new 5yr note) is issued the previous benchmark is termed as an “off the run” security."
+  },
+  {
+    "id": 269,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "How many different issues of notes and bonds are in circulation at any given time?",
+    "answer": "By definition, 24 2yr, 36 3yr, 60 5yr, 84 7yr, 40 10yr, and 120 30yr. This is part of the issue with any level of automation within rates trading; there are 364 different securities, of varying amounts of time until maturity, that will likely be issued with different coupons, and that will have different yields and prices. Many people naively think of rates like equities; every 2yr note is the same just like every common share of Apple is the same. This is simply not the case; bonds quickly get quirky!"
+  },
+  {
+    "id": 270,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "When do treasuries pay coupons?",
+    "answer": "Semi-annually."
+  },
+  {
+    "id": 271,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are treasury futures?",
+    "answer": "Futures allow market participants to take views on future rate movements in an off balance sheet capacity. There are six futures:\r\nTU (2yr)\r\nFV (5yr)\r\nTY (10yr)\r\nTN (10yr, ultra-long)\r\nUS (30yr)\r\nAUL (30yr, ultra-long)\r\nTreasury futures are used routinely in hedging and are incredibly liquid just like the benchmark treasuries are. Ultimately, a future obliges the seller to deliver an underlying security (not a future) sometime in the future (so a 10yr future would require a delivery of a 10yr Note)."
+  },
+  {
+    "id": 272,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What about a forward? Are there differences between a forward and a future?",
+    "answer": "Futures are standardized and centrally cleared (via CME) while forwards are custom contracts between two parties. "
+  },
+  {
+    "id": 273,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "When do futures expire?",
+    "answer": "H (March) M (June) U (September) Z (December)"
+  },
+  {
+    "id": 274,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What does FVZ20 mean?",
+    "answer": "5-year futures contract expiring Dec 2020."
+  },
+  {
+    "id": 275,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "When a seller of a future has to deliver an underlying security later on, how do they know which one to deliver?",
+    "answer": "All futures contracts specify a basket of securities (for example, a group of five-year Notes) that are acceptable to be delivered by the seller of a futures contract. The seller gets to decide which one to deliver and, as you would expect, the security that will be delivered is termed the cheapest to deliver (CTD). Given this, the futures contract will trade very close to what the cheapest to deliver issue happens to be at present."
+  },
+  {
+    "id": 276,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "How are treasuries quoted?",
+    "answer": "We think about treasuries primarily via the lens of yields, but they are still priced in dollar terms (not as a reference to yield). Treasuries are traded in 32nd increments; meaning if you see a price like 100-17 that means 100 + 17/32 or 100.53125. Alternatively, you may see 100-17+, where the + means a 0.5 so 100-17+ would be equivalent to 100 +17.5/32 or 100.546875."
+  },
+  {
+    "id": 277,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "We’ve mentioned before the existence of a yield curve, what is that?",
+    "answer": "A yield curve is an interpolated curve showing the relationship between yield and maturity. The curve is interpolated because in reality there are not bonds at every single possible maturity point (e.g. maturities of exactly 892 days away, for example). Instead, the curve has real points correlating to the maturities of the major bills, notes, and bonds and the line is essentially “filled in” between them. This is a rough description as yield curves interpolation is a bit more complicated. Every country will have its own yield curve. You can see the U.S. Treasury’s yield curve points here: https://www.treasury.gov/resource-center/data-chart-center/interest rates/pages/textview.aspx?data=yield"
+  },
+  {
+    "id": 278,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What shapes do yield curves normally take?",
+    "answer": "Yield curves normally take an “upward sloping” shape indicating that as maturities increase so too do yields. This should make sense as investors should want more compensation (more yield) for holding government debt longer."
+  },
+  {
+    "id": 279,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What would it mean for there to be a steep yield curve?",
+    "answer": "A steep yield curve would indicate the market views it as likely that interest rates will rise over time."
+  },
+  {
+    "id": 280,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What would an inverted yield curve mean?",
+    "answer": "An inverted yield curve is much rarer, but the same intuition applies. If the long end of the curve is lower than the front-end then that indicates that rates should move significantly lower for the foreseeable future (but just haven’t yet, because the Fed hasn’t cut yet to move the very front end of the curve down)."
+  },
+  {
+    "id": 281,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Where do trades happen in rates trading?",
+    "answer": "Benchmarks trade on electronic exchanges managed by inter-dealer brokers; this is where banks trade. Futures trading happens on one exchange, the Chicago Mercantile Exchange."
+  },
+  {
+    "id": 282,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Who are the clients in rates?",
+    "answer": "As mentioned earlier, because of the liquidity and electronic nature of trading small asset managers or high net worth individuals can buy most rates products – except perhaps illiquid off-the-runs – on their own. The role of the rates traders is to provide liquidity to these exchanges and deal with large block-size trades from institutional clients. These clients can be other banks, corporates, pension funds, sovereign wealth funds, hedge funds, among others."
+  },
+  {
+    "id": 283,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are STRIPS?",
+    "answer": "Treasuries can be thought of – just like most other fixed income instruments – as having a coupon component and a principal component. However, some investors may want to have just a claim on the principal or just a claim on the coupons (without the principal). STRIPS (separate trading of registered interest and principal of securities) involves trading just the principal or interest components of a treasury."
+  },
+  {
+    "id": 284,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "How do yields and prices move?",
+    "answer": "Inversely. So, as yields go down, prices go up."
+  },
+  {
+    "id": 285,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Is the relationship between yields and prices linear?",
+    "answer": "No. To approximate this change a concept known as duration is used. The longer the maturity of the security, the more duration that exists."
+  },
+  {
+    "id": 286,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What is DV01 (or PV01)?",
+    "answer": "DV01 or PV01 refer to how much a certain bond – or collection of bonds in your inventory – move when the underlying moves by one basis point."
+  },
+  {
+    "id": 287,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What do we mean by curve trades?",
+    "answer": "When we talk about a rates trader’s book being properly positioned and taking advantage of the market, this obviously doesn’t mean that if 2yr bonds are overvalued he or she just won’t have any! Rates traders have such large books that they will always have millions of dollars’ worth of bonds that they may or may not like in order to facilitate client flow and generally be in the market. Instead the way that a rates trader positions their book is by taking advantage of changes in the yield curve. For example, there’s nothing you can do about owning a lot of 2s. However, maybe you think that 2s will go down more than 5s. This would create a flattening of the yield curve between those two points in the yield curve. Curve trades involve taking advantage of the relative changes in one bond compared to another along the yield curve by using treasuries and futures to be relatively overweight or underweight certain areas of the curve."
+  },
+  {
+    "id": 288,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What do we mean by, for example, a 2s5s flattener?",
+    "answer": "A 2s5s flattener would mean that we think that the area of the yield curve between the 2yr and the 5yr treasury will become flatter. We can take advantage of this by selling 2yrs and buying 5yrs thus positioning our book to benefit (in price terms) from either an increasing 2yr yield or a declining 5yr yield (or both happening at the same time)."
+  },
+  {
+    "id": 289,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What would a 5s10s steepener mean?",
+    "answer": "A 5s10s steepener would mean that we believe that the area of the yield curve between the 5yr treasury and the 10yr treasury will steepen out. We can take advantage of this by   9 buying the 5yr and selling the 10yr. This way if the 5yr’s price goes up or the 10yr’s price goes down (or both) we stand to benefit."
+  },
+  {
+    "id": 290,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What routine news events have a large impact on rates?",
+    "answer": "Federal Open Market Committee meetings, which occur eight times a year at routine intervals\r\nSpeeches from Federal Reserve board of governors and the Fed chair\r\nNon-Farm Payrolls – monthly stat detailing the total number of US workers, which is released on the first Friday of every month\r\nMonth / Year End – Quarter and year ends tend to involve rebalancing of portfolios. In particular from large institutional clients like endowments, pension funds, etc.\r\nQuarter End – US futures expire quarterly so market participants have to roll their holdings forward\r\nAuction results can lead to market turbulence if there is less than anticipated demand with yields coming in higher than expected (or vice versa)"
+  },
+  {
+    "id": 291,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are traditional swaps?",
+    "answer": "There are many forms of swaps, the most traditional being the fixed for floating swap. The utility of this kind of swap is that if you think, for example, that rates will rise instead of receiving fixed coupon payments you can get a floating rate that will increase as rates do (thus making you better off in a rising rates environment, worse off in a declining rates environment)"
+  },
+  {
+    "id": 292,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are the key terms for a swap?",
+    "answer": "Settlement Date (when the swap is settled)\r\nTerm (length of swap)\r\nPayment frequency (e.g. monthly, quarterly, semi-annually, yearly)\r\nNotional amount (the amount the swap is based on, even though notional amounts are not exchanged unless explicitly stated)\r\nFor example, even if the notional amounts aren’t exchanged a $1m notional swap will mean smaller payments exchanged than if one enters into a $100m notional swap (since fixed and floating precents are multiplied by the notional amount hypothetically swapped)\r\nRate Terms (what the fixed rate is and what the floating rate and spread are)\r\nCounterparties (who is receiving fixed, who is paying fixed)"
+  },
+  {
+    "id": 293,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are fixed-for-floating swaps used for?",
+    "answer": "They can be used to hedge interest rate risk by transforming fixed coupons into floating rate payments (that will rise as rates do). Swaps also can allow an investor to take out right views on rates and can become very esoteric."
+  },
+  {
+    "id": 294,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are the kinds of swaps that exist today?",
+    "answer": "Fixed-for-floating\r\nBasis swaps\r\nSpot starting vs. forward starting\r\nAsset swaps\r\nCurrency swaps\r\nCallable / Puttable\r\nConstant notional value vs. amortizing value"
+  },
+  {
+    "id": 295,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are basis swaps?",
+    "answer": "Basis swaps simply swap floating cashflows, as opposed to one leg being floating and one leg being fixed. For example, a basis swap will often involve USD SOFR vs SOFR in another currency to take a view on relative exchange rate moves. Basis swaps can also involve swapping rates from different curves in order to speculate on relative curve changes."
+  },
+  {
+    "id": 296,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What characterizes swaps on day one?",
+    "answer": "Each leg or side of the swap (the fixed side or the floating side) will have equal value at initiation. In other words, it’s a fair trade at the starting point and one side will “win” if what drives the value of the swap moves in their direction (e.g. rising rates will help those who receive floating interest and hurt those that receive fixed interest)."
+  },
+  {
+    "id": 297,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are the two risk measures for swaps?",
+    "answer": "DV01 and convexity. DV01 is the sensitivity of the asset to rates, which can be thought of as the derivative of price. Convexity is the sensitivity of DV01 to rates or the derivative of DV01."
+  },
+  {
+    "id": 298,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What would high convexity imply?",
+    "answer": "That you benefit more from rates being volatile."
+  },
+  {
+    "id": 299,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "In swaps are principal amounts exchanged as well?",
+    "answer": "No. Principal (notional) amounts are used only to figure out the amount of interest going back and forth. So, for example, a $1m swap at 5% would see fixed payments of $50,000 annually going to the counterparty; however, at no point does the actual $1m amount change hands. Notional amounts stay constant through the life of a swap unless it is an amortizing swap in which case the amount of annual principal reduction the swap legs are based on is articulated. "
+  },
+  {
+    "id": 300,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What documents govern swaps?",
+    "answer": "ISDA agreements that set out the agreed upon terms that are – unless otherwise specified – follow convention."
+  },
+  {
+    "id": 301,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What’s the usual maturities of swap trades?",
+    "answer": "Maturities of 1 to 10, 12, 15, 20, 25, and 30."
+  },
+  {
+    "id": 302,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "Backing up for a second, what is SOFR (that the floating leg of an IRS is based on)?",
+    "answer": "So, a fixed rate payer pays a fixed coupon amount and at the initiation of a swap an equivalent amount of 3M SOFR (plus a spread) is paid as the floating leg. The Secured Overnight Financing Rate is a broad measure of the cost of borrowing cash overnight collateralized by Treasury securities. You’ll often see this quoted as SOFR + 300bps, which just means the SOFR rate at a given time plus 3% (300 basis points)."
+  },
+  {
+    "id": 303,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "How does a bank balance sheet compare to that of a traditional company?",
+    "answer": "The primary difference is that the assets of a bank will be made up of the securities they hold; either primary issuance (loans) or bought on the secondary market (such as securities bought for trading purposes). On the liabilities side there will be a mix of equity, debt, and deposits. Deposits refer to retail deposits made by consumers (e.g. if I put $100,000 in my savings account, that is a liability on the banks’ balance sheet)."
+  },
+  {
+    "id": 304,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What does marked-to-market refer to?",
+    "answer": "Lots of regulations around banks surround marked-to-market accounting. Simply put, this is where every day certain securities held by the bank (assets) are valued at their fair market value (what they are trading at in the market). As you can imagine, during volatile periods this can create the appearance of stress. For example, if you have credit assets fall in value across the board by 5% - due to some large negative event that caused the market to crash broadly – all of a sudden your “assets” side of the balance sheet has shrunk quite a bit and the bank could appear stressed (because liabilities would stay roughly the same). This was a large issue in the financial crisis. Mortgage backed securities fell significantly in value – even though many viewed them as being much safer securities over the long run than the market was pricing – but nevertheless banks were forced to sell them off at cheap prices in order to stay “solvent”."
+  },
+  {
+    "id": 305,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What is marked-to-model?",
+    "answer": "For securities that are more complex in nature and aren’t actively traded, sometimes priced will be determined by marked-to-model where an agreed upon model will be used to price the securities after purchase (regulators will closely scrutinize these models)."
+  },
+  {
+    "id": 306,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "How do banks make money?",
+    "answer": "This is actually sometimes asked in interviews and is a good question. It shows that you understand (roughly!) how a bank works. For a retail bank – one that actively takes deposits and lends to consumers – with an investment banking side the following streams exist. This would include banks you’ll likely apply to like J.P. Morgan, BAML, and even now Goldman Sachs (since they are now taking retail deposits via Marcus).\r\nTrading / Investing profits\r\nProfits from issuance of securities and from the trading of securities in the secondary market\r\nThis can include proprietary investments (where possible) and investments in credit or PE funds started by the firm itself\r\nFees from Services\r\nIn investment banking (M&A, ECM, DCM) and asset management, banks earn a fee from doing an activity, rather than warehousing risk like in trading\r\nFor ECM and DCM there is some element of warehousing risk, however it is distinct from how risk is warehoused by traders\r\nNet interest income\r\nThe difference between what you are paying depositors and what you are earning on money lent out\r\nInclusive of this are interest payments earned from securities held by traders\r\nYou should briefly take a spin through the 10-K or 10-Q documents of the bank you’re interviewing at to get an idea of the mix of income they have. Every bank will be different. For example, Goldman earns little net interest income and roughly equal amounts from trading and investment banking fees. JPM and BAML on the other hand are incredibly large banks – with lots of retail customers – who will earn lots of net interest income (in conjunction with trading profits and investment banking fees). This makes them more sensitive to lower rates as less net interest income is earned all things being equal."
+  },
+  {
+    "id": 307,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are the two major regulatory changes that have affected S&T over the last decade?",
+    "answer": "The two major regulatory changes are the full implementation of Basel 3 (2019) and Dodd-Frank (came into effect in 2015-2016). Note that both of these were long forecast by regulators and slowly introduced. While both regulations are very complex and lengthy, the best way to boil them down is that Basel 3 is focused in on capital controls (keeping banks sufficiently liquid, in their view) and Dodd-Frank is focused in on trading controls (keeping banks from doing risky things). Dodd-Frank is a U.S. based law with the most relevant portion – for S&T – being in the form of the Volcker rule, which lays out rules surrounding taking proprietary positions as a trader. These positions are defined as those that are not taken in order to facility client transactions, but rather purely to speculate. Here’s a good flow chart on Dodd-Frank: https://www.davispolk.com/files/DavisPolk_Final_Volcker_Rule_Flowcharts_Prop_Trading.pdf Basel 3 comes out of the Bank for International Settlements (BIS) and has had a number of iterations going back to the 1990s."
+  },
+  {
+    "id": 308,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "So, Basel 3 is about capital controls, what do we mean by that?",
+    "answer": "Basel 3 further solidifies the minimum levels of risk-weighted-assets and how much capital the bank must have set aside (in the event of market volatility that leads to losses). Banks now must keep a minimum of 8% capital to RWA. What this means practically is that more riskier assets require more balance sheet (capital) set aside for it. So, a bank needs to choose between holdings lots of liquid, relatively stable assets or a smaller amount of illiquid, volatile assets (like distressed debt). Capital must also be increased beyond the 8% for banks that are Global Systemically Important Financial Institutions (GSIFIs) by 2.5%. What Basel 3 does practically is reduce down the possible ROE (return on equity) of banks because the amount of equity a bank must hold is higher than it has been in the past and regulations skew toward incentivising banks to hold trading asset that allow for less returns as well (because less volatile assets obviously produce lesser potential returns). You can learn more about Basel 3 here, from the BIS: https://www.bis.org/bcbs/basel3.htm"
+  },
+  {
+    "id": 309,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What are the two major ratios introduced in this new round of regulation?",
+    "answer": "The Liquidity Coverage Ratio (LCR) and Net Stable Funding Ratio (NSFR). Both of these are meant to test whether a bank can stay solvent during a downturn and are continually calculated. The LCR is roughly defined as the amount of high-quality liquid assets (that can be converted into cash in less than 30 days) divided by the net cash outflows that are likely to occur over a 30-day period (the ratio must exceed 1). High Quality Liquid Assets (HQLA) essentially refer to cash-like assets such as treasuries or AAA securities with a quasi-sovereign guarantee. The NSFR is a bit less straight forward. The purpose of the ratio is to illustrate how assets and liabilities are matched in duration; meaning that you aren’t funding the bank in the overnight market, while lending out money at 30-years, for example. If a bank were to do this – as some did to a certain degree during the great financial crisis – you would expose the bank to have funding / liquidity risk if the short-term funding market seized up due to not being able to liquidate your long dated maturities quickly. The NSFR is just: Stable Funding Available / Stable Funding Required, where the amount available and required is carefully calculated based off of the maturity profile of assets and liabilities of the bank and the ratio must be in excess of 1."
+  },
+  {
+    "id": 310,
+    "category": "Technical",
+    "source": "Zachary's Base Set",
+    "question": "What is value-at-risk?",
+    "answer": "VaR is one of the ways in which risk is thought of on trading desks. VaR is an estimate of the maximum loss that can be had on any given day from holding a given set of products with a confidence interval of 95% or 99% usually. For example, assuming a normal distribution of returns on a set of products held, a 99% degree of confidence would mean a standard deviation of 2.32 (95% would be 1.645). If we had a 95% one-month VAR over a given month there is a 95% chance we’ll lose no more than, for example, $100,000 (but a 5% chance we’ll lose more than $100,000).\r\n"
+  }
+]
