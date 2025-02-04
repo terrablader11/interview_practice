@@ -60,7 +60,7 @@
                 let selected = [];
                 for (let i = 0; i < num && questions.length > 0; i++) {
                     const randomIndex = Math.floor(Math.random() * questions.length);
-                    selected.push(questions.splice(randomIndex, 1)[0]);
+                    selected.push(questions.splice(randomIndex, 1)[0].question); // Extract only the question
                 }
                 return selected;
             } catch (error) {
@@ -95,7 +95,9 @@
             document.getElementById('question-box').innerHTML = selectedQuestions.join('<br><br>');
         }
         
-        window.fetchRandomQuestions = fetchRandomQuestions; // Ensure function is globally accessible
+        window.fetchRandomQuestions = fetchRandomQuestions;
     </script>
 </body>
 </html>
+
+
