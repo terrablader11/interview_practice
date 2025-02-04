@@ -1250,8 +1250,8 @@
   {
     "id": 209,
     "category": "Technical",
-    "question": "Can you put a little more meat on the bones?",
-    "answer": "If we have a pool or mortgages with a rate of 4.00% what will investors receive? 4.00%? Sure, let’s say we have a pool of $100m worth of mortgages. By this, we mean there is an outstanding balance of $100m on the mortgages. Let’s say the average coupon is 4.00%. A MBS will have a Servicing Fee (paid to issuer of the MBS as a form of administrative fee) of around 50bps (0.50%) and an Agency (guarantee) Fee of around 15bps (to absorb any losses by the Agency). Therefore, the MBS coupon would not be 4.00% (even though that was the average for all the mortgages), but rather 4.00-0.65 or 3.35%. "
+    "question": "Can you put a little more meat on the bones? If we have a pool or mortgages with a rate of 4.00% what will investors receive? 4.00%?",
+    "answer": "Sure, let’s say we have a pool of $100m worth of mortgages. By this, we mean there is an outstanding balance of $100m on the mortgages. Let’s say the average coupon is 4.00%. A MBS will have a Servicing Fee (paid to issuer of the MBS as a form of administrative fee) of around 50bps (0.50%) and an Agency (guarantee) Fee of around 15bps (to absorb any losses by the Agency). Therefore, the MBS coupon would not be 4.00% (even though that was the average for all the mortgages), but rather 4.00-0.65 or 3.35%. "
   },
   {
     "id": 210,
