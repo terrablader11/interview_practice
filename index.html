@@ -24,24 +24,64 @@
             font-size: 16px;
             cursor: pointer;
         }
+        .options {
+            margin: 20px;
+        }
     </style>
 </head>
 <body>
-    <h1>Random Interview Question</h1>
-    <div id="question-box">Click the button to get a question</div>
-    <button onclick="fetchRandomQuestion()">Get Question</button>
+    <h1>Random Interview Questions</h1>
+    <div class="options">
+        <label for="num-questions">Number of Questions:</label>
+        <input type="number" id="num-questions" min="1" max="10" value="1">
+        <br>
+        <label for="category">Category:</label>
+        <select id="category">
+            <option value="Behavioral">Behavioral</option>
+            <option value="Technical">Technical</option>
+            <option value="Markets">Markets</option>
+        </select>
+        <br>
+        <label for="tmay">Include 'Tell Me About Yourself'?</label>
+        <input type="checkbox" id="tmay">
+        <br>
+        <label for="pitch">Include 'Pitch'?</label>
+        <input type="checkbox" id="pitch">
+    </div>
+    <button onclick="fetchRandomQuestions()">Get Questions</button>
+    <div id="question-box">Click the button to get questions</div>
 
     <script>
-        async function fetchRandomQuestion() {
+        async function fetchRandomQuestions() {
             try {
                 const response = await fetch('https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/questions.json');
                 if (!response.ok) throw new Error('Failed to fetch questions');
                 const questions = await response.json();
-                const randomQuestion = questions[Math.floor(Math.random() * questions.length)];
-                document.getElementById('question-box').textContent = randomQuestion;
+                
+                const numQuestions = parseInt(document.getElementById('num-questions').value);
+                const category = document.getElementById('category').value;
+                const includeTMAY = document.getElementById('tmay').checked;
+                const includePitch = document.getElementById('pitch').checked;
+                
+                let filteredQuestions = questions.filter(q => q.category === category);
+                let selectedQuestions = [];
+                
+                for (let i = 0; i < numQuestions && filteredQuestions.length > 0; i++) {
+                    const randomIndex = Math.floor(Math.random() * filteredQuestions.length);
+                    selectedQuestions.push(filteredQuestions.splice(randomIndex, 1)[0].question);
+                }
+                
+                if (includeTMAY) {
+                    selectedQuestions.push("Tell me about yourself.");
+                }
+                if (includePitch) {
+                    selectedQuestions.push("Give me your pitch.");
+                }
+                
+                document.getElementById('question-box').innerHTML = selectedQuestions.join('<br><br>');
             } catch (error) {
                 console.error(error);
-                document.getElementById('question-box').textContent = 'Failed to load question.';
+                document.getElementById('question-box').textContent = 'Failed to load questions.';
             }
         }
     </script>
