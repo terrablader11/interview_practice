@@ -1,0 +1,77 @@
+What are the future value and present value formulas?
+
+FV = PV(1+r)^n where r is the interest rate and n denotes the number of periods. PV is just the rearranged formula, or: PV = FV/(1+r)^n. Note that the denominator of the PV formula operates as a discounting mechanism; the more periods that go by (the higher the n value) the smaller the PV will end up being as the denominator will be growing.
+
+If we have $1,000 in starting capital, growing at 6% a year, over 10 years (with interest compounded annually), what is the future value?
+
+$10001.0610=$1,790.85
+
+What is Net Present Value (NPV)?
+
+NPV is simply the present value of cash inflows minus the present value of cash outflows.
+
+What is IRR?
+
+Internal rate of return is the discount rate at which NPV equals zero.
+
+What are the three financial statements?
+
+Income Statement
+Takes into account information from the current period that affects taxes
+Balance Sheet
+The balance sheet represents a snapshot of the assets, liabilities, and shareholders equity of a company at a given time
+Cash Flow Statement
+The CFS has three distinct sections: cashflow from operations (CFO), cashflow from investing (CFI), and cashflow from financing (CFF). o Unlike the income statement that will show non-cash expenses – like depreciation – the cash flow statement purely shows what affects the underlying cash balance of the company
+
+How do the three statements tie together?
+
+The primary ways are as follows.
+Net income (on the income statement) will flow into retained earnings within the shareholders equity section of the balance sheet
+Net income will also flow to the top of the cash flow statement
+The ending cash balance on the cash flow statement will flow to the top of the balance sheet
+
+What is EBITDA? Why is it important?
+
+EBITDA (earnings before interest, tax, depreciation, and amortization) is a common multiple used in company valuation and in the covenants that govern debt documents. EBITDA can be found by taking net income then adding back interest expense, tax expenses, depreciation, and amortization. EBITDA is a normalizing metric that strips the company of capital-structure or company-specific choices in expensing and thus allows for better comparison between companies.
+
+What are some common equity rations?
+
+P/E = (Current Share Price) / ( EPS)
+PEG = (P/E) / (Earnings Growth)
+Dividend Yield = (Dividend per Share) / (Current Share Price)
+
+What are the three primary ways to value a company?
+
+In M&A banking – as you may know – there are three primary valuation techniques that will be utilized to narrow in on an appropriate valuation range for a company: precedent transaction analysis, comparables analysis, and discounted cash flow analysis. A LBO analysis may be done as well to set a floor on the valuation of a company (if a sponsor – meaning private equity fund – were to buy it). A very brief overview of each is as follows. These are good to know, but you shouldn’t expect traditional investment banking technicals in your S&T interview.
+Precedent Transaction Analysis
+Looking at past M&A transactions and applying the purchase EV/EBITDA multiple to the company you are looking at
+Comparables Analysis
+Looking at current publicly traded companies that are comparable to the one you’re looking at, finding the EV/EBITDA multiple of each, averaging them out, and applying the multiple to the company you’re looking at
+Discounted Cash Flow Analysis
+Forecast the FCF of the company for five years and discount it back to today, then apply a terminal multiple to year five FCF and discount that back as well. The summation of these discounted cashflows and terminal value will yield an enterprise value (what the company is hypothetically worth)
+LBO Analysis
+Complete a LBO model that shows the maximum amount that a private equity fund would likely pay for the company; private equity funds will pay a lower EV/EBITDA than traditional buyers so this sets a floor on valuation
+
+What is enterprise value conceptually?
+
+Enterprise value is the value of the company if one were to buy it outright. While EVs can get quite involved; the most basic formula is EV = equity value + preferred stock + outstanding debt + minority interest – cash and cash equivalents
+
+What’s the difference between enterprise value and equity value?
+
+Equity value is simply the market value of the company; the amount of fully diluted shares outstanding times the share price.
+
+When we talk about valuation multiples for a company, what are we almost always referring to? 
+
+Enterprise Value (EV) / EBITDA. Sometimes EV/revenue or EV/EBIT will be utilized. However, EBITDA is almost always the norm as it eliminates D&A variability across companies. If for some reason a company has a distorted EBITDA – perhaps because they are a young, fast growing tech company – a different multiple like EV/revenue or EV/users will be utilized.
+
+What is the primary difference between a DCF and the other major valuation techniques of precedent transactions and comparables analysis?
+
+A DCF projects forward free cash flows – which are derived from projections of financial statement line items – so is untethered to current market prices or past transactions. Precedent transactions and comparables are tied to the market, however, as they involve either past transactions (precedent transactions) or equity value in the enterprise value formula (in the case of comparables analysis).
+
+How do we arrive at free cash flow utilized in a DCF?
+
+In a DCF unlevered FCF is utilized, not levered FCF (levered takes into account debt payments). FCF will simply be: EBIT (1-tax rate) + Non-Cash Expenses like depreciation and amortization - changes in working capital - capex (capital expenditures) = Unlevered FCF
+
+How are FCFs discounted in a DCF?
+
+All FCFs – including the terminal value – will be discounted at the weighted average cost of capital (WACC). WACC = (percent of equity in capital structure x cost of equity) + (percent of debt x cost of debt)(1-t) + (percent of preferred stock x cost of preferred equity).

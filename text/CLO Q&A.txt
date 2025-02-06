@@ -1,0 +1,61 @@
+Philosophically, what is a CLO?
+
+A CLO is a the largest, most actively traded form of securitized product that exists today. CLOs operate by taking leveraged bank loans, pooling them together, and then creating tranches of securities (bonds) off of these that are backed by the cashflows of said loans. The point of a CLO fundamentally is risk transformation. You take loans that are individually risky, pool them together, and then give first priority to the highest class of bonds (the highest tranche) in the CLO. This makes this top tranche very safe and thus they will get a AAA rating from a credit rating agency. Of course, not every tranche will be as safe! Lower tranches will have a lower payment priority (only getting cashflows after the other tranches have been paid) and so have higher levels of risk and reward (in the form of the coupon payment tied to them). The important point once again is that CLOs provide risk transformation; turning uniformly risky loans into bonds that are either very safe, or quite risky themselves.
+
+Who are the parties involved in a CLO at issuance?
+
+CLOs will always have a SPV (special purpose vehicle) that can be thought of as the nerve center via which all counterparties interact. Investors will put cash into the SPV in return for notes (bonds) at the various tranches. A collateral manager will then be responsible for filling the SPV with leveraged loans that will make up the CLO (these can either be new issuance or loans already trading in the secondary market). When the CLO is filled with levered loans, a credit rating agency will assign credit ratings to each tranche of debt (outside the “equity” tranche). The underwriter is responsible only for underwriting the notes (bonds) and distributing them to investors; they have no role after this. The trustee will then collect the cashflows from the loans and send them to investors in order of their priority (as specified in the notes). 
+
+How is a CLO itself structured?
+
+As mentioned, the CLO itself will be broken down into several tranches. These tranches will have decreasing levels of priority on the underlying cash flows of the levered loans that make up the CLO (to be discussed later). The top tranche, which makes up the majority of the notes issued by the CLO, will often be structured to ensure that it gets a AAA rating from credit agencies (thus making investors feel it is safe). The bottom tranche, called “equity”, will have the lowest payment priority and is not rated and viewed as being quite risky. An important point in the graphic above is that the levered loans that make up the CLO often overcollateralize the issuance. What this means is that in theory, if none of the loans default, then equity should get much more than what they put in! However, the risk equity runs is that levered loans are risky and some that make up the CLO may end up defaulting. So even though the CLO itself is overcollateralized at issuance, equity and some of the tranches above it may be at risk of not being paid back in full over time.
+
+After the collateral manager make the initial selections for what levered loans will make up the CLO, what does he or she do?
+
+The collateral manager – who will not be an employee of a bank that actively trades CLOs - will then oversee the portfolio and re-invest or trade the loans that make up the portfolio during the re-investment period (typically 4-5 years).
+
+Backing up a second, what is a leveraged (levered) loan anyway?
+
+Leveraged loans are the backbone of the private equity industry. They are often issued when a buyout or acquisition of another company occurs. Levered loans are, like all loans, senior in the capital structure (usually first lien, called 1L, with little debt in front of it) and secured against specific corporate assets. Levered loans do have risk. If the company defaults it is not a guarantee that the loan will have a full recovery; however, because of the position in the capital structure, the recovery rate of a levered loan is often in the ballpark of 50-70%.
+
+Can CLOs be made up of credit assets outside of levered loans?
+
+Levered loans always make up the majority of the CLO. CLOs can be structured differently, if all parties at inception agree to it, by giving the collateral manager the mandate to buy other forms of loans (such as second lien, called 2L, loans that are further down the capital structure than the typical 1L levered loans and are thus riskier).
+
+Who buys CLOs?
+
+You can generally think of the buyers of CLOs as being broken down by tranche. The AAA tranche – the safest, with the lowest return – is often bought by banks, pension funds, and endowments. This is because AAA CLO tranches offer nice yield, but also do not contribute much to the risk profile. As we’ve discussed many times, banks in particular need to be sensitive to regulatory risk-weighted-asset (RWA) measures and anything rated AAA will not require much balance sheet (however, keeping the equity tranche would require substantial amounts!). For the next few tranches below AAA you’ll see more “fast money”, which simply means hedge funds and alternative credit funds who have a mandate for buying low A to high B rated securities. This is the broadest group of buyers and often transact in smaller size than those who purchase in the AAA tranche. For the lowest tranches – including equity – the buyers are almost exclusively hedge funds, or the opportunistic credit arms of private equity companies, who will carefully analyze the levered loans that make up the CLO and decide whether or not they like the risk / return profile of these low tranches.
+
+If you’re any of these buyers, why not just buy pieces of loans that are actively traded in the secondary market?
+
+Many large loans will be syndicated after issuance and traded on the secondary market. This raises the question of why one would not just buy the exact loans they like directly, as opposed to CLOs that combine so many levered loans together. There are two primary answers. First, as already discussed, a CLO provides you safety through the payment priority the tranche of debt you’re buying has. Second, CLOs can benefit from the law of large numbers; instead of carefully studying one levered loan and saying you think it has a low chance of default, you can buy a small piece of many different levered loans indirectly via a CLO and thus have less specific credit exposure. CLOs offer a form of diversity; giving you general credit exposure to levered loans instead of specific credit risk to just a few names.
+
+When do CLOs end? They can’t go on indefinitely?
+
+CLOs wind down naturally as the levered loans that make them up mature. This can take up to 10 years and this final phase of a CLO’s life is called the wind-down period. Of course, CLOs can’t go on indefinitely as all levered loans eventually mature (usually in 7 - 10 years at most) or default.
+
+So, CLOs are all about payment priority, but what does this exactly mean?
+
+CLOs are seductively simple in theory: you take a bunch of loans, pool them together, then issue tranches of bonds with varying levels of payment priority. Thus, making the highest tranches the safest (getting AAA/AA credit ratings) and the lowest getting low or no rating (but with higher potential returns). What we mean by payment priority are the interest and principal waterfalls that govern CLOs. The way these waterfalls work is we essentially get in the interest and principal from the loans and pay down Tranche A first. If there’s more than enough to payback Tranche A, we move on to Tranche B (but never skip to Tranche B before Tranche A has been fully paid back what is currently owed). This process continues sequentially unless the Coverage Test fails. So, the important point to keep in mind is we have two waterfalls operating at the same time; one dealing with the interest payments the loans are bringing in and the other the principal payments. The interest waterfall is as follows:
+As you can see, $X amount of interest will come in from all the loans. Then you simply pay the amount of interest owed (in the form of the coupons on each class of notes). Whatever amount of $X is left over, after paying all the tranches of notes, goes to the equity tranche (they have no specific coupon amount, it’s whatever is left over if anything). However, there is a Coverage Test (to be discussed next). If the Coverage Test fails at any point, then a paydown of the most senior tranche must occur. Now that we’ve briefly covered the interest waterfall, let’s look at the principal waterfall:
+In the principal waterfall, any interest not paid to any class (due to failing a Coverage Test) will have principal payments diverted to paying them. After that, all the principal goes toward paying each class in full sequentially (after the re-investment period that is usually 4-5 years). As a reminder, during the re-investment period all principal proceeds go to buying more term loans to keep the total number of assets in the CLO at roughly the same amount. After the re-investment period is when principal reductions of the tranches actually begins (beginning with Class / Tranche A). In the end, if there is any principal amount outstanding it all goes to equity. This is why we call the final tranche the “equity” tranche as it has the potential for equity like returns (well above what people paid or well below, depending on the performance of the levered loans).
+
+What is the interest coverage test?
+
+As noted above, the interest waterfall involves continually evaluating whether or not the interest coverage test has been hit. The interest coverage test is simply: Asset Interest / Liability Coupon >= Test Limit.
+The Test Limit will be a number defined in the debt docs governing all the tranches of debt and will be set by the underwriter. The Test Limit varies depending on what CLO deal you’re looking at.
+The Asset Interest is simply the amount of interest generated from the levered loans in actuality (meaning if one of the loans defaulted, it’s not counted).
+The Liability Coupon is the coupon due to the tranche being considered and the tranches above it. So in other words, while the Asset Interest always is calculated on the basis of all the loans in the CLO (assuming they haven’t defaulted) the Liability Coupon will grow as you move further down the CLO tranches (as you’re considering not just the singular tranche, but what is owed to all tranches above them).
+You can see now how it could be the case that the interest coverage test easily passes with the first few tranches (as the denominator of the equation will be small), but as you move down the CLO the denominator will grow and the test could fail.
+
+Will a CLO desk hold all tranches of a certain CLO?
+
+Not necessarily! A CLO desk’s inventory can involve holding notes in just a few of the tranches of a certain CLO. Sometimes certain CLOs are dominated by market participants who are interested in holding the notes for the long-term and thus they are not actively traded in the secondary market.
+
+Do CLO desks always have the notes that clients are looking for?
+
+Absolutely not. Sometimes clients will ask a bank’s desk if they have certain notes, the bank will not, and they will seek to go out and try to find those notes and facilitate a trade. This isn’t the case in other areas – such as FX trading – where you always have inventory and can make a market almost immediately.
+
+When are CLOs most liquid?
+
+CLOs are most liquid shortly after their issuance. As CLOs age, in particular after they’ve been around for four or five years, they will begin to be wound down as principal payments go to paying down the tranches of debt sequentially (after the re-investment period). As this occurs, CLOs are much less actively traded.  
