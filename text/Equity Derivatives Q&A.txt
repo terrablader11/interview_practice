@@ -113,7 +113,9 @@ As vol rises the value of calls/puts?
 
 Rises. If you have $50 with vol such that there’s a 50% chance of falling to 40 or rising to 60 then this is worth $5 ($10 x 50%).
 
-What are the greeks really? Partial derivatives of the option pricing model. Delta, theta, vega, and rho. This means that they measure the change in the calculated option value for a given change in one of the inputs to the model, all the other inputs remaining constant.
+What are the greeks really?
+
+Partial derivatives of the option pricing model. Delta, theta, vega, and rho. This means that they measure the change in the calculated option value for a given change in one of the inputs to the model, all the other inputs remaining constant.
 
 What is delta?
 
