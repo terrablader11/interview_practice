@@ -27,6 +27,17 @@
         .options {
             margin: 20px;
         }
+        .question {
+            cursor: pointer;
+            margin-bottom: 10px;
+        }
+        .answer {
+            display: none;
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-left: 4px solid #333;
+        }
     </style>
 </head>
 <body>
@@ -60,7 +71,7 @@
                 let selected = [];
                 for (let i = 0; i < num && questions.length > 0; i++) {
                     const randomIndex = Math.floor(Math.random() * questions.length);
-                    selected.push(questions.splice(randomIndex, 1)[0].question); // Extract only the question
+                    selected.push(questions.splice(randomIndex, 1)[0]); // Keep the entire question object
                 }
                 return selected;
             } catch (error) {
@@ -77,27 +88,38 @@
             const includePitch = document.getElementById('pitch').checked;
             
             let selectedQuestions = [];
+
+            if (includeTMAY) {
+                selectedQuestions.push({ question: "Tell me about yourself.", answer: "This is a placeholder answer for 'Tell me about yourself.'" });
+            }
             
             const behavioralQs = await fetchQuestions('https://raw.githubusercontent.com/terrablader11/interview_practice/main/files/behavioral.json', numBehavioral);
             const technicalQs = await fetchQuestions('https://raw.githubusercontent.com/terrablader11/interview_practice/main/files/technical.json', numTechnical);
             const marketsQs = await fetchQuestions('https://raw.githubusercontent.com/terrablader11/interview_practice/main/files/markets.json', numMarkets);
             
-            selectedQuestions = [...behavioralQs, ...technicalQs, ...marketsQs];
+            selectedQuestions = [... selectedQuestions, ...behavioralQs, ...technicalQs, ...marketsQs];
             
-            if (includeTMAY) {
-                selectedQuestions.push("Tell me about yourself.");
-            }
             if (includePitch) {
                 const pitchQ = await fetchQuestions('https://raw.githubusercontent.com/terrablader11/interview_practice/main/files/pitch.json', 1);
                 selectedQuestions = [...selectedQuestions, ...pitchQ];
             }
             
-            document.getElementById('question-box').innerHTML = selectedQuestions.join('<br><br>');
+            // Display questions with hidden answers
+            const questionBox = document.getElementById('question-box');
+            questionBox.innerHTML = selectedQuestions.map(q => `
+                <div class="question" onclick="toggleAnswer(this)">
+                    ${q.question}
+                    <div class="answer">${q.answer}</div>
+                </div>
+            `).join('<br>');
+        }
+        
+        function toggleAnswer(element) {
+            const answer = element.querySelector('.answer');
+            answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
         }
         
         window.fetchRandomQuestions = fetchRandomQuestions;
     </script>
 </body>
 </html>
-
-
