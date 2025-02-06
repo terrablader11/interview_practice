@@ -1,0 +1,117 @@
+What is a spot FX trade fundamentally?
+
+A spot FX trade is one of the simplest in all of S&T. It is simply an agreement between two parties to exchange a specific amount of two currencies at the “FX rate”.
+
+What is the FX rate?
+
+The FX rate is the amount of the second currency exchanged per unit of the first. USD/CAD is 1.31 at present; meaning 1.31 Canadian dollars can be exchanged per (one) unit of U.S. dollars.
+
+What are the three major forms of FX trades?
+
+Spot trades: trades at the present FX rate that are settled in two business days
+Forward trades: trades that will be settled in some amount of time greater than two business days
+Swap trades: a trade made at time X that will be reversed at time X + n (where n is some amount of business days in the future)
+
+How does settlement occur?
+
+Almost all transactions that occur are settled via CLS, which settles and clears transactions as opposed to having thousands of transactions from banks going to various different parties every day. https://www.cls-group.com/products/settlement/clssettlement/how-it-works/
+
+How much FX trades occur per day (in USD terms)?
+
+$6.6 trillion (daily). 
+
+What is behind all these FX trades?
+
+There have been three major trends that have led to the explosion of FX trading over the past three decades:
+Globalization and the rise of multi-national firms that need to continually hedge and swap currency (e.g. a US company that sells into Europe may earn money in Euros, but want to continually swap EUR back into USD)
+Technological changes have led to the FX market being more accessible to a wider swath of both corporations and people; it is now easier than ever to have your cash in the currency you want it in
+Over the past 30 years most currencies around the world have moved from being pegged to the dollar to being free-floating, allowing for there to be more daily movement in prices
+
+Where does most FX trading occur?
+
+The majority of FX trading occurs in either New York or London with London having a dominant 30-40% of market share.
+
+What are the most common FX trades (by total dollar volume)?
+
+Roughly 40% occur in the spot and swap market each. 10-15% in the forward market and 5-10% in the FX options market.
+
+What are currency pairs?
+
+Currency pairs simply refer to the two legs of a FX trade; for example, EUR/USD, CAD/USD, USD/JPY, etc.
+
+How dominant is the US dollar in FX trades?
+
+Involved in about 90% of all foreign exchange transactions.
+
+What is the normal maturity profile of FX trades if they are not spot?
+
+As mentioned, spot FX trades happen at the “present” time ignoring settlement dates. For forwards and swaps, less than 5% of all transactions will involve maturities greater than a year. For swaps, 70-80% involve maturities less than a week and the remainder are between a week and a year. For forwards, just 40-50% mature within a week with the remainder maturing between a week and a year.
+
+What affects FX rates?
+
+The right answer is probably everything, which is why many FX traders who begin on the sell-side (within S&T) will move to global macro funds. It’s important to recognize that in FX everything is relative; a currency is only “strong” or “weak” in relation to the currencies it trades again. So, what drives strength or weakness will be relative differences in monetary policy (interest rates and central banking policy), economic statistics (inflation, economic growth, etc.), and politics (political stability, foreign policy stances, domestic spending objectives, etc.).
+
+Who are the players that deal in FX markets (not clients)?
+
+Central banks
+Some central banks will hold foreign exchange reserves in order to create relative stability in their currency in relation to USD; thus, being continually active in the market
+https://en.wikipedia.org/wiki/List_of_countries_by_foreign exchange_reserves
+Banks
+Most FX flows will come through the largest banks with the top five banks having anywhere from 30-50% of market share in any given year
+https://www.euromoney.com/article/b1fpv028mthbmy/euromoney-fx survey-2019-results-released
+Brokers
+Brokers are distinct from banks in handling transactions that are usually lower in notional amount in the spot market
+
+What are some of the reasons why a corporate client – beyond mere speculation – may want to do a FX trade?
+
+A client may be able to issue debt cheaply in a certain country with a certain currency, but will want to swap it to a different currency
+A client may want to lock in a certain conversion rate in the forward market (creating certainty against unfavorable potential developments in the market)
+A client may be anticipating the need to spend capital – to build a new plant, for example – in a foreign country and wants to lock in an exchange rate to ensure they can more accurately predict the total cost of the project
+
+How is a FX quote structured?
+
+A FX quotation will be in a base – for example €1 – and be equated to another currency for example, USD. Therefore, you can see something like this: €1 = 1.18 60-65. The 1.18 is the “big figure” and the “60-65” are the pips. The pips illustrate the bid-ask spread (what someone, usually a dealer, is willing to buy the base at, the lower amount, and what someone is willing to sell the base at, the higher amount). An easy way to think about this is that the bid will always reflect the cheapest option for the dealer providing the quote. So, for example, the dealer would be willing to buy the base currency, EUR, at $1.1860 (USD) and sell the base currency, EUR, at $1.1865 (USD).
+
+Practically, how are dealers often communicating FX quotes to clients?
+
+If not done electronically, the client will simply be told the spread (60-65) and can decide whether they’d like to execute at that price (in either direction, buying or selling).
+
+If we have currency pairs like EUR/USD, USD/CAD, USD/JPY, etc. what is the base currency?
+
+The base currency is always the currency listed first. The second currency will be the price relative to the base currency. Most often, the base currency will be USD, however EUR is often a common base currency as well.
+
+What is a pip?
+
+Pips depend on the currency being looked at, however for USD it is $0.0001. So, in our prior example we said the spread was 60-65 pips or $0.0060 / $0.0065.
+
+What do we mean by FX crosses?
+
+As mentioned, base currencies are most often the most liquid, heavily traded currency (USD). However, sometimes clients will want to transact and gain exposure to other currencies (e.g. EUR/GBP). A FX cross rate is simply an exchange rate that doesn’t involve USD on either side. Cross rates are found by cross-multiplication. For example, if we want EUR/GBP, but we only know dollar rates, we can do EURUSDUSDGBP=EURGBP.
+
+When a bank engaged in a forward – locking in the need to buy or sell a currency sometime in the future – doesn’t that expose it to currency fluctuations?
+
+If left unhedged, yes. However, banks can perfectly hedge forward FX exposure via swaps and lock in a small premium on the trade. Theoretically, the forward FX price can also be determined by looking at the interest rate of each country (i.e. CIRP).
+
+As the interest rate is a currency goes down, relative to the other currency in question, what happens to the forward FX rate?
+
+It goes up.
+
+So what are the three elements that affect a FX forward?
+
+The spot price, the interest rate of base currency, and the interest rate of pricing currency.
+
+What is a benefit of swaps over forwards in FX?
+
+A forward will have both interest rate risk and FX risk unless hedged, while swaps simply have interest rate risk.
+
+Can you have forward starting swaps?
+
+Absolutely! Forward starting swaps will create some FX risk that will need to be hedged (as is also the case in traditional forwards).
+
+What are FX call and put options?
+
+FX call and put options make up a reasonably small share of the overall FX market, however there will often be traders who specifically deal with FX options on a desk (perhaps with overlapping swap trading responsibilities). FX call and put options are no different than what you would expect. Buying a call option gives one the right, but not the obligation, to buy an agreed upon amount of currency at an agreed upon strike price. Buying a put option gives one the right, but not the obligation, to sell an agreed upon amount of currency at an agreed upon strike price. The strike price for a call will, of course, be above the spot price (so out-of-the-money, or OTM, at initiation). If the currency moves in the direction of the strike price the call will become more valuable.
+
+What is the base currency for most FX options? What’s the most common maturity?
+
+USD is by far the most common base currency with over 90% of volume. The most liquid options are between one week and three months, although options can be up to ten years in most major currencies. FX options are often used to partially hedge long-term exposure (albeit imperfectly) and so there is a liquid market at much longer maturities than you’re used to seeing in equity derivative markets, for example. 

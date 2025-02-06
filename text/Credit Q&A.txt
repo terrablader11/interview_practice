@@ -1,0 +1,171 @@
+What are corporate bonds?
+
+Bonds issued by corporations (as the name would imply!) that generally have maturities between 1-20 years (rarely sometimes longer) that have fixed coupons. Coupons are paid semi-annually on a 30/360 day-count convention.
+
+What drives the pricing of corporate bonds?
+
+Ultimately, as with everything in finance, it’s the market clearing price (what a marginal individual is willing to pay). However, what makes those investing in corporate bonds feel comfortable receiving a certain coupon amount is a mix of:
+The credit rating given to the bond (from Moody’s or S&P)
+The historical performance and credit worthiness of the corporation in question
+Where the bond resides in the capital structure o Is it secured? Unsecured? How much debt (bonds, loans, revolvers) are ahead of the bond in question
+What comparable bonds are trading at (or were issued at)
+
+How large is the corporate debt market? What kind of credit worthiness do most of these securities have?
+
+The total corporate debt market – including bonds, loans, and revolvers – is approximately $24 trillion in 202. Investment grade issuers represent 52% of issuers, but 78% of rated debt. For AAA, AA, A, BBB, BB, B, CCC/C rated debt, the percentages by size are 3.2%, 7.2%, 29.8%, 37.8%, 10.0%, 9.9%, and 2.1%, respectively. See research by S&P at the following link: https://www.spglobal.com/ratings/en/research/articles/241003-credit-trends-global-state-of-play-strong-issuance-fuels-debt-growth-13270349.
+
+What industries are the biggest issuers of corporate debt?
+
+Financials are by far, making up about 37% of total issuance. For the non-financials industry, it is led by utilities, telecom, and tech.
+
+How are corporate bonds brought to market?
+
+Debt Capital Markets (DCM) divisions of an investment bank – that are not part of S&T due to their access to private, confidential information – bring bonds to market. These bonds are underwritten by a Lead Manager and a syndicate that will determine the best price the company can get (the lowest coupon they’ll have to offer) and build up a book of investors who will buy the bonds at issuance. Investment grade, high yield, and distressed debt desks on the trading floor deal with trading these bonds – once issued – in the secondary market. In other words, they provide liquidity to the market so those who buy a bond at issuance do not need to hold them indefinitely and those who weren’t able to buy at issuance can now buy them.
+
+Why do companies issue bonds to begin with?
+
+This is a simple question that can sometimes trip people up. Bonds are issued primarily due to funding needs surrounding expansions, acquisitions, or a re-balancing of their existing balance sheet.
+
+Who buys corporate bonds (either at issuance or in the secondary market)?
+
+Corporate bond markets – after equities – have the broadest scope of investors who will participate in the market. These include hedge funds, banks (trading desks or internal funds), (very) high net worth individuals, pension fund managers, endowment funds, and mutual funds.
+
+Is everyone who buys investment grade debt as likely to buy high yield debt?
+
+No. Almost all market participants who have raised money from outside investors have mandates that constrain them on what they can and cannot do. For example, pension funds have a mandate – in their founding documents – that outlines the amount of risk they are allowed to take on given that funds must be routinely available to pay pension holders.  Therefore, most pension funds will have very little or no interest in distressed debt – given how risky it can be – but will routinely buy AAA-rated CLO tranches, investment grade debt, etc. Likewise, distressed debt hedge funds have a mandate – from those who have put money into them – to buy high yield and distressed assets. However, investors would likely look unfavorably on a distressed fund having lots of their assets in investment grade bonds.
+
+What’s the credit spread?
+
+The credit spread is the difference between the yield of a corporate bond and the yield of the underlying government bond (treasury, in the U.S.) of the same duration. For example, T+250 on a 10-year corporate bond would mean it trades at the ten-year treasury note, plus 2.5% (250 basis points).
+
+What makes credit spreads move?
+
+Credit spreads will widen due to general economic downturns, the company performing poorly, or general pessimism in the credit markets. Credit spreads will tighten if the economy is healthy, the company is doing well, or credit markets are very active (lots of new issuance, new issuance pricing tight to treasuries, etc.)
+
+What credit ratings correspond to investment grade or high yield?
+
+BBB- (Standard & Poor’s/Fitch) or Baa3 (Moody’s) and above
+
+What goes into the credit rating process?
+
+The credit rating process is quite extensive and is a substantial cost (that the company must pay the rating agency directly). The credit rating agency seeks to study both the business risk – how likely the company is to continue to expand, grow, and be profitable – along with its unique financial risks surrounding its capital structure, current debt payments, likely default rate, etc. Credit rating agencies also look to the “comparable universe” of similar companies and how they’re performing and where their debt is rated.
+
+What are the differences in how investment grade and high yield bonds trade?
+
+As previously mentioned, investment grade bonds tend to be originated in larger size, by large companies (that are obviously healthier). This makes the market much more liquid; not only because of larger issuance size, but also because banks hold more of these bonds in inventory (because they are safer, thus require less balance sheet to be reserved to warehouse them). Investment grade bonds are often – but not always – quoted as a spread against treasuries of the same duration. However, high yield and distressed bonds are almost always quoted outright with much wider spreads (e.g. the bid ask will be often many times wider than that of an investment grade bond). Note: It’s important to know the paragraph above; that’d be very impressive to hear in an interview.
+
+What’s the default probability depending on rating?
+
+The cumulative default rates for AAA, AA, A, BBB, BB, B, CCC/CC across 15 years are 0.94%, 1.11%, 2.20%, 5.43%, 16.34%, 28.80%, and 53.37%. Investment grade bonds have a default rate of 3.05%, and speculative (high-yield) bonds have a rate of 24.80%. See https://www.spglobal.com/ratings/en/research/articles/240328-default-transition-and-recovery-2023-annual-global-corporate-default-and-rating-transition-study-13047827
+
+What are Fallen Angels?
+
+Fallen Angels are bonds that were issued as investment grade but have now fallen below investment grade. 
+
+What happens to credit spreads as credit ratings decline?
+
+As credit ratings decline, credit spreads increase (denoting the greater risk of default potentially occurring). Note that credit spreads will compress when credit markets are hot (meaning when yields are falling and lots of new issuance is occurring, usually because of strong economic conditions).
+
+What kinds of debt are most common in capital structures by seniority?
+
+Revolver (Revolving Credit Facility)
+Like a credit card; can be drawn and paid down over the maturity period with some restrictions
+Term Loans
+Can have Term Loan A or Term Loan B (TLBs are often syndicated and traded by a “bank loan desk” on the floor)
+Senior Notes
+Either secured or unsecured
+Subordinated Notes
+Mezzanine Debt
+Preferred Equity
+Common Equity
+
+How are corporate bonds often hedged (if you want to minimize exposure)?
+
+Any trader will have to maintain an inventory and he or she may not like the direction of the markets or the kind of inventory being held. A common way to hedge is by taking an offsetting position in the underlying treasury (the treasury with the same maturity).
+
+What are convertible bonds?
+
+Convertible bonds are often traded separately from high yield, distressed, or investment grade bonds. Often, it’ll be just one or two traders (who also operate as sales people) who deal with these bonds and they will often sit near equity teams, as opposed to credit teams. Convertible bonds provide the capacity for the owner to convert into equity at a pre-set rate. For the issuer of convertible bonds, they have the benefit of allowing them to raise debt at favorable terms and potentially get rid of future interest payments (if their stock appreciates above the pre-set conversion rate). For the investor, buying provides a position higher in the capital structure than equity if the company ends up defaulting (so could have some level of recovery), but if the company does well it allows for the investor to have higher upside (compared to just getting the pre-set coupon payments of the bond) via converting to equity.
+
+What are callable bonds?
+
+While convertible bonds are wholly distinct from traditional corporate bonds, given that they can convert into equity, callable bonds are just like traditional corporate bonds, but have the feature of being callable. Callable bonds have gone from being a rarity to being the majority of corporate bonds issued. All callable bonds do is allow for the company to recall part or the entire issuance of bonds after a certain amount of time. The reason why the company likes to have this feature is that in a declining rates environment, if the company is healthy, they may be able to call the bonds and reissue bonds with a lower coupon (thus saving money).
+
+Why would investors ever want a bond that is callable?
+
+This is an obvious next question. If corporations can just call bonds when rates decline, then won’t investors get none of the benefits of yields going down (and thus prices on the bonds going up)? The answer is that the callable price – the price that corporations must pay to recall the bonds – is above the issuance price. So, for example, a bond may have an issuance size of $10m and be issued at par (100) with a coupon of 4%. Interest rates may decline, and the company may believe they can go and issue the same amount of bonds ($10m), but at an interest rate of 3% instead of 4%. If the original bond is past the “non-call” period the company can retire the original bonds early but must do so at a higher than par (higher than 100) price per bond (for example, 103). So, the corporation needs to make the determination if the price to retire the bonds early (paying the callable amount above par) is worthwhile given the lower interest rate they can get on a new bond issuance.
+
+What are puttable bonds?
+
+Puttable bonds just allow for the holder of a bond to redeem it early (get their principal back). They would obviously do this if they feel like new bonds being issued have higher coupons that are more favorable. However, corporate bonds being puttable is much less common than them being callable. Partly because of the low rates environment we have been in for the past few decades and partly because it creates quite a bit of cash flow uncertainty for a company (as rates rise they suddenly need to have lots of cash to pay back bond holders early).
+
+What are Eurobonds?
+
+Eurobonds are a rather confusing name for a simple kind of bond: one issued outside the country that the company is based in and the currency most utilized by the company.
+
+When we think about a bond, what do we mean by “expected loss”?
+
+Expected loss is the probability of the company defaulting multiplied by the loss that will be incurred as a result of defaulting. This sets an initial downside case for what to expect in terms of a loss.
+
+Why is EBITDA so important to thinking about bonds?
+
+Because EBITDA represents the amount of cash available for debt servicing (paying coupons) if we assume no capex or working capital changes. Most covenants in debt documents will have EBITDA within them.
+
+What are the two most common types of ratios used in credit?
+
+Coverage ratios
+EBITDA / Interest Expense
+Leverage ratios
+Debt / EBITDA
+Net debt / EBITDA
+Debt / (EBITDA – capex)
+
+What qualities would an investment grade issuer (company) have financially?
+
+Strong EBITDA margin
+Low current interest expenses
+Predictable revenue
+High current coverage ratio
+Low current leverage ratio
+Simple capital structure
+
+What types of covenants will you likely find in corporate debt (in particular, corporate bonds)?
+
+Debt docs are the documents at issuance that govern the terms of the debt being issued. These debt docs will contain covenants that specify the things that can’t be done (negative covenants); if the company does break any of the covenants then the holders have a right to force the company (broadly speaking) into a technical default unless a resolution can be found.
+Coverage ratio (min EBITDA / interest expense)
+Leverage ratio (max debt / EBITDA)
+Restricted cash (min amount of cash that must be kept aside at all times)
+Negative pledge provisions (inability to pledge certain assets for new debt)
+Restrictions on guarantees that can be offered to subsidiaries without prior consent
+Payment priority in the event of asset sales
+Additional covenants to protect priority of the debt (meaning the place in the capital structure) and under what conditions additional debt can be placed ahead of this debt
+
+Do investment grade or high yield bonds tend to have more covenants? What about bonds vs loans? 
+
+High yield bonds tend to have more covenants than investment grade debt given the slightly precarious nature of most high yield issuers (all ratios and restrictions will be tighter at issuance). Loans tend to have more covenants than bonds as well although loans are frequently renegotiated if the borrower gets into trouble (to get around a technical default that may not be in the best interest of any party, including the loan holder).
+
+What are credit default swaps?
+
+When we think of derivatives and structured products, much of the rationale really boils down to chopping up and disbursing risk to those who actually want to hold it. For example, in the credit markets there will sometimes be those who want to mitigate credit risk and can do so via a credit default swap. In a credit default swap, there will be two sides: a credit protection buyer and a credit protection seller. The protection buyer pays a fixed annual fee and will receive payment if a “credit event” occurs on the “reference entity”. The protection seller on the other hand gets paid annually to provide this “insurance” and may never have to pay out anything, if a credit event occurs, or may have to pay much more than they’ve received in annual payments.
+
+Do credit default swaps trade in the secondary market? Does their value change?
+
+Absolutely! Credit default swaps change in price due to the increasing or decreasing credit value of the underlying entity being referenced by the CDS. For instance, Goldman bought billions worth of CDS on AIG when they were healthy in 2005-2007 as a hedge – because they had a lot of exposure to AIG – and then were paid out billions when a credit event (technical default) occurred in 2008. The CDS contracts were very cheap in 2005-2007, but became incredibly valuable as folks noticed trouble at AIG and desperately tried to hedge their exposure to the insurance giant.
+
+What are the two ways that CDS contracts can settle?
+
+If a credit event occurs, then CDS contracts can be settled either physically or on a cash basis. If the contact is settled physically, then the CDS buyer will deliver the reference asset (for example, certain eligible corporate bonds, which will obviously have a very low value) to the seller. Then the CDS seller will pay the par value in cash. To be clear, when the CDS buyer purchases the reference asset it will be at a very steep discount to par (given that a credit event has occurred, so the company is distressed), but once they deliver the assets to the CDS seller then the seller will pay par. If a contact is cash settled, then the physical delivery does not occur. Instead the CDS seller pays the difference between the par value of the reference asset and the auction settlement price. Learn more about the auction process here: https://www.investopedia.com/articles/bonds/09/what-happens-to-single-name cds.asp#credit-default-auctions
+
+Why would a client buy credit default swaps?
+
+Speculate on a credit that they think will become distressed and have a credit event
+These kinds of clients are generally distressed hedge funds
+Protect yourself from credit exposure to the company
+If you deal frequently with a company – perhaps they are a large customer of yours or you’ve extended them some kind of credit – you can mitigate your exposure to the company by buying CDS
+This way if the company ends up having a credit event you can hedge your exposure (potential losses) by just paying the CDS premium
+Clients who buy CDS for this purpose are large corporations and banks
+Reduce exposure to a sector
+If you are a large fund you may have lots of exposure to a certain sector – like oil and gas – that you want to hedge
+However, you don’t want to sell your current oil and gas holdings (perhaps because they’re illiquid or you like the particular asset)
+In order to gain downside exposure to the industry, you can pick certain companies (in this example, oil and gas companies) and buy CDS against them
+This rationale will often be that of large funds – like endowments or sovereign wealth funds – who want to buy downside exposure, but can’t entirely shift their portfolio around because it’s so large

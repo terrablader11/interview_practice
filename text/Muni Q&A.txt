@@ -1,0 +1,129 @@
+Simply put, what are muni bonds and who issues them?
+
+Municipal bonds are bonds issued to finance capital expenditures that are in the public interest or represent a public good. These capital expenditures can include things like highways, wastewater plants, electrical grids, schools, etc. Municipal bonds are issued by over 100,000 unique entities in the United States including: highway authorities, power authorities, hospitals, school districts, and all levels of government below the federal government (states, cities, counties, etc.).
+
+Are muni bonds issued just for building new projects for the public good?
+
+No. They can also be issued in order to fund capital improvements.
+
+What are some examples of issuers of muni bonds?
+
+In order to see examples of issuers of muni bonds, you can head over to the premier resource on muni bonds: https://www.municipalbonds.com/bonds/recent/ Muni bond sales and traders – on the actual trading floor – would have access to Bloomberg as well, which has great muni features. If you’re interested in muni bonds, and plan on bringing it up in an interview, you should know the exact terms of one or two muni bonds. It’s not important to know all the ins and outs of the deal; just who the security is issued by, what the security is funding (e.g. new bridge) and what the terms of the muni bond are.
+
+What basic terms would you look at for a muni bond?
+
+Things to consider when looking at muni bond – on the surface level – are the same as any other bond: issuers, maturity date, coupon, yield, and price.
+
+Explain the tax exemption part of muni bonds to me?
+
+Any discussion of the tax except nature of muni bonds should begin by you saying it’s complicated! The nature of tax exception will differ depending on locality and type of issuer and these things change over time slightly. Broadly speaking, when we talk about tax exemption with muni bonds we mean that interest income earned from most municipal bonds is not taxed at the federal level. So for example, if you own $1,000,000 in face value of a muni bond paying 2% then you get $20,000 in annual income free and clear of tax. This makes muni bonds appealing to high net worth individuals looking for relativity safe, tax free income.
+
+What about state tax?
+
+Usually the state in which the muni bond is issued will be exempt from state tax along with federal tax. However, often you will have to pay state tax on interest income if you buy a muni bond issued out of a different state. Of course, the reason why this is done is to try to incentive people living in a state to help fund projects to be completed in the state. This is not universally true, for example Illinois will tax in-state muni bonds and out-of-state muni bonds in almost all cases.
+
+What is unique about U.S. territories issuing muni bonds?
+
+No state has the authority to tax interest income from U.S. territories like Guam or Puerto Rico.
+
+Can you short a municipal bond or buy credit default swaps (CDS) on them?
+
+The technically correct answer is that in finance you can theoretically do just about anything! However, in practice muni bonds are long only. This is because there are so many issuers and so many distinct bonds that you never quite reach the liquid “critical mass” needed to engage in meaningful shorting and be able to create a CDS.
+
+How do we identify individual issuances of muni bonds?
+
+By a CUSIP like with the vast majority of other financial products. This is a unique number assigned to stocks and bonds.
+
+Why would anyone issue a muni bond?
+
+Think about it from the issuer perspective: if you’re able to sell tax exempt bonds – either exempt at the federal or federal and state level – then surely investors will be willing to accept a lower coupon payment than they otherwise would! Therefore, the cost of funding associated with public works projects is substantially lower than it would otherwise be if they tried to fund projects via private bank debt and less politically unpopular than raising taxes.
+
+Who buys muni bonds and why?
+
+In many areas of S&T the clients being dealt with are large institutional investors; either fast-money clients (hedge funds) or folks like pension funds, sovereign wealth funds, private equity funds, etc. Rarely is it the case that retail investors make up a large share of the market. However, with muni bonds retail investors do because the primary benefit of owning muni bonds is getting tax free income. The two major groups that buy muni bonds, in the context of S&T, are:
+Mutual funds of various kinds that are catered toward high net worth individuals
+Institutions with excess funds such as insurance companies or smaller regional banks
+Another benefit of muni bonds is that there’s a large amount of diversity in issuers and what is being funded so an individual or institution can make judgement calls (e.g. one may believe a highway in Idaho is a good investment at a 4% coupon because of the strong economic growth in Idaho likely to eventuate over the next 5-10 years).
+
+What are the two kinds of muni bonds that exist?
+
+Generally speaking, you can break down muni bonds into two different categories:
+General Obligation (GO bonds) are “backed” by the taxing power of the state or local government that issued the bond in all respects. The “general” refers to the fact that all general revenues brought in by the issuer - whether that be from sales tax, income tax, property tax, etc. – will be used to pay the bonds. The exact mix of revenues will be contingent on the issuer and what tax authority they have.
+Revenue bonds – as the name implies – are paid back via the stream of cash flows that the project itself generates. For instance, a highway could have tolls on it and the toll revenue would be used in order to pay back the revenue bonds issued in order to build the highway. Revenue bonds are therefore types of municipal bonds that are more clearly paid for by the taxpayers who actually benefit from the project being funded. It’s important to note that the revenue bonds do not have a general claim on all the other revenues of the issuer. So, if the project fails to generate revenue, the bond holders can’t go after the income tax or property tax revenues being generated by the issuer, for example.
+
+What are the six major categories of revenue bonds and examples of projects for each? 
+
+Transportation
+Highways, airports, seaports, bridges, etc.
+Raise funds via tolls or service / use fees of some kind
+Higher education and non-profits
+Public or private universities, colleges, and/or community / technical colleges
+Academic research centers
+Non-profits such as museums or cultural centers
+These revenue bonds are often issued by Authorities who will have various streams of income (service fees, entrance fees, leasing income, etc.)
+Healthcare
+Hospitals and other health centers
+Medical research centers
+These revenue bonds are often issued by Authorities as well who will have various streams of income from multiple projects (insurance re imbursements, federal subsidies / income, etc.)
+Housing
+Public housing (low-income, veteran-specific, etc.)
+These revenue bonds are often issued by Authorities as well who will have income from the leasing of these buildings (either directly from individuals or from federal government programs)
+Utilities
+Utilities are a large category involving large, capital intensive projects around electrical grids, water-sewage systems, etc.
+These revenue bonds can be issued directly by a municipality, region, or state or be issued by an Authority; income comes from the fees all households pay for power, water, etc.
+Economic / industrial development
+This is the largest category and often straddles the line between private / public joint-works; these revenue bonds can be used to fund everything from industrial zones to transit systems
+
+What’s the difference between term bonds and serial bonds? Are these unique to muni bonds?
+
+Muni bonds will often have two components: term bonds that, like normal bonds, will mature in 15 or 20 years along with serial bonds that mature every year. The serial bonds will have rates that are more aligned with prevailing market conditions and thus are usually less than those of term bonds (as term bonds include a premium given the fact that rates may rise in the future). The reason for this unique structure is that it largely allows for adjusting size and repayment schedules by having a group of bonds (the serial bonds) maturing every year.
+
+How does a municipal bond get issued anyway?
+
+Like any form of security, there is an initial underwriting process whereby the bonds will be bought by various parties for the first time. Then these bonds will be traded on the secondary market. Generally, there are two ways for a bank to participate:
+In a competitive auction, underwriters will bid against each other to buyout the bonds and then reissue them on the secondary market (capturing a spread)
+In a negotiated sale whereby, the underwriter is chosen – in a competitive process – before the sale date While it may seem like a competitive auction would clearly by better for the issuer, by having a negotiated sale the underwriter can work closely with the issuer to ensure that they are going to market at the right price, marketing the offering appropriately, and that the issuer is getting as much money in as possible (via upping the size of the offering). Of course, the issuer needs to be careful in a negotiated sale that they pick the right underwriter and that they end up actually getting the best terms for them.
+
+What have the recent trends in muni bond issuance been?
+
+If you bring up in an interview that you’re interested in municipal bonds, then the assumption will be that you follow the market a bit. No one is expecting you to be an expert in such an esoteric product, but you should generally have an idea if the market is hot or not. Right now – in 2020 / 2021 – the municipal bond market is trending upwards: https://www.lordabbett.com/en/perspectives/fixedincomeinsights/behind-surge taxable-muni-bond-issuance.html The rise in muni bond supply this year is likely due to both the increased funding needs that have arisen due to COVID-19 and the increased demand for muni bonds due to the record low yields in treasuries (that are likely to stay for a significant amount of time as can be seen in both futures and out the yield curve).
+
+Are munis rated? Are they generally rated highly?
+
+Almost all large munis bonds – that have an issuance size in the millions – will get at least one rating from one of the three major rating agencies (with S&P and Moody’s being the largest two). As mentioned, there are roughly 100,000 muni issuers so making any kind of blanket statement is hard. However, defaults do occur – so there is credit risk embedded in munis – but it is still very rare. Here is a good – but slightly old article from 2012 – from the New York Fed on Muni defaults: https://libertystreeteconomics.newyorkfed.org/2012/08/the-untold-story-of municipal-bond-defaults.html As you’d likely expect, industrial development bonds have the largest default rate out of any category given the fact that it is such a broad category and often has private-sector like dynamics within it. If you want to give a ballpark estimate, you should say it depends on the type of muni bond we’re talking about, but in general one-year default rates (the probability of a default happening in any given year) are 0.01-0.09% at most.
+
+What are more likely to default? GO bonds or revenue bonds?
+
+Revenue bonds since if the project itself falls apart the bonds are only backstopped by the revenue from that project (not the general taxing authority of the bond issuer).
+
+How safe are muni bonds really?
+
+To answer this question, it’s best to again differentiate between GO bonds and revenue bonds. GO bonds will have a sliver of credit risk – because states, cities, and counties can default! – but it is rare. GO bonds are likely the second safest form of fixed income product next to treasuries. Revenue bonds can have a much more mixed credit profile depending on the kind of project being backstopped, the credit history of the issuer, etc.
+
+How does trading of munis work?
+
+So far we’ve talked primarily about the characteristics of muni bonds and how they get brought to market. But once they’re sold off initially, most muni bonds will actively trade in the secondary market. Munis are unique in that there are thousands of dealers who trade munis back and forth; some dealers specialize in just industrial development bonds, for example, while others – like large banks – will trade across the entire muni spectrum. The way trading munis works in large investment banks is that sales people will have a book of clients – just as described in the Overview guide – that they’ll be talking to about various munis. They’ll often be sending them axes, which are the specific munis they are looking to buy or sell and indicative pricing of them. Clients will contact the sales person inquiring about a certain muni and the trader will make a market (either provide a spread, or just say what they would buy or sell for).
+
+What’s the liquidity of munis like?
+
+This largely depends on the issuance size, time since issuance, and any market developments that have occurred. This is a good interview question, because there’s no quick answer. The reality is that if you have a large issuance, from a large issuer, the bond will stay liquid for years potentially and be actively traded by pension funds, hedge funds, and mutual funds. However, for small insuances the market may be liquid for a few months, but will dry up as clients who buy munis do tend to hold them for the longer term rather than trade them back and forth.
+
+What’s the average trading volume of muni bonds?
+
+Normally somewhere between 10-15 billion dollars per day.
+
+How do you think about the actual yield of a muni bond?
+
+The major differentiator of a muni bond is that it is (at least) tax exempt at the federal level. Therefore, when talking about the yields of XYZ muni bond and say an Apple corporate bond it’s not comparing – pardon the pun – apples to apples. Instead, we need to adjust the muni yield quoted to reflect the tax savings. So for example, if we have a muni bond yielding 2.0% and the marginal tax rate is 30% then the Tax Adjusted Yield of the muni bond will be: (Tax Adjusted Yield) = (Quoted Yield)/ (1-tax) or 2.0% / 1-30% = 2.86%. So the fact that this muni bond is tax exempt means that the actual yield, after adjusting for taxes, is 86 basis points (0.86%) higher than it is quoted.
+
+Let’s say we have a muni bond and a corporate bond of equal levels of credit risk (in our view) and we adjust the muni bond to take into account the tax savings. Why may the muni bond still have a higher yield?
+
+A large reason will be a liquidity premium that is often baked into muni bonds. A liquidity premium is an added yield that certain bonds have because they trade so inactively that it may be difficult to sell them if you need to (especially if you own quite a large amount of the issuance). In other words, Apple has a very deep corporate bond market and you can easily go and sell a large amount of bonds; the same may not be true for muni bonds if you bought a large amount of an illiquid issuance.
+
+Are most muni bonds rated highly?
+
+Yes, most muni bonds are heavily in the investment grade range; especially if they are GO bonds (because their credit risk is quite small relative to corporate bonds, for example). Most are rated in the A range (Aaa, Aa, A). Historical default rates for A-range muni bonds are 0-0.005 over a ten-year period.
+
+Why are you interested in muni bonds?
+
+An answer to this common interview question is: I find muni bonds interesting because there are so many issuers – around 100,000 – all issuing unique bonds to fund unique, real-world projects. This makes the market obviously quite illiquid and provides a challenge for those in S&T – whether in trading or in sales – to be fully up on the market; understanding the trends between, for example, housing and industrial development munis; and trying to make good markets for clients while not getting caught on the wrong side of any given trade. It’s also a very opaque market where I think you can learn a lot by being “in the mix” compared to other products where information is more readily disseminated to the public and market professionals alike. I find the niche aspect of munis to be a real pro, whereas others may view that as being a con.

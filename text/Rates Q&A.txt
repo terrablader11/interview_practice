@@ -1,0 +1,199 @@
+What are treasuries? Can you categorize them?
+
+Government debt issued by the U.S. Treasury that are backed by the full faith and credit of the United States. There are several distinct categories based on maturity.
+Bills have a maturity of under a year and are traded by the money market desk
+FRNs are 2yrs and much less common than any other form of government debt
+Began in 2014, floating rate linked to 3-month T-Bills with coupons paid quarterly
+Notes are 2, 3, 5, 7, and 10 years in maturity
+Bonds are 30 years in maturity
+
+What are TIPS?
+
+Most countries – including the United States – have inflation-protected securities that offer an interest rate over and above whatever the CPI happens to be. This locks in a certain real rate of return, whereas traditional Treasuries do not. TIPS are issued as 5 or 10 year notes or 30 year bonds.
+
+How many Treasuries are currently outstanding?
+
+Roughly $22 trillion as of late 2020.
+
+What are the major government bonds referred to outside the U.S.?
+
+Japanese Government Bonds (JGBs)
+One of largest markets in the world; 2, 5, 10, 15, 20, 30, and 40yr maturities
+German Government Bonds
+Federal Bonds (Bunds) are 10yr or 30yr
+Federal Notes (Bobls) are 5yr
+Federal Treasury Notes (Schatze) are 2yr
+Treasury Discount Paper / Bills (Bubills) are 3, 6, 9, and 12 months
+UK Government Bonds (Gilts)
+
+What is the auction process for Treasuries?
+
+Treasuries are auctioned via a Dutch auction process. At a specific time, all primary dealers – which includes all the major domestic banks - must submit bids to the Treasury. Once the auction closes the bids are analyzed and the issue is auctioned at the lowest yield that fills the total auction amount (all those who bid lower, in terms of yield, are filled at this level). Importantly, those who bid at a yield too high will not get any fill and those who bid lowest will be filled first at the amount they requested.
+
+When do auctions take place?
+
+For 2yr, 3yr, 5yr, and 7yr auctions take place every month. For 10yr and 30yr it is every three months.
+
+What do we mean by “benchmark” bills, notes, or bonds?
+
+The most recently issued security is the benchmark. Benchmarks are the most liquid security and when a new security of the same maturity (e.g. a new 5yr note) is issued the previous benchmark is termed as an “off the run” security.
+
+How many different issues of notes and bonds are in circulation at any given time?
+
+By definition, 24 2yr, 36 3yr, 60 5yr, 84 7yr, 40 10yr, and 120 30yr. This is part of the issue with any level of automation within rates trading; there are 364 different securities, of varying amounts of time until maturity, that will likely be issued with different coupons, and that will have different yields and prices. Many people naively think of rates like equities; every 2yr note is the same just like every common share of Apple is the same. This is simply not the case; bonds quickly get quirky!
+
+When do treasuries pay coupons?
+
+Semi-annually.
+
+What are treasury futures?
+
+Futures allow market participants to take views on future rate movements in an off balance sheet capacity. There are six futures:
+TU (2yr)
+FV (5yr)
+TY (10yr)
+TN (10yr, ultra-long)
+US (30yr)
+AUL (30yr, ultra-long)
+Treasury futures are used routinely in hedging and are incredibly liquid just like the benchmark treasuries are. Ultimately, a future obliges the seller to deliver an underlying security (not a future) sometime in the future (so a 10yr future would require a delivery of a 10yr Note).
+
+What about a forward? Are there differences between a forward and a future?
+
+Futures are standardized and centrally cleared (via CME) while forwards are custom contracts between two parties. 
+
+When do futures expire?
+
+H (March) M (June) U (September) Z (December)
+
+What does FVZ20 mean?
+
+5-year futures contract expiring Dec 2020.
+
+When a seller of a future has to deliver an underlying security later on, how do they know which one to deliver?
+
+All futures contracts specify a basket of securities (for example, a group of five-year Notes) that are acceptable to be delivered by the seller of a futures contract. The seller gets to decide which one to deliver and, as you would expect, the security that will be delivered is termed the cheapest to deliver (CTD). Given this, the futures contract will trade very close to what the cheapest to deliver issue happens to be at present.
+
+How are treasuries quoted?
+
+We think about treasuries primarily via the lens of yields, but they are still priced in dollar terms (not as a reference to yield). Treasuries are traded in 32nd increments; meaning if you see a price like 100-17 that means 100 + 17/32 or 100.53125. Alternatively, you may see 100-17+, where the + means a 0.5 so 100-17+ would be equivalent to 100 +17.5/32 or 100.546875.
+
+We’ve mentioned before the existence of a yield curve, what is that?
+
+A yield curve is an interpolated curve showing the relationship between yield and maturity. The curve is interpolated because in reality there are not bonds at every single possible maturity point (e.g. maturities of exactly 892 days away, for example). Instead, the curve has real points correlating to the maturities of the major bills, notes, and bonds and the line is essentially “filled in” between them. This is a rough description as yield curves interpolation is a bit more complicated. Every country will have its own yield curve. You can see the U.S. Treasury’s yield curve points here: https://www.treasury.gov/resource-center/data-chart-center/interest rates/pages/textview.aspx?data=yield
+
+What shapes do yield curves normally take?
+
+Yield curves normally take an “upward sloping” shape indicating that as maturities increase so too do yields. This should make sense as investors should want more compensation (more yield) for holding government debt longer.
+
+What would it mean for there to be a steep yield curve?
+
+A steep yield curve would indicate the market views it as likely that interest rates will rise over time.
+
+What would an inverted yield curve mean?
+
+An inverted yield curve is much rarer, but the same intuition applies. If the long end of the curve is lower than the front-end then that indicates that rates should move significantly lower for the foreseeable future (but just haven’t yet, because the Fed hasn’t cut yet to move the very front end of the curve down).
+
+Where do trades happen in rates trading?
+
+Benchmarks trade on electronic exchanges managed by inter-dealer brokers; this is where banks trade. Futures trading happens on one exchange, the Chicago Mercantile Exchange.
+
+Who are the clients in rates?
+
+As mentioned earlier, because of the liquidity and electronic nature of trading small asset managers or high net worth individuals can buy most rates products – except perhaps illiquid off-the-runs – on their own. The role of the rates traders is to provide liquidity to these exchanges and deal with large block-size trades from institutional clients. These clients can be other banks, corporates, pension funds, sovereign wealth funds, hedge funds, among others.
+
+What are STRIPS?
+
+Treasuries can be thought of – just like most other fixed income instruments – as having a coupon component and a principal component. However, some investors may want to have just a claim on the principal or just a claim on the coupons (without the principal). STRIPS (separate trading of registered interest and principal of securities) involves trading just the principal or interest components of a treasury.
+
+How do yields and prices move?
+
+Inversely. So, as yields go down, prices go up.
+
+Is the relationship between yields and prices linear?
+
+No. To approximate this change a concept known as duration is used. The longer the maturity of the security, the more duration that exists.
+
+What is DV01 (or PV01)?
+
+DV01 or PV01 refer to how much a certain bond – or collection of bonds in your inventory – move when the underlying moves by one basis point.
+
+What do we mean by curve trades?
+
+When we talk about a rates trader’s book being properly positioned and taking advantage of the market, this obviously doesn’t mean that if 2yr bonds are overvalued he or she just won’t have any! Rates traders have such large books that they will always have millions of dollars’ worth of bonds that they may or may not like in order to facilitate client flow and generally be in the market. Instead the way that a rates trader positions their book is by taking advantage of changes in the yield curve. For example, there’s nothing you can do about owning a lot of 2s. However, maybe you think that 2s will go down more than 5s. This would create a flattening of the yield curve between those two points in the yield curve. Curve trades involve taking advantage of the relative changes in one bond compared to another along the yield curve by using treasuries and futures to be relatively overweight or underweight certain areas of the curve.
+
+What do we mean by, for example, a 2s5s flattener?
+
+A 2s5s flattener would mean that we think that the area of the yield curve between the 2yr and the 5yr treasury will become flatter. We can take advantage of this by selling 2yrs and buying 5yrs thus positioning our book to benefit (in price terms) from either an increasing 2yr yield or a declining 5yr yield (or both happening at the same time).
+
+What would a 5s10s steepener mean?
+
+A 5s10s steepener would mean that we believe that the area of the yield curve between the 5yr treasury and the 10yr treasury will steepen out. We can take advantage of this by   9 buying the 5yr and selling the 10yr. This way if the 5yr’s price goes up or the 10yr’s price goes down (or both) we stand to benefit.
+
+What routine news events have a large impact on rates?
+
+Federal Open Market Committee meetings, which occur eight times a year at routine intervals
+Speeches from Federal Reserve board of governors and the Fed chair
+Non-Farm Payrolls – monthly stat detailing the total number of US workers, which is released on the first Friday of every month
+Month / Year End – Quarter and year ends tend to involve rebalancing of portfolios. In particular from large institutional clients like endowments, pension funds, etc.
+Quarter End – US futures expire quarterly so market participants have to roll their holdings forward
+Auction results can lead to market turbulence if there is less than anticipated demand with yields coming in higher than expected (or vice versa)
+
+What are traditional swaps?
+
+There are many forms of swaps, the most traditional being the fixed for floating swap. The utility of this kind of swap is that if you think, for example, that rates will rise instead of receiving fixed coupon payments you can get a floating rate that will increase as rates do (thus making you better off in a rising rates environment, worse off in a declining rates environment)
+
+What are the key terms for a swap?
+
+Settlement Date (when the swap is settled)
+Term (length of swap)
+Payment frequency (e.g. monthly, quarterly, semi-annually, yearly)
+Notional amount (the amount the swap is based on, even though notional amounts are not exchanged unless explicitly stated)
+For example, even if the notional amounts aren’t exchanged a $1m notional swap will mean smaller payments exchanged than if one enters into a $100m notional swap (since fixed and floating precents are multiplied by the notional amount hypothetically swapped)
+Rate Terms (what the fixed rate is and what the floating rate and spread are)
+Counterparties (who is receiving fixed, who is paying fixed)
+
+What are fixed-for-floating swaps used for?
+
+They can be used to hedge interest rate risk by transforming fixed coupons into floating rate payments (that will rise as rates do). Swaps also can allow an investor to take out right views on rates and can become very esoteric.
+
+What are the kinds of swaps that exist today?
+
+Fixed-for-floating
+Basis swaps
+Spot starting vs. forward starting
+Asset swaps
+Currency swaps
+Callable / Puttable
+Constant notional value vs. amortizing value
+
+What are basis swaps?
+
+Basis swaps simply swap floating cashflows, as opposed to one leg being floating and one leg being fixed. For example, a basis swap will often involve USD SOFR vs SOFR in another currency to take a view on relative exchange rate moves. Basis swaps can also involve swapping rates from different curves in order to speculate on relative curve changes.
+
+What characterizes swaps on day one?
+
+Each leg or side of the swap (the fixed side or the floating side) will have equal value at initiation. In other words, it’s a fair trade at the starting point and one side will “win” if what drives the value of the swap moves in their direction (e.g. rising rates will help those who receive floating interest and hurt those that receive fixed interest).
+
+What are the two risk measures for swaps?
+
+DV01 and convexity. DV01 is the sensitivity of the asset to rates, which can be thought of as the derivative of price. Convexity is the sensitivity of DV01 to rates or the derivative of DV01.
+
+What would high convexity imply?
+
+That you benefit more from rates being volatile.
+
+In swaps are principal amounts exchanged as well?
+
+No. Principal (notional) amounts are used only to figure out the amount of interest going back and forth. So, for example, a $1m swap at 5% would see fixed payments of $50,000 annually going to the counterparty; however, at no point does the actual $1m amount change hands. Notional amounts stay constant through the life of a swap unless it is an amortizing swap in which case the amount of annual principal reduction the swap legs are based on is articulated. 
+
+What documents govern swaps?
+
+ISDA agreements that set out the agreed upon terms that are – unless otherwise specified – follow convention.
+
+What’s the usual maturities of swap trades?
+
+Maturities of 1 to 10, 12, 15, 20, 25, and 30.
+
+Backing up for a second, what is SOFR (that the floating leg of an IRS is based on)?
+
+So, a fixed rate payer pays a fixed coupon amount and at the initiation of a swap an equivalent amount of 3M SOFR (plus a spread) is paid as the floating leg. The Secured Overnight Financing Rate is a broad measure of the cost of borrowing cash overnight collateralized by Treasury securities. You’ll often see this quoted as SOFR + 300bps, which just means the SOFR rate at a given time plus 3% (300 basis points).

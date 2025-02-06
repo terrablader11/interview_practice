@@ -1,0 +1,308 @@
+What are the two basic types of options (in the equity derivative context)?
+
+Call options gives the holder the right to buy an underlying asset by a certain date at a fixed price. A put option conveys the right to sell an underlying asset by a certain date at a fixed price. The most money the buyer of an option can ever lose on the deal is the initial premium paid for the contract. Ultimately, options are all about paying a certain amount of money to have the possibility of doing something in the future (should the underlying or reference asset move in the direction favorable to the option).
+
+What’s an option premium?
+
+Paid to the dealer who writes the option (small fee). What’s the real price of option? Intrinsic value + time value. What is intrinsic value for a call or put? The greater of zero or the (spot – strike price) for a call. The greater of zero or (strike price – spot) for a put.
+
+What is time value?
+
+The value of an option over and above any intrinsic value.
+
+What can potentially be lost with option?
+
+If buyer than just the cost (premium) of options. If writer, then virtually unlimited. What’s a long call option? Buy a call option and profit from rise in the value of the underlying asset. Long call has limited downside risk, but unlimited upside.
+
+What does it mean to be short a call?
+
+Write a call contract. For example, the premium ($10) cost of option is most you can make, and you have unlimited downside.
+
+What is a naked short option?
+
+Unhedged short option. Usually you hedge with offsetting option positions, or by purchasing the underlying asset.
+
+What’s a long put?
+
+Buyer has the right to sell 100 XYZ shares at $100 each. Makes money when underlying falls. Max loss is premium paid to the writer and max you can make is $0-$100. If ITM you can exercise by just going into the market and buying for $80 given that you have exercise right to sell back for $100.
+
+Difference between long put and short?
+
+Short has to buy the shares back and return them to the original owner at the prevailing market price. Long put max loss is premium paid for contract. What’s a short put? Sell the right to sell. Max can make is the premium ($10 for example) the maximum loss is $90 ($100-$10) assuming spot is $100.
+
+What’s a protective put?
+
+A combination of a long position in an underlying security with a put option, hedging against potential losses on a position.
+
+What’s a covered call?
+
+Selling a call option against a holding of shares. Make premium plus stock appreciation until point where call gets ITM then start losing money on call while making money on the shares held.
+
+What’s an equity collar?
+
+Buy protective put and sell a call on the share with the same expiry date. Will receive premium on the call to offset cost of the put. Can be designed to become a zero-cost collar, where the strikes of the two options such that the two premiums cancel out. 
+
+What’s a barrier option?
+
+Contract whose payoff depends on whether or not the underlying reaches a certain threshold level (the barrier) during a specified period of time over the life of the option.
+
+Knock in and knock out?
+
+A knock-in option is when the call or put only comes into existence if the underlying price hits the barrier. Knock-out options calls or puts cease to exist if the underlying prices reaches the barrier.
+
+What are covered warrants?
+
+Warrants are normally listed on a stock exchange. A covered warrant is a longer dated option issued by financial institution based on the shares of another company. It trades as a security that can be bought and sold by investors. The term covered means that the issuer is writing an option and hedges the risk, often by trading in the underlying shares. They are different from options as they are issued by the company themself (and therefore cannot be written), and are dilutive (i.e. create new shares). 
+
+What’s a rights issue?
+
+Company sells new shares to existing shareholders.
+
+How are exchange traded options settled?
+
+Against the level of the underlying cash index.
+
+What’s delta hedging?
+
+If delta is 0.5, then trader sells a call on a certain number of shares, then he or she has to buy half that number of shares to hedge the risk. The payout made on the option is exactly matched by the value of the shares purchased in the delta hedge, less the cost of repaying the initial loan.
+
+What’s dynamic hedging?
+
+For example, as option goes deep ITM then delta approaches 1 and one needs to buy more shares than when the delta was lower. Dynamic refers to the change in amount needed to be purchased in order to hedge.
+
+What is Black-Scholes really (in mathematical terms)?
+
+Binomial tree with an infinite number of steps. 
+
+What five inputs are needed to get European style option from Black-Scholes model?
+
+Spot price
+strike price
+time to expiry
+(expected) volatility
+cost of carry
+
+What assumption does Black-Scholes make that are wrong?
+
+Normal distribution
+Pronounced skew or negative tail in actual returns on shares, meaning that there is a bigger chance of significant losses than is built into the shape of the bell curve
+Continuous random walk
+Assumes that returns follow random walk, which is not what is actually observed
+Dynamic hedging
+Assumes it is possible to delta hedge without transaction costs and without liquidity constraints
+Fixed vol
+Assumes you know the level of vol which stays constant over the life of the option 
+
+What is cost of carry in Black-Scholes model?
+
+Interest rate less the dividend yield or return on the index.
+
+How is historical vol defined?
+
+As the standard deviation of the percentage returns (price changes plus dividends) on the share over a time period.
+
+What’s implied vol?
+
+Vol assumptions built into the actual dollar price of an option. Obtained by operating the pricing model backwards. Rather than using vol assumption to determine value of an option, use the dollar price at which it is trading in the market in order to determine the vol level that would generate the observed price.
+
+Vol is correlated to equities how?
+
+Negatively.
+
+As vol rises the value of calls/puts?
+
+Rises. If you have $50 with vol such that there’s a 50% chance of falling to 40 or rising to 60 then this is worth $5 ($10 x 50%).
+
+What are the greeks really? Partial derivatives of the option pricing model. Delta, theta, vega, and rho. This means that they measure the change in the calculated option value for a given change in one of the inputs to the model, all the other inputs remaining constant.
+
+What is delta?
+
+Measures the change in the option value for a small change in the price of the underlying asset, assuming all other inputs to the model are held constant. Long call and short put are delta positive (price of the underlying rises, delta is positive). Short call and long put are delta negative if the position loses value the underlying increases.
+
+Non-linearity of delta?
+
+Delta is only a reliable measure of the change in the value of an option for small changes. If price of underlying moves by large amounts, then the actual option price will be different from that predicted by delta. This is the effect of gamma or convexity, the curvature in the option price graph. For example, 5000 shares purchased to hedge the risk will not match the losses on the option in actuality after a big move because the P&L profile on 5000 shares in the delta hedge is always linear. 
+
+What is gamma?
+
+Measures the changes in option delta. Useful indicator of how stable or otherwise a delta hedge is likely to be. Graphically, gamma is a measure of the curvature (or convexity) in the relationship between the value of an option and the spot of the underlying. The greater the curvature the more rapidly the delta (the slope or tangent on the option pricing curve) will change. Essentially tells trader to buy or sell more shares to properly hedge delta.
+
+When is gamma low?
+
+When OTM or ITM. Tend to be most sensitive when ATM. What is theta? Change in the value of an option as time elapses (with all other inputs to the pricing model remaining the same). Really measures rate of decay in the time value of an option. When is theta negative? For long calls and puts. Position loses value every day. Theta is positive on short option positions. Every day that elapses long options lose value.
+
+What’s vega?
+
+AKA kappa. The value of an option is also sensitive to the assumption made about the vol of the underlying. This sensitivity is measured by vega. Vega measures the change in the option for typically a 1% change in the assumed vol of the underlying.
+
+Why is buying an option sometimes called a long vol or long vega position?
+
+If the vol assumption used to price the option increases the contract will become more valuable. Applies to call and put options. Trader who is short options hopes for declining vol because options will become cheaper to repurchase. 
+
+What does vega of $0.2 mean?
+
+Means for 1% change in vol the option will increases or decrease in value by 20 cents. This is on a per share basis.
+
+What is Rho?
+
+Change in an option’s value for a given change in interest rates.
+
+What happens to options if interest rates rise for put options?
+
+Value of options will fall. Writers of put options are exposed to falls rather than rises in the price of underlying shares. As interest rates rise, they will earn more money by investing the cash received from selling the shares short and can afford to pass benefits on to buyers of puts.
+
+Long call positive/negative for delta, gamma, theta, vega, and rho?
+
+Positive, positive, negative, positive, and positive
+
+Short call positive/negative for delta, gamma, theta, vega, rho?
+
+Negative, negative, positive, negative, and negative
+
+Long put positive/negative for delta, gamma, theta, vega, rho?
+
+Negative, positive, negative, positive, and negative
+
+Short put positive/negative for delta, gamma, theta, vega, rho?
+
+Positive, negative, positive, negative, and positive. 
+
+Summary of greeks?
+
+Delta is the slope or tangent of the option price curve. Gamma is the change in delta. Theta measures the change in the value of an option as time elapses. Vega measures the change in the value of an option for a given change in vol. Rho measures the sensitivity of the option value to a change in interest rates. All are partial derivatives that assume that only one factor used to determine the value of an option is changed.
+
+Time value highest when strike price is similar to?
+
+Spot. Time value is highest because you’re right around the strike price so very sensitive to movements above or below it.
+
+What’s more liquid when the strike price is less than the spot price?
+
+Puts more liquid than calls. Low strike puts have higher implied vol.
+
+Call options are convex how?
+
+Delta increases as spot increases. As markets rise the delta increases and the calls make more money than the long position would have. Using call options is best when implied vol is cheap and investor expects the stock to move by more than is currently implied.
+
+What does put underwriting benefit from?
+
+Put underwriting gives a similar profile to a long stock, short call profile, otherwise known as call overwriting. If OTM options are used, then put underwriting benefits from selling skew.
+
+Where is implied vol usually?
+
+Average 1-2pts above vol realized over the life of the option. Usually greater for indices than single stocks. Structured products are often based on an index and can offer downside protection. This lifts index implied vol relative to single stock implied vol.
+
+How to profit from implied vol being too high?
+
+You can sell a call against a long position in the underlying. Should the underlying perform well, and the call be exercised, the underlying can be used to satisfy the exercise of the call. Useful way to gain yield in flat markets.
+
+When does overwriting underperform?
+
+Underperforms in bull markets with low vol.
+
+Peak vega occurs when?
+
+ATM.
+
+What makes a cheap option (think: vol)?
+
+Implied vol lower than realized vol over its life. With continuous delta hedging it’s impossible to lose money.
+
+What’s skew?
+
+Options with different strikes, but with the same expiration date, will have different implied vols. Skew is the difference between the implied vol for these ITM, OTM, and ATM options. 
+
+Skew is positively correlated to what?
+
+Term structure.
+
+Vol surface has what dimensions?
+
+Strike, expiry and implied vol.
+
+If equity markets decline what happens to term structure?
+
+Becomes inverted.
+
+When is vega highest? What’s vanna?
+
+Vega highest for ATM options. Vanna is gradient of slope.
+
+What does vanna do?
+
+Measures the size of a skew position (vega/spot). Vanna is slope of vega plotted against spot. Vanna is positive for low spot (if spot rises toward strike, vega goes up) and negative for high spot
+
+What’s a convertible bond?
+
+Owner has the right to convert the bond into predetermined number of shares. Number of shares it can be converted into is called the conversion ratio. The current value of those shares is called the parity or conversion value of the CB.
+
+What do convertible bonds (CBs) have embedded in them?
+
+A call option. Can’t be split off and traded separately from convertible bond. Only exercised through conversion.
+
+Capital protection in CBs?
+
+Bond floor. Even if embedded call has collapsed, CB will not trade below its value considered purely as a bond (although of course bonds can trade down as well if the company is unhealthy!).
+
+Benefits of CBs?
+
+Cheaper debt as investors pay premium for call option embedded in the CB. Plus, tax deductible interest payments (dividends aren’t). CB market can help lower credit rated corporates tap the capital markets.
+
+How much value of a CB consists of bond value?
+
+Normally 75% rest is option value.
+
+How to calculate parity in CBs?
+
+Conversion value or parity value is share x shares you can convert. x 20 shares = $120
+
+Will CBs trade at parity value?
+
+No as there’s further potential upside. Conversion premium can be determined by taking the trading level minus the parity value. $150 (trading at) - $120 (parity value) = $30
+
+How can you trade vol with convertible bonds?
+
+Buy CB and sell exchange traded or OTC options on the same underlying assuming that these contracts are trading at higher implied vol levels. Essentially buying cheap options and selling more expensive options on the same underlying.
+
+What is a long forward position?
+
+Agree to buy share in a year’s time at fixed price (say $100). Short forward position if agree to sell the share to someone at fixed price of $100 in a year.
+
+Components of the forward price?
+
+$100 to buy share in cash market, net cost of carry position to deliver the share in the future (loan interest, say 10% so $10) minus dividends received on share (say $5). So, break even forward price = cash + net cost of carry = $100 + $5 = $105. Net cost of carry can be a bit lower as dividends can technically be reinvested.
+
+How can you think of the forward price?
+
+Expected future spot price on the delivery date.
+
+What’s attraction of forward starting products?
+
+You get vega without gamma (for short term vol). No paying of theta.
+
+What’s the real benefit of options vs. forwards/futures?
+
+Options have lower delta normally, but more favorable convexity properties in terms of only losing premium. Forward has unlimited loss potential.
+
+What’s backwardation?
+
+Spot price is higher than the futures prices.
+
+What’s contango?
+
+When futures prices are higher than the spot price.
+
+What is basis?
+
+The relationship between the spot price of the underlying and the price of a futures contract. In futures it’s important to note that this is not constant. Day to day futures contract do not exactly track movements in the price of the underlying.
+
+What happens to the basis as delivery approaches?
+
+Price must converge to the spot price of the underlying (meaning the future price must converge) so basis on delivery day is zero.
+
+Why is basis different between spot S&P and futures?
+
+Because of changes in cost of carry (interest rate less dividends) plus basic supply and demand.
+
+Why use futures not options?
+
+No upfront options cost (there is initial premium, but that’s like collateral you get it back).
