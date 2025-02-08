@@ -237,7 +237,7 @@
     "id": 40,
     "category": "Technical",
     "question": "What credit ratings correspond to investment grade or high yield?",
-    "answer": "BBB- (Standard & Poor’s/Fitch) or Baa3 (Moody’s) and above"
+    "answer": "BBB- (S&P/Fitch) or Baa3 (Moody’s) and above for investment-grade. BB+ (S&P/Fitch) or Ba1 (Moody's) and lower is considered high-yield."
   },
   {
     "id": 41,
