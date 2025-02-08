@@ -44,7 +44,7 @@ Credit spreads will widen due to general economic downturns, the company perform
 
 What credit ratings correspond to investment grade or high yield?
 
-BBB- (Standard & Poor’s/Fitch) or Baa3 (Moody’s) and above
+BBB- (S&P/Fitch) or Baa3 (Moody’s) and above for investment-grade. BB+ (S&P/Fitch) or Ba1 (Moody's) and lower is considered high-yield. 
 
 What goes into the credit rating process?
 
